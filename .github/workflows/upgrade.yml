@@ -1,0 +1,97 @@
+name: "Upgrade iterm2_color_schemes_dart"
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to upgrade to (e.g. 1.0.0)'
+        required: true
+        default: '1.0.0'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  BASE_BRANCH: main
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  check-and-upgrade:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v7
+      with:
+        fetch-depth: 0
+
+    - name: Install packages
+      run: |
+        sudo apt update -y
+        sudo apt install -y --no-install-recommends jq libarchive-tools unzip curl
+
+    - name: Setup Dart SDK
+      uses: dart-lang/setup-dart@v1
+      with:
+        sdk: stable
+
+    - name: Upgrade
+      id: upgrade
+      run: |
+        set -euo pipefail
+        
+        VERSION="${{ github.event.inputs.version }}"
+        BRANCH="upgrade/${VERSION}"
+
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        base="${{ env.BASE_BRANCH }}"
+
+        git fetch --no-tags origin "$base"
+        if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+          echo "Remote branch '$BRANCH' already exists. Exiting without changes."
+          exit 0
+        fi
+
+        git checkout -b "$BRANCH" "origin/$base"
+
+        if [ ! -f "./scripts/upgrade" ]; then
+          echo "ERROR: ./scripts/upgrade not found. Aborting."
+          exit 1
+        fi
+        chmod +x ./scripts/upgrade
+
+        ./scripts/upgrade "$VERSION" || {
+          echo "upgrade returned non-zero; Aborting."
+          exit 1
+        }
+
+        git add -A
+        if git diff --cached --quiet; then
+          echo "No changes produced by upgrade script (no commit). Exiting job."
+          exit 0
+        fi
+
+        git commit -m "[chore] upgrade to ${VERSION}"
+        git push --set-upstream origin "$BRANCH"
+
+        echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+        echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+    - name: Create Pull Request
+      if: steps.upgrade.outputs.branch != ''
+      run: |
+        set -euo pipefail
+        branch="${{ steps.upgrade.outputs.branch }}"
+        version="${{ steps.upgrade.outputs.version }}"
+        base="${{ env.BASE_BRANCH }}"
+        pr_title="chore: Upgrade to ${version}"
+        pr_body="Manual upgrade to **${version}**. This PR was created by workflow \`${{ github.workflow }}\` (run id: ${{ github.run_id }}). Please review the changes and merge when ready."
+
+        gh pr create \
+          --base "$base" \
+          --head "$branch" \
+          --title "$pr_title" \
+          --body "$pr_body"
