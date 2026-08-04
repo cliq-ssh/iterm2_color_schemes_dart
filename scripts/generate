@@ -1,0 +1,180 @@
+#!/bin/bash
+set -euo pipefail
+
+script_dir=$(dirname "$(readlink -f "$0")")
+
+repo_dir="$script_dir/../.dart_tool/iTerm2-Color-Schemes/windowsterminal"
+target_file="$script_dir/../lib/src/iterm2_color_schemes.g.dart"
+screenshot_base_url="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots"
+
+if ! command -v jq >/dev/null 2>&1; then
+  echo "jq is required but not installed." >&2
+  exit 1
+fi
+
+if [ ! -d "$repo_dir" ]; then
+  echo "Directory '$repo_dir' does not exist. Please run './download' first." >&2
+  exit 1
+fi
+
+# fields in the order they appear in the ITerm2ColorScheme constructor
+color_fields=(
+  black red green yellow blue purple cyan white
+  brightBlack brightRed brightGreen brightYellow brightBlue brightPurple brightCyan brightWhite
+  background foreground cursorColor selectionBackground
+)
+
+# convert an arbitrary string into a lowerCamelCase Dart identifier
+function toCamelCase() {
+  local input="$1"
+  input="${input//+/ Plus}"
+
+  local normalized
+  normalized=$(echo "$input" | sed -E 's/[^A-Za-z0-9]+/ /g' | sed -E 's/^ +| +$//g')
+
+  local result=""
+  local first=true
+  for word in $normalized; do
+    local lower_word
+    lower_word=$(echo "$word" | tr '[:upper:]' '[:lower:]')
+    if [ "$first" = true ]; then
+      result="$lower_word"
+      first=false
+    else
+      local head="${word:0:1}"
+      local tail="${lower_word:1}"
+      head=$(echo "$head" | tr '[:lower:]' '[:upper:]')
+      result="${result}${head}${tail}"
+    fi
+  done
+
+  # Dart identifiers cant start with a digit
+  if [[ "$result" =~ ^[0-9] ]]; then
+    local first_char="${result:0:1}"
+    local rest="${result:1}"
+    first_char=$(echo "$first_char" | tr '[:lower:]' '[:upper:]')
+    result="scheme${first_char}${rest}"
+  fi
+
+  echo "$result"
+}
+
+function toSlug() {
+  local input="$1"
+  echo "$input" \
+    | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^a-z0-9]+/-/g' \
+    | sed -E 's/^-+|-+$//g'
+}
+
+# Convert a #RRGGBB hex color string into a Dart int literal
+function toColorInt() {
+  local hex="$1"
+  hex="${hex#\#}"
+  hex=$(echo "$hex" | tr '[:lower:]' '[:upper:]')
+  echo "0xFF${hex}"
+}
+
+function genClassHeader() {
+  local class_name="$1"
+  echo "import 'package:iterm2_color_schemes_dart/iterm2_color_schemes_dart.dart';"
+  echo ""
+  echo "// GENERATED CODE - DO NOT MODIFY BY HAND"
+  echo ""
+  echo "/// Color schemes provided by https://github.com/mbadolato/iTerm2-Color-Schemes"
+  echo "class $class_name {"
+  echo "  const $class_name._();"
+  echo ""
+}
+
+function genColorSchemeMethod() {
+  local method_name="$1"
+  local color_scheme_name="$2"
+  local screenshot_url="$3"
+  shift 3
+  local values=("$@")
+
+  echo "/// ## $color_scheme_name"
+  echo "///"
+  echo "/// <img src=\"$screenshot_url\" width=\"400\" />"
+  echo "static const ITerm2ColorScheme $method_name = ITerm2ColorScheme("
+  echo "name: '${color_scheme_name//\'/\\\'}',"
+  local i
+  for i in "${!color_fields[@]}"; do
+    echo "${color_fields[$i]}: ${values[$i]},"
+  done
+  echo ");"
+}
+
+# remove target file
+if [ -f "$target_file" ]; then
+  echo "Removing existing target file '$target_file'"
+  rm "$target_file"
+fi
+
+mkdir -p "$(dirname "$target_file")"
+echo "Generating Dart code in $target_file..."
+
+names=()
+contents=()
+
+while IFS= read -r -d '' json_file; do
+  file_basename=$(basename "$json_file" .json)
+  color_scheme_name=$(jq -r '.name' "$json_file")
+
+  values=()
+  for field in "${color_fields[@]}"; do
+    hex=$(jq -r --arg f "$field" '.[$f]' "$json_file")
+    values+=("$(toColorInt "$hex")")
+  done
+
+  method_name=$(toCamelCase "$file_basename")
+
+  # dedupe check via linear scan (fine at ~450 entries)
+  duplicate=0
+  for existing in "${names[@]:-}"; do
+    if [ "$existing" = "$method_name" ]; then
+      duplicate=1
+      break
+    fi
+  done
+  if [ "$duplicate" -eq 1 ]; then
+    echo "Warning: Skipping duplicate method name '$method_name' (file: '$file_basename')" >&2
+    continue
+  fi
+
+  screenshot_url="$screenshot_base_url/$(toSlug "$file_basename").png"
+  names+=("$method_name")
+  contents+=("$(genColorSchemeMethod "$method_name" "$color_scheme_name" "$screenshot_url" "${values[@]}")")
+done < <(find "$repo_dir" -type f -name '*.json' -print0 | sort -z)
+
+genClassHeader "ITerm2ColorSchemes" > "$target_file"
+
+# Sort by name, keeping the name->content mapping via index
+sort_data=$(for i in "${!names[@]}"; do printf '%s\t%d\n' "${names[$i]}" "$i"; done | sort)
+
+sorted_indices=()
+while IFS=$'\t' read -r _ idx; do
+  sorted_indices+=("$idx")
+done <<< "$sort_data"
+
+for idx in "${sorted_indices[@]}"; do
+  echo "${contents[$idx]}" >> "$target_file"
+  echo "" >> "$target_file"
+done
+
+{
+  echo "  static const List<ITerm2ColorScheme> values = ["
+  for idx in "${sorted_indices[@]}"; do
+    echo "    ${names[$idx]},"
+  done
+  echo "  ];"
+} >> "$target_file"
+
+echo "}" >> "$target_file"
+
+if command -v dart >/dev/null 2>&1; then
+  dart format "$target_file"
+else
+  echo "Dart is not installed, skipping formatting." >&2
+fi

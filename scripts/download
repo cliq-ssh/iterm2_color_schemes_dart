@@ -1,0 +1,40 @@
+#!/bin/bash
+
+script_dir=$(dirname "$(readlink -f "$0")")
+
+target_dir="$script_dir/../.dart_tool"
+repo_url=$"https://github.com/mbadolato/iTerm2-Color-Schemes.git"
+
+function checkIfDirIsEmpty() {
+  local target_dir="$1"
+
+  if [ -z "$target_dir" ]; then
+    echo "No target directory provided." >&2
+    return 1
+  fi
+
+  mkdir -p "$target_dir"
+  if [ $? -ne 0 ]; then
+    echo "Failed to create target directory: $target_dir" >&2
+    return 1
+  fi
+
+  if [ -d "$target_dir" ] && [ "$(ls -A "$target_dir")" ]; then
+    echo "'$target_dir' is not empty. Existing files will be deleted."
+    rm -rf "$target_dir"
+    if [ $? -ne 0 ]; then
+      echo "Failed to clear target directory: $target_dir" >&2
+      return 1
+    fi
+  fi
+}
+
+checkIfDirIsEmpty "$target_dir/iTerm2-Color-Schemes"
+
+echo "Cloning repository from $repo_url"
+git clone --depth 1 "$repo_url" "$target_dir/iTerm2-Color-Schemes"
+
+if [ $? -ne 0 ]; then
+  echo "Failed to clone repository from $repo_url" >&2
+  exit 1
+fi

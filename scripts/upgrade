@@ -1,0 +1,40 @@
+#!/bin/bash
+set -euo pipefail
+
+if [ -z "${1:-}" ]; then
+  echo "Usage: upgrade <version>" >&2
+  exit 1
+fi
+
+version=$1
+script_dir=$(dirname "$(readlink -f "$0")")
+changelog_file="$script_dir/../CHANGELOG.md"
+pubspec_file="$script_dir/../pubspec.yaml"
+repo_dir="$script_dir/../.dart_tool/iTerm2-Color-Schemes"
+
+"$script_dir/download"
+"$script_dir/generate"
+
+if [ ! -d "$repo_dir/.git" ]; then
+  echo "Could not find a git repo at '$repo_dir' to read the commit SHA from." >&2
+  echo "Update 'repo_dir' in this script to match where download clones the repo." >&2
+  exit 1
+fi
+
+commit_sha=$(git -C "$repo_dir" rev-parse HEAD)
+short_sha=$(git -C "$repo_dir" rev-parse --short HEAD)
+commit_url="https://github.com/mbadolato/iTerm2-Color-Schemes/commit/$commit_sha"
+
+# prepend changelog entry
+{
+  echo "## $version"
+  echo "- Updated to commit [$short_sha]($commit_url)"
+  echo ""
+  cat "$changelog_file"
+} > "$changelog_file.tmp" && mv "$changelog_file.tmp" "$changelog_file"
+
+# set version in pubspec.yaml (portable -i for both GNU and BSD sed)
+sed -i.bak -E "s/^version: .*/version: $version/" "$pubspec_file"
+rm -f "$pubspec_file.bak"
+
+echo "Upgrade to version $version completed successfully."
