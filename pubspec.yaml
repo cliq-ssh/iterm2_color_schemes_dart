@@ -1,6 +1,6 @@
 name: iterm2_color_schemes_dart
 description: A simple package providing iTerm2 color schemes as Dart data structures.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/cliq-ssh/iterm2_color_schemes_dart
 issue_tracker: https://github.com/cliq-ssh/iterm2_color_schemes_dart/issues
 topics: 
