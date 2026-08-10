@@ -3,14 +3,10 @@ set -euo pipefail
 
 script_dir=$(dirname "$(readlink -f "$0")")
 
-repo_dir="$script_dir/../.dart_tool/iTerm2-Color-Schemes/windowsterminal"
-target_file="$script_dir/../lib/src/iterm2_color_schemes.g.dart"
+repo_dir="$script_dir/../.dart_tool/iTerm2-Color-Schemes/kitty"
+target_schemes_file="$script_dir/../lib/src/iterm2_color_schemes.g.dart"
+target_values_file="$script_dir/../lib/src/iterm2_color_schemes_values.g.dart"
 screenshot_base_url="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots"
-
-if ! command -v jq >/dev/null 2>&1; then
-  echo "jq is required but not installed." >&2
-  exit 1
-fi
 
 if [ ! -d "$repo_dir" ]; then
   echo "Directory '$repo_dir' does not exist. Please run './download' first." >&2
@@ -21,8 +17,41 @@ fi
 color_fields=(
   black red green yellow blue purple cyan white
   brightBlack brightRed brightGreen brightYellow brightBlue brightPurple brightCyan brightWhite
-  background foreground cursorColor selectionBackground
+  background foreground cursor cursorText selectionForeground selectionBackground
 )
+
+function getConfKeyFor() {
+  case "$1" in
+    black) echo color0 ;;
+    red) echo color1 ;;
+    green) echo color2 ;;
+    yellow) echo color3 ;;
+    blue) echo color4 ;;
+    purple) echo color5 ;;
+    cyan) echo color6 ;;
+    white) echo color7 ;;
+    brightBlack) echo color8 ;;
+    brightRed) echo color9 ;;
+    brightGreen) echo color10 ;;
+    brightYellow) echo color11 ;;
+    brightBlue) echo color12 ;;
+    brightPurple) echo color13 ;;
+    brightCyan) echo color14 ;;
+    brightWhite) echo color15 ;;
+    background) echo background ;;
+    foreground) echo foreground ;;
+    cursor) echo cursor ;;
+    cursorText) echo cursor_text_color ;;
+    selectionForeground) echo selection_foreground ;;
+    selectionBackground) echo selection_background ;;
+  esac
+}
+
+# field -> conf key, computed once instead of per file (saves ~9000 subshells)
+conf_keys=()
+for field in "${color_fields[@]}"; do
+  conf_keys+=("$(getConfKeyFor "$field")")
+done
 
 # convert an arbitrary string into a lowerCamelCase Dart identifier
 function toCamelCase() {
@@ -67,12 +96,41 @@ function toSlug() {
     | sed -E 's/^-+|-+$//g'
 }
 
-# Convert a #RRGGBB hex color string into a Dart int literal
+# turn a file basename like "solarized-dark" into "Solarized Dark"
+function toTitleCase() {
+  local input="$1"
+  echo "$input" \
+    | sed -E 's/[_-]+/ /g' \
+    | awk '{for (i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) substr($i,2); print}'
+}
+
+# Dart hex literals are case-insensitive, so no need to uppercase (skips a tr call per color)
 function toColorInt() {
-  local hex="$1"
-  hex="${hex#\#}"
-  hex=$(echo "$hex" | tr '[:lower:]' '[:upper:]')
-  echo "0xFF${hex}"
+  echo "0xFF${1#\#}"
+}
+
+# look up a value for `key` from parallel arrays built by readConfFile
+function lookupConfValue() {
+  local key="$1"
+  local i
+  for i in "${!file_keys[@]}"; do
+    if [ "${file_keys[$i]}" = "$key" ]; then
+      echo "${file_vals[$i]}"
+      return
+    fi
+  done
+}
+
+# read every "key value" pair from a conf file once into file_keys/file_vals
+function readConfFile() {
+  local conf_file="$1"
+  file_keys=()
+  file_vals=()
+  while IFS=' ' read -r k v _; do
+    [ -z "$k" ] && continue
+    file_keys+=("$k")
+    file_vals+=("$v")
+  done < <(grep -E '^[a-zA-Z_0-9]+[[:space:]]+#' "$conf_file" || true)
 }
 
 function genClassHeader() {
@@ -106,31 +164,45 @@ function genColorSchemeMethod() {
   echo ");"
 }
 
-# remove target file
-if [ -f "$target_file" ]; then
-  echo "Removing existing target file '$target_file'"
-  rm "$target_file"
+# remove target files
+if [ -f "$target_schemes_file" ]; then
+  echo "Removing existing target files '$target_schemes_file', '$target_values_file'..."
+  rm -f "$target_schemes_file" "$target_values_file"
 fi
 
-mkdir -p "$(dirname "$target_file")"
-echo "Generating Dart code in $target_file..."
+# both outputs live in the same dir, one mkdir covers both
+mkdir -p "$(dirname "$target_schemes_file")"
+echo "Generating Dart code..."
 
 names=()
+display_names=()
 contents=()
 
-while IFS= read -r -d '' json_file; do
-  file_basename=$(basename "$json_file" .json)
-  color_scheme_name=$(jq -r '.name' "$json_file")
+while IFS= read -r -d '' conf_file; do
+  file_basename=$(basename "$conf_file" .conf)
+  color_scheme_name=$(toTitleCase "$file_basename")
+
+  readConfFile "$conf_file"
 
   values=()
-  for field in "${color_fields[@]}"; do
-    hex=$(jq -r --arg f "$field" '.[$f]' "$json_file")
+  for i in "${!color_fields[@]}"; do
+    key="${conf_keys[$i]}"
+    hex=$(lookupConfValue "$key")
+    if [ -z "$hex" ]; then
+      echo "Warning: Missing key '$key' in '$conf_file', skipping file" >&2
+      values=()
+      break
+    fi
     values+=("$(toColorInt "$hex")")
   done
 
+  if [ "${#values[@]}" -eq 0 ]; then
+    continue
+  fi
+
   method_name=$(toCamelCase "$file_basename")
 
-  # dedupe check via linear scan (fine at ~450 entries)
+  # dedupe check via linear scan
   duplicate=0
   for existing in "${names[@]:-}"; do
     if [ "$existing" = "$method_name" ]; then
@@ -145,13 +217,14 @@ while IFS= read -r -d '' json_file; do
 
   screenshot_url="$screenshot_base_url/$(toSlug "$file_basename").png"
   names+=("$method_name")
+  display_names+=("$color_scheme_name")
   contents+=("$(genColorSchemeMethod "$method_name" "$color_scheme_name" "$screenshot_url" "${values[@]}")")
-done < <(find "$repo_dir" -type f -name '*.json' -print0 | sort -z)
+done < <(find "$repo_dir" -type f -name '*.conf' -print0 | sort -z)
 
-genClassHeader "ITerm2ColorSchemes" > "$target_file"
+genClassHeader "ITerm2ColorSchemes" > "$target_schemes_file"
 
-# Sort by name, keeping the name->content mapping via index
-sort_data=$(for i in "${!names[@]}"; do printf '%s\t%d\n' "${names[$i]}" "$i"; done | sort)
+# sort by display name
+sort_data=$(for i in "${!names[@]}"; do printf '%s\t%d\n' "${display_names[$i]}" "$i"; done | sort)
 
 sorted_indices=()
 while IFS=$'\t' read -r _ idx; do
@@ -159,22 +232,34 @@ while IFS=$'\t' read -r _ idx; do
 done <<< "$sort_data"
 
 for idx in "${sorted_indices[@]}"; do
-  echo "${contents[$idx]}" >> "$target_file"
-  echo "" >> "$target_file"
+  echo "${contents[$idx]}" >> "$target_schemes_file"
+  echo "" >> "$target_schemes_file"
 done
 
+# generate a full list for iteration
 {
-  echo "  static const List<ITerm2ColorScheme> values = ["
+  echo "import 'color_scheme.model.dart';"
+  echo "import 'iterm2_color_schemes.g.dart';"
+  echo ""
+  echo "// GENERATED CODE - DO NOT MODIFY BY HAND"
+  echo ""
+  echo "/// A list of all available color schemes."
+  echo "///"
+  echo "/// Import this file only if you need to enumerate ALL color schemes."
+  echo "/// Importing it prevents tree-shaking of unused individual schemes."
+  echo "const List<ITerm2ColorScheme> iterm2ColorSchemeValues = ["
   for idx in "${sorted_indices[@]}"; do
-    echo "    ${names[$idx]},"
+    echo "ITerm2ColorSchemes.${names[$idx]},"
   done
-  echo "  ];"
-} >> "$target_file"
+  echo "];"
+} > "$target_values_file"
 
-echo "}" >> "$target_file"
+echo "}" >> "$target_schemes_file"
 
+# format generated code if dart is available
 if command -v dart >/dev/null 2>&1; then
-  dart format "$target_file"
+  dart format "$target_schemes_file"
+  dart format "$target_values_file"
 else
   echo "Dart is not installed, skipping formatting." >&2
 fi
