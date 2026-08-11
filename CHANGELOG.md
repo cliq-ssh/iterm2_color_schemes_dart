@@ -1,3 +1,6 @@
+## 2.0.1
+- Fix export of `iterm2ColorSchemeValues`
+
 ## 2.0.0
 - **BREAKING**: Renamed `cursorColor` to `cursor`
 - **BREAKING**: Add `cursorText` and `selectionForeground` to `ITerm2ColorScheme` constructor.

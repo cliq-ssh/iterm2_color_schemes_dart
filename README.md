@@ -8,7 +8,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  iterm2_color_schemes_dart: ^2.0.0
+  iterm2_color_schemes_dart: ^2.0.1
 ```
 
 Then run:
@@ -33,7 +33,7 @@ void main() {
 To iterate over all available color schemes, use the `iterm2ColorSchemeValues` list:
 
 ```dart
-import 'package:iterm2_color_schemes_dart/src/iterm2_color_schemes_values.g.dart';
+import 'package:iterm2_color_schemes_dart/iterm2_color_schemes_dart_values.dart';
 
 void main() {
   for (var colorScheme in iterm2ColorSchemeValues) {
