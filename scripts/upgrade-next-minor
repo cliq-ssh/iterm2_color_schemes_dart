@@ -1,0 +1,28 @@
+#!/bin/bash
+set -euo pipefail
+
+script_dir=$(dirname "$(readlink -f "$0")")
+root_dir=$(readlink -f "$script_dir/..")
+pubspec_file="$root_dir/pubspec.yaml"
+changelog_file="$root_dir/CHANGELOG.md"
+generated_files=(
+  "lib/src/iterm2_color_schemes.g.dart"
+  "lib/src/iterm2_color_schemes_values.g.dart"
+)
+
+snapshot_dir=$(mktemp -d)
+trap 'rm -rf "$snapshot_dir"' EXIT
+cp "$pubspec_file" "$snapshot_dir/pubspec.yaml"
+cp "$changelog_file" "$snapshot_dir/CHANGELOG.md"
+
+new_version=$("$script_dir/next-minor-version")
+"$script_dir/upgrade" "$new_version" >/dev/null
+
+if git -C "$root_dir" diff --quiet -- "${generated_files[@]}"; then
+  cp "$snapshot_dir/pubspec.yaml" "$pubspec_file"
+  cp "$snapshot_dir/CHANGELOG.md" "$changelog_file"
+  echo "No generated theme changes found. No version or changelog update was made."
+  exit 0
+fi
+
+echo "$new_version"
