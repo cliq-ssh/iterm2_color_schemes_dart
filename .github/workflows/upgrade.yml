@@ -6,10 +6,12 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
 
 env:
   BASE_BRANCH: main
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   update-and-publish:
@@ -57,6 +59,12 @@ jobs:
         git tag "v$VERSION"
         git push origin "${{ env.BASE_BRANCH }}"
         git push origin "v$VERSION"
+
+        gh release create "v$VERSION" \
+          --title "v$VERSION" \
+          --generate-notes
+
+        gh workflow run pub-publish.yml --ref "v$VERSION"
 
         echo "changed=true" >> "$GITHUB_OUTPUT"
         echo "version=$VERSION" >> "$GITHUB_OUTPUT"
