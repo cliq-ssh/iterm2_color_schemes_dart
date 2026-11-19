@@ -64,6 +64,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFfeffff,
   );
 
+  /// ## 13th Floor
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/13th-floor.png" width="400" />
+  static const ITerm2ColorScheme scheme13thFloor = ITerm2ColorScheme(
+    name: '13th Floor',
+    black: 0xFFbdaaad,
+    red: 0xFFe07f70,
+    green: 0xFF9eae80,
+    yellow: 0xFFd0af63,
+    blue: 0xFF849caf,
+    purple: 0xFFb78ea6,
+    cyan: 0xFF7bb2aa,
+    white: 0xFFf2e2c8,
+    brightBlack: 0xFFc5b4b7,
+    brightRed: 0xFFe48e81,
+    brightGreen: 0xFFaab88f,
+    brightYellow: 0xFFd6b976,
+    brightBlue: 0xFF93a8b9,
+    brightPurple: 0xFFc09cb1,
+    brightCyan: 0xFF8bbbb4,
+    brightWhite: 0xFFf4e5cf,
+    background: 0xFF4a0710,
+    foreground: 0xFFf2e2c8,
+    cursor: 0xFFe48e81,
+    cursorText: 0xFF4a0710,
+    selectionForeground: 0xFF4a0710,
+    selectionBackground: 0xFFf2e2c8,
+  );
+
   /// ## 3024 Day
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/3024-day.png" width="400" />
@@ -120,6 +149,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF090300,
     selectionForeground: 0xFF090300,
     selectionBackground: 0xFFa5a2a2,
+  );
+
+  /// ## 5150 Mode
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/5150-mode.png" width="400" />
+  static const ITerm2ColorScheme scheme5150Mode = ITerm2ColorScheme(
+    name: '5150 Mode',
+    black: 0xFF8ca99f,
+    red: 0xFFd59a71,
+    green: 0xFF70bd83,
+    yellow: 0xFFd2ca72,
+    blue: 0xFF80b3a0,
+    purple: 0xFFa8b38a,
+    cyan: 0xFF62c5ac,
+    white: 0xFFe5eddb,
+    brightBlack: 0xFFa8c5b9,
+    brightRed: 0xFFe8ab83,
+    brightGreen: 0xFF8ed69a,
+    brightYellow: 0xFFe3dc8b,
+    brightBlue: 0xFF9bc8b5,
+    brightPurple: 0xFFbec7a0,
+    brightCyan: 0xFF7ddbc2,
+    brightWhite: 0xFFffffff,
+    background: 0xFF082820,
+    foreground: 0xFFecf4db,
+    cursor: 0xFFd5e875,
+    cursorText: 0xFF082820,
+    selectionForeground: 0xFF082820,
+    selectionBackground: 0xFFecf4db,
   );
 
   /// ## Aardvark Blue
@@ -180,6 +238,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFb4bcca,
   );
 
+  /// ## Abandoned
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/abandoned.png" width="400" />
+  static const ITerm2ColorScheme abandoned = ITerm2ColorScheme(
+    name: 'Abandoned',
+    black: 0xFFc2c0ae,
+    red: 0xFFe69a79,
+    green: 0xFF9db692,
+    yellow: 0xFFd7c06e,
+    blue: 0xFF8eafb8,
+    purple: 0xFFbda6b4,
+    cyan: 0xFF82bbb4,
+    white: 0xFFeee9d7,
+    brightBlack: 0xFFc9c8b8,
+    brightRed: 0xFFe9a689,
+    brightGreen: 0xFFa9bf9f,
+    brightYellow: 0xFFdcc87f,
+    brightBlue: 0xFF9cb9c1,
+    brightPurple: 0xFFbea6b4,
+    brightCyan: 0xFF91c3bd,
+    brightWhite: 0xFFf0ecdc,
+    background: 0xFF433d2d,
+    foreground: 0xFFeee9d7,
+    cursor: 0xFFe9a689,
+    cursorText: 0xFF433d2d,
+    selectionForeground: 0xFF433d2d,
+    selectionBackground: 0xFFeee9d7,
+  );
+
   /// ## Abernathy
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/abernathy.png" width="400" />
@@ -236,6 +323,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF080c05,
     selectionForeground: 0xFF080c05,
     selectionBackground: 0xFFd4efbc,
+  );
+
+  /// ## Adobe Moon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/adobe-moon.png" width="400" />
+  static const ITerm2ColorScheme adobeMoon = ITerm2ColorScheme(
+    name: 'Adobe Moon',
+    black: 0xFFd4c3b5,
+    red: 0xFFff9b83,
+    green: 0xFF8ed8a8,
+    yellow: 0xFFf6d06d,
+    blue: 0xFF8fc8ef,
+    purple: 0xFFe7a5cf,
+    cyan: 0xFF82ddd6,
+    white: 0xFFfff0d8,
+    brightBlack: 0xFFe2d3c8,
+    brightRed: 0xFFffb09a,
+    brightGreen: 0xFFa9e2bb,
+    brightYellow: 0xFFffe08d,
+    brightBlue: 0xFFacd8f4,
+    brightPurple: 0xFFefbddc,
+    brightCyan: 0xFFa3e8e2,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF54251d,
+    foreground: 0xFFfff0d8,
+    cursor: 0xFFf5c15b,
+    cursorText: 0xFF54251d,
+    selectionForeground: 0xFF54251d,
+    selectionBackground: 0xFFfff0d8,
   );
 
   /// ## Adventure
@@ -354,6 +470,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffffff,
   );
 
+  /// ## After Hours
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/after-hours.png" width="400" />
+  static const ITerm2ColorScheme afterHours = ITerm2ColorScheme(
+    name: 'After Hours',
+    black: 0xFF2a1f1a,
+    red: 0xFFff6b6b,
+    green: 0xFF4ade80,
+    yellow: 0xFFf59e0b,
+    blue: 0xFF60a5fa,
+    purple: 0xFFc084fc,
+    cyan: 0xFF2dd4bf,
+    white: 0xFFcbb89f,
+    brightBlack: 0xFF6b5b4f,
+    brightRed: 0xFFff8b8b,
+    brightGreen: 0xFF86efac,
+    brightYellow: 0xFFfbbf24,
+    brightBlue: 0xFF93c5fd,
+    brightPurple: 0xFFd8b4fe,
+    brightCyan: 0xFF5eead4,
+    brightWhite: 0xFFfdfaf6,
+    background: 0xFF0f0b0a,
+    foreground: 0xFFe6e1d9,
+    cursor: 0xFFd4af37,
+    cursorText: 0xFF0f0b0a,
+    selectionForeground: 0xFF0f0b0a,
+    selectionBackground: 0xFFe6e1d9,
+  );
+
   /// ## Afterglow
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/afterglow.png" width="400" />
@@ -381,6 +526,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF151515,
     selectionForeground: 0xFF212121,
     selectionBackground: 0xFFd0d0d0,
+  );
+
+  /// ## Afterimage
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/afterimage.png" width="400" />
+  static const ITerm2ColorScheme afterimage = ITerm2ColorScheme(
+    name: 'Afterimage',
+    black: 0xFF332a33,
+    red: 0xFF881f3b,
+    green: 0xFF175b36,
+    yellow: 0xFF695000,
+    blue: 0xFF1a478e,
+    purple: 0xFF623080,
+    cyan: 0xFF005765,
+    white: 0xFF403640,
+    brightBlack: 0xFF504650,
+    brightRed: 0xFF932746,
+    brightGreen: 0xFF155735,
+    brightYellow: 0xFF624900,
+    brightBlue: 0xFF143b77,
+    brightPurple: 0xFF693889,
+    brightCyan: 0xFF004956,
+    brightWhite: 0xFF4a404a,
+    background: 0xFFfff7fb,
+    foreground: 0xFF211522,
+    cursor: 0xFF6f356e,
+    cursorText: 0xFFfff7fb,
+    selectionForeground: 0xFFfff7fb,
+    selectionBackground: 0xFF211522,
+  );
+
+  /// ## Agave Dusk
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/agave-dusk.png" width="400" />
+  static const ITerm2ColorScheme agaveDusk = ITerm2ColorScheme(
+    name: 'Agave Dusk',
+    black: 0xFFd0d8d0,
+    red: 0xFFffad91,
+    green: 0xFFa8dfae,
+    yellow: 0xFFf5d578,
+    blue: 0xFFafd4f1,
+    purple: 0xFFecb0d4,
+    cyan: 0xFFa6e3dc,
+    white: 0xFFfff0d8,
+    brightBlack: 0xFFdfe5dd,
+    brightRed: 0xFFffc0a7,
+    brightGreen: 0xFFbde8c1,
+    brightYellow: 0xFFffe494,
+    brightBlue: 0xFFc7e2f5,
+    brightPurple: 0xFFf3c6df,
+    brightCyan: 0xFFc2eee8,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF145654,
+    foreground: 0xFFfff0d8,
+    cursor: 0xFFf6bd59,
+    cursorText: 0xFF145654,
+    selectionForeground: 0xFF145654,
+    selectionBackground: 0xFFfff0d8,
   );
 
   /// ## Aizen Dark
@@ -499,6 +702,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF637d75,
   );
 
+  /// ## Alpine Milk
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/alpine-milk.png" width="400" />
+  static const ITerm2ColorScheme alpineMilk = ITerm2ColorScheme(
+    name: 'Alpine Milk',
+    black: 0xFF333940,
+    red: 0xFFc94f46,
+    green: 0xFF4a9256,
+    yellow: 0xFFb28422,
+    blue: 0xFF3d7cc9,
+    purple: 0xFF8a5fb0,
+    cyan: 0xFF2e8fa0,
+    white: 0xFFb1b4b8,
+    brightBlack: 0xFF757d86,
+    brightRed: 0xFFe0655b,
+    brightGreen: 0xFF58ab66,
+    brightYellow: 0xFFc9982e,
+    brightBlue: 0xFF5292dd,
+    brightPurple: 0xFFa075c6,
+    brightCyan: 0xFF3ba6b8,
+    brightWhite: 0xFFffffff,
+    background: 0xFFfafafa,
+    foreground: 0xFF333940,
+    cursor: 0xFF4a90d9,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFfafafa,
+    selectionBackground: 0xFF333940,
+  );
+
+  /// ## AlxPro Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/alxpro-dark.png" width="400" />
+  static const ITerm2ColorScheme alxproDark = ITerm2ColorScheme(
+    name: 'AlxPro Dark',
+    black: 0xFF1f1f1f,
+    red: 0xFFff6166,
+    green: 0xFF62c073,
+    yellow: 0xFFf2a20d,
+    blue: 0xFF52a8ff,
+    purple: 0xFFbf7af0,
+    cyan: 0xFF0bc6b4,
+    white: 0xFFd4d4d4,
+    brightBlack: 0xFF8f8f8f,
+    brightRed: 0xFFff8a8e,
+    brightGreen: 0xFF8bd99a,
+    brightYellow: 0xFFffc53d,
+    brightBlue: 0xFF8cc8ff,
+    brightPurple: 0xFFd6a6f7,
+    brightCyan: 0xFF4edbcb,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFededed,
+    cursor: 0xFFffffff,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFededed,
+  );
+
+  /// ## AlxPro Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/alxpro-light.png" width="400" />
+  static const ITerm2ColorScheme alxproLight = ITerm2ColorScheme(
+    name: 'AlxPro Light',
+    black: 0xFF171717,
+    red: 0xFFcb2a2e,
+    green: 0xFF287a3a,
+    yellow: 0xFFa35200,
+    blue: 0xFF0068d6,
+    purple: 0xFF781fbb,
+    cyan: 0xFF08796e,
+    white: 0xFFa1a1a1,
+    brightBlack: 0xFF666666,
+    brightRed: 0xFFe1292f,
+    brightGreen: 0xFF358443,
+    brightYellow: 0xFFb45e00,
+    brightBlue: 0xFF1072e2,
+    brightPurple: 0xFF9d4ddb,
+    brightCyan: 0xFF0c8378,
+    brightWhite: 0xFFd4d4d4,
+    background: 0xFFffffff,
+    foreground: 0xFF171717,
+    cursor: 0xFF000000,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF171717,
+  );
+
   /// ## Amber CRT Retro
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/amber-crt-retro.png" width="400" />
@@ -526,6 +816,122 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1a1200,
     selectionForeground: 0xFF1a1200,
     selectionBackground: 0xFFffb000,
+  );
+
+  /// ## Analog Heartbeat
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/analog-heartbeat.png" width="400" />
+  static const ITerm2ColorScheme analogHeartbeat = ITerm2ColorScheme(
+    name: 'Analog Heartbeat',
+    black: 0xFF302c27,
+    red: 0xFFc96f64,
+    green: 0xFF94b26a,
+    yellow: 0xFFd9ac63,
+    blue: 0xFF839eb2,
+    purple: 0xFFb28da1,
+    cyan: 0xFF7eafa5,
+    white: 0xFFd6cbb8,
+    brightBlack: 0xFF62594d,
+    brightRed: 0xFFe57b73,
+    brightGreen: 0xFFb7d36b,
+    brightYellow: 0xFFf2c87b,
+    brightBlue: 0xFFa8c4d6,
+    brightPurple: 0xFFd0a9bd,
+    brightCyan: 0xFFa1d4c5,
+    brightWhite: 0xFFfff0d6,
+    background: 0xFF211f1c,
+    foreground: 0xFFe6ddcb,
+    cursor: 0xFFf2b35d,
+    cursorText: 0xFF211f1c,
+    selectionForeground: 0xFF211f1c,
+    selectionBackground: 0xFFe6ddcb,
+  );
+
+  /// ## Analog Heartbeat: Phosphor
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/analog-heartbeat-phosphor.png" width="400" />
+  static const ITerm2ColorScheme analogHeartbeatPhosphor = ITerm2ColorScheme(
+    name: 'Analog Heartbeat: Phosphor',
+    black: 0xFF263128,
+    red: 0xFFa96757,
+    green: 0xFF79b95d,
+    yellow: 0xFFb8a35b,
+    blue: 0xFF7b9c86,
+    purple: 0xFFa28b78,
+    cyan: 0xFF73a79b,
+    white: 0xFFbfcdb2,
+    brightBlack: 0xFF536454,
+    brightRed: 0xFFd88c73,
+    brightGreen: 0xFF9ce878,
+    brightYellow: 0xFFe9ba69,
+    brightBlue: 0xFFa0c4ab,
+    brightPurple: 0xFFc5ac92,
+    brightCyan: 0xFF95d1bb,
+    brightWhite: 0xFFe7f4d5,
+    background: 0xFF101c14,
+    foreground: 0xFFc5e6ac,
+    cursor: 0xFFf0bb6d,
+    cursorText: 0xFF101c14,
+    selectionForeground: 0xFF101c14,
+    selectionBackground: 0xFFc5e6ac,
+  );
+
+  /// ## Analyzed Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/analyzed-dark.png" width="400" />
+  static const ITerm2ColorScheme analyzedDark = ITerm2ColorScheme(
+    name: 'Analyzed Dark',
+    black: 0xFF8395a9,
+    red: 0xFFf0788a,
+    green: 0xFF65d5ae,
+    yellow: 0xFFf2c477,
+    blue: 0xFF77b9f8,
+    purple: 0xFFc2a3fa,
+    cyan: 0xFF5dd5d9,
+    white: 0xFFe7eff8,
+    brightBlack: 0xFF9aafc5,
+    brightRed: 0xFFff9bab,
+    brightGreen: 0xFF8aebc5,
+    brightYellow: 0xFFffe09d,
+    brightBlue: 0xFFa1ceff,
+    brightPurple: 0xFFd9bdff,
+    brightCyan: 0xFF8af0ee,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0b1220,
+    foreground: 0xFFe7eff8,
+    cursor: 0xFF5dd5d9,
+    cursorText: 0xFF0b1220,
+    selectionForeground: 0xFF0b1220,
+    selectionBackground: 0xFFe7eff8,
+  );
+
+  /// ## Analyzed Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/analyzed-light.png" width="400" />
+  static const ITerm2ColorScheme analyzedLight = ITerm2ColorScheme(
+    name: 'Analyzed Light',
+    black: 0xFF536177,
+    red: 0xFFb13e55,
+    green: 0xFF16765c,
+    yellow: 0xFF8a590c,
+    blue: 0xFF215ea8,
+    purple: 0xFF7444a0,
+    cyan: 0xFF08757e,
+    white: 0xFF253449,
+    brightBlack: 0xFF48576d,
+    brightRed: 0xFF9d2f49,
+    brightGreen: 0xFF0d674f,
+    brightYellow: 0xFF78500b,
+    brightBlue: 0xFF1b5396,
+    brightPurple: 0xFF673891,
+    brightCyan: 0xFF06666f,
+    brightWhite: 0xFF17273c,
+    background: 0xFFf6f5f0,
+    foreground: 0xFF253449,
+    cursor: 0xFF215ea8,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFf6f5f0,
+    selectionBackground: 0xFF253449,
   );
 
   /// ## Andromeda
@@ -729,6 +1135,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFff8ca4,
     selectionForeground: 0xFF0e1019,
     selectionBackground: 0xFFfffaf4,
+  );
+
+  /// ## Arizona Monsoon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/arizona-monsoon.png" width="400" />
+  static const ITerm2ColorScheme arizonaMonsoon = ITerm2ColorScheme(
+    name: 'Arizona Monsoon',
+    black: 0xFF1f2937,
+    red: 0xFFe35d4a,
+    green: 0xFF7cc46b,
+    yellow: 0xFFe6b441,
+    blue: 0xFF5b9dff,
+    purple: 0xFFc678dd,
+    cyan: 0xFF2dd4bf,
+    white: 0xFFe8e2d1,
+    brightBlack: 0xFF4b5563,
+    brightRed: 0xFFff7b6b,
+    brightGreen: 0xFF98d98e,
+    brightYellow: 0xFFffd166,
+    brightBlue: 0xFF7dbfff,
+    brightPurple: 0xFFd48cff,
+    brightCyan: 0xFF52e0cf,
+    brightWhite: 0xFFf7ead1,
+    background: 0xFF0a0f14,
+    foreground: 0xFFe6e8ed,
+    cursor: 0xFFf4d06f,
+    cursorText: 0xFF0a0f14,
+    selectionForeground: 0xFF0a0f14,
+    selectionBackground: 0xFFe6e8ed,
   );
 
   /// ## Arthur
@@ -1021,6 +1456,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffca28,
   );
 
+  /// ## Aurora Drift
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/aurora-drift.png" width="400" />
+  static const ITerm2ColorScheme auroraDrift = ITerm2ColorScheme(
+    name: 'Aurora Drift',
+    black: 0xFFaab7c8,
+    red: 0xFFff6b6b,
+    green: 0xFF5fd9ad,
+    yellow: 0xFFffd166,
+    blue: 0xFF6ea8ff,
+    purple: 0xFFc58cff,
+    cyan: 0xFF54ddeb,
+    white: 0xFFe6f1ff,
+    brightBlack: 0xFFc0cad6,
+    brightRed: 0xFFff8b8b,
+    brightGreen: 0xFF80e5bd,
+    brightYellow: 0xFFffe28a,
+    brightBlue: 0xFF91bdff,
+    brightPurple: 0xFFd9adff,
+    brightCyan: 0xFF7be9f2,
+    brightWhite: 0xFFffffff,
+    background: 0xFF050814,
+    foreground: 0xFFe6f1ff,
+    cursor: 0xFF00e5ff,
+    cursorText: 0xFF050814,
+    selectionForeground: 0xFF050814,
+    selectionBackground: 0xFFe6f1ff,
+  );
+
+  /// ## Autumn After Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/autumn-after-dark.png" width="400" />
+  static const ITerm2ColorScheme autumnAfterDark = ITerm2ColorScheme(
+    name: 'Autumn After Dark',
+    black: 0xFFc8b6a6,
+    red: 0xFFf18f67,
+    green: 0xFF9ac47c,
+    yellow: 0xFFe9bf55,
+    blue: 0xFF83b8d0,
+    purple: 0xFFc794af,
+    cyan: 0xFF78c4b8,
+    white: 0xFFf8e9cf,
+    brightBlack: 0xFFcfbfb1,
+    brightRed: 0xFFf39c79,
+    brightGreen: 0xFFa6cb8c,
+    brightYellow: 0xFFecc769,
+    brightBlue: 0xFF92c1d6,
+    brightPurple: 0xFFcea1b9,
+    brightCyan: 0xFF88cbc1,
+    brightWhite: 0xFFf9ecd5,
+    background: 0xFF57210d,
+    foreground: 0xFFf8e9cf,
+    cursor: 0xFFf39c79,
+    cursorText: 0xFF57210d,
+    selectionForeground: 0xFF57210d,
+    selectionBackground: 0xFFf8e9cf,
+  );
+
   /// ## Ayu
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ayu.png" width="400" />
@@ -1108,6 +1601,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFcccac2,
   );
 
+  /// ## Aztec Sunset
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/aztec-sunset.png" width="400" />
+  static const ITerm2ColorScheme aztecSunset = ITerm2ColorScheme(
+    name: 'Aztec Sunset',
+    black: 0xFFa9a19f,
+    red: 0xFFf47c62,
+    green: 0xFF67c894,
+    yellow: 0xFFe9bd59,
+    blue: 0xFF72c6c2,
+    purple: 0xFFe778a8,
+    cyan: 0xFF65d5d0,
+    white: 0xFFffe6c7,
+    brightBlack: 0xFFc0b4b0,
+    brightRed: 0xFFff986d,
+    brightGreen: 0xFF86d7a8,
+    brightYellow: 0xFFffd071,
+    brightBlue: 0xFF8bd8d2,
+    brightPurple: 0xFFf194bd,
+    brightCyan: 0xFF89e2dc,
+    brightWhite: 0xFFfff4df,
+    background: 0xFF1b0c18,
+    foreground: 0xFFffe6c7,
+    cursor: 0xFFff9f2e,
+    cursorText: 0xFF1b0c18,
+    selectionForeground: 0xFF1b0c18,
+    selectionBackground: 0xFFffe6c7,
+  );
+
   /// ## Banana Blueberry
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/banana-blueberry.png" width="400" />
@@ -1135,6 +1657,122 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFffffff,
     selectionForeground: 0xFF191323,
     selectionBackground: 0xFFcccccc,
+  );
+
+  /// ## Barbenheimer Bunker
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/barbenheimer-bunker.png" width="400" />
+  static const ITerm2ColorScheme barbenheimerBunker = ITerm2ColorScheme(
+    name: 'Barbenheimer Bunker',
+    black: 0xFF14140b,
+    red: 0xFFf672ac,
+    green: 0xFFa0e0c0,
+    yellow: 0xFFf0e0b0,
+    blue: 0xFFa0c0f0,
+    purple: 0xFFd4a8f9,
+    cyan: 0xFFa0e0d0,
+    white: 0xFFe0e0e0,
+    brightBlack: 0xFFaf9f94,
+    brightRed: 0xFFf672ac,
+    brightGreen: 0xFFa0e0c0,
+    brightYellow: 0xFFf0e0b0,
+    brightBlue: 0xFFa0c0f0,
+    brightPurple: 0xFFd4a8f9,
+    brightCyan: 0xFFa0e0d0,
+    brightWhite: 0xFFe0e0e0,
+    background: 0xFF14140b,
+    foreground: 0xFFf2c0d7,
+    cursor: 0xFFf672ac,
+    cursorText: 0xFF14140b,
+    selectionForeground: 0xFF14140b,
+    selectionBackground: 0xFFf2c0d7,
+  );
+
+  /// ## Barbenheimer Dreamhouse
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/barbenheimer-dreamhouse.png" width="400" />
+  static const ITerm2ColorScheme barbenheimerDreamhouse = ITerm2ColorScheme(
+    name: 'Barbenheimer Dreamhouse',
+    black: 0xFF302820,
+    red: 0xFFf060a0,
+    green: 0xFF9bcc6a,
+    yellow: 0xFFd1b161,
+    blue: 0xFF7ac1ed,
+    purple: 0xFFba55d3,
+    cyan: 0xFF80cbc4,
+    white: 0xFF14140b,
+    brightBlack: 0xFF4a443a,
+    brightRed: 0xFFdc5687,
+    brightGreen: 0xFF86b465,
+    brightYellow: 0xFFd3b363,
+    brightBlue: 0xFF64b5d9,
+    brightPurple: 0xFF9b40b4,
+    brightCyan: 0xFF609e9a,
+    brightWhite: 0xFF000000,
+    background: 0xFFfff8f0,
+    foreground: 0xFF14140b,
+    cursor: 0xFFf060a0,
+    cursorText: 0xFFfff8f0,
+    selectionForeground: 0xFFfff8f0,
+    selectionBackground: 0xFF14140b,
+  );
+
+  /// ## Barbenheimer Nuclear Sunrise
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/barbenheimer-nuclear-sunrise.png" width="400" />
+  static const ITerm2ColorScheme barbenheimerNuclearSunrise = ITerm2ColorScheme(
+    name: 'Barbenheimer Nuclear Sunrise',
+    black: 0xFF0f0f0a,
+    red: 0xFFff69b4,
+    green: 0xFF80c0a0,
+    yellow: 0xFFc0c080,
+    blue: 0xFF80a0c0,
+    purple: 0xFFc080c0,
+    cyan: 0xFF80c0c0,
+    white: 0xFFd0d0d0,
+    brightBlack: 0xFFeeeeee,
+    brightRed: 0xFFff69b4,
+    brightGreen: 0xFF80c0a0,
+    brightYellow: 0xFFc0c080,
+    brightBlue: 0xFF80a0c0,
+    brightPurple: 0xFFc080c0,
+    brightCyan: 0xFF80c0c0,
+    brightWhite: 0xFFe0e0e0,
+    background: 0xFF0f0f0a,
+    foreground: 0xFFffffff,
+    cursor: 0xFFff69b4,
+    cursorText: 0xFF0f0f0a,
+    selectionForeground: 0xFF0f0f0a,
+    selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Barrel Cactus
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/barrel-cactus.png" width="400" />
+  static const ITerm2ColorScheme barrelCactus = ITerm2ColorScheme(
+    name: 'Barrel Cactus',
+    black: 0xFFbed0c3,
+    red: 0xFFf5a181,
+    green: 0xFF8bd19b,
+    yellow: 0xFFeac95f,
+    blue: 0xFF83bfd8,
+    purple: 0xFFdcaac8,
+    cyan: 0xFF77d3ca,
+    white: 0xFFfff0d3,
+    brightBlack: 0xFFcedbd1,
+    brightRed: 0xFFf8ab89,
+    brightGreen: 0xFFa3dcaf,
+    brightYellow: 0xFFf3d97f,
+    brightBlue: 0xFF9fcfe2,
+    brightPurple: 0xFFe4b7cf,
+    brightCyan: 0xFF96dfd7,
+    brightWhite: 0xFFfff9e9,
+    background: 0xFF145039,
+    foreground: 0xFFfff0d3,
+    cursor: 0xFFf0bb4d,
+    cursorText: 0xFF145039,
+    selectionForeground: 0xFF145039,
+    selectionBackground: 0xFFfff0d3,
   );
 
   /// ## Base16 Icy
@@ -1195,6 +1833,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF6f6f6f,
   );
 
+  /// ## Bauhaus Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/bauhaus-dark.png" width="400" />
+  static const ITerm2ColorScheme bauhausDark = ITerm2ColorScheme(
+    name: 'Bauhaus Dark',
+    black: 0xFF574d43,
+    red: 0xFFff3e42,
+    green: 0xFF79932d,
+    yellow: 0xFFb18201,
+    blue: 0xFF6689cf,
+    purple: 0xFFc661cf,
+    cyan: 0xFF099997,
+    white: 0xFF9a9a9a,
+    brightBlack: 0xFF9a9a9a,
+    brightRed: 0xFFff8d84,
+    brightGreen: 0xFF9cb855,
+    brightYellow: 0xFFdea301,
+    brightBlue: 0xFF88adf6,
+    brightPurple: 0xFFed86f6,
+    brightCyan: 0xFF38bfbc,
+    brightWhite: 0xFFf2f2f2,
+    background: 0xFF2b2119,
+    foreground: 0xFFf2f2f2,
+    cursor: 0xFFf60529,
+    cursorText: 0xFF2b2119,
+    selectionForeground: 0xFF2b2119,
+    selectionBackground: 0xFFf2f2f2,
+  );
+
+  /// ## Bauhaus Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/bauhaus-light.png" width="400" />
+  static const ITerm2ColorScheme bauhausLight = ITerm2ColorScheme(
+    name: 'Bauhaus Light',
+    black: 0xFF2b2119,
+    red: 0xFFc5031f,
+    green: 0xFF546903,
+    yellow: 0xFF7e5c05,
+    blue: 0xFF4060a3,
+    purple: 0xFF9935a2,
+    cyan: 0xFF036d6c,
+    white: 0xFFafa59e,
+    brightBlack: 0xFF616161,
+    brightRed: 0xFF8f0113,
+    brightGreen: 0xFF3b4b01,
+    brightYellow: 0xFF5a4100,
+    brightBlue: 0xFF254283,
+    brightPurple: 0xFF790d83,
+    brightCyan: 0xFF034d4d,
+    brightWhite: 0xFFf5ebe3,
+    background: 0xFFe5dbd3,
+    foreground: 0xFF2b2119,
+    cursor: 0xFF9b0015,
+    cursorText: 0xFFe5dbd3,
+    selectionForeground: 0xFFe5dbd3,
+    selectionBackground: 0xFF2b2119,
+  );
+
   /// ## Belafonte Day
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/belafonte-day.png" width="400" />
@@ -1253,6 +1949,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF968c83,
   );
 
+  /// ## Belfry
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/belfry.png" width="400" />
+  static const ITerm2ColorScheme belfry = ITerm2ColorScheme(
+    name: 'Belfry',
+    black: 0xFFbcaeb0,
+    red: 0xFFf1817b,
+    green: 0xFF9dcc91,
+    yellow: 0xFFe7c56d,
+    blue: 0xFF91bfe0,
+    purple: 0xFFd29ac0,
+    cyan: 0xFF82cbc7,
+    white: 0xFFfff0dc,
+    brightBlack: 0xFFd0c3c5,
+    brightRed: 0xFFf59c96,
+    brightGreen: 0xFFb2d8a7,
+    brightYellow: 0xFFefd58b,
+    brightBlue: 0xFFaccfe8,
+    brightPurple: 0xFFdfb3cf,
+    brightCyan: 0xFFa1d9d5,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF4a0c18,
+    foreground: 0xFFfff0dc,
+    cursor: 0xFFef4858,
+    cursorText: 0xFF4a0c18,
+    selectionForeground: 0xFF4a0c18,
+    selectionBackground: 0xFFfff0dc,
+  );
+
   /// ## Birds Of Paradise
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/birds-of-paradise.png" width="400" />
@@ -1280,6 +2005,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF8a7059,
     selectionForeground: 0xFF2a1f1d,
     selectionBackground: 0xFFe0dbb7,
+  );
+
+  /// ## Black Box Recorder
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/black-box-recorder.png" width="400" />
+  static const ITerm2ColorScheme blackBoxRecorder = ITerm2ColorScheme(
+    name: 'Black Box Recorder',
+    black: 0xFFb9b7b0,
+    red: 0xFFff806d,
+    green: 0xFF78d19d,
+    yellow: 0xFFf1ca63,
+    blue: 0xFF8cb2ed,
+    purple: 0xFFd5a0e6,
+    cyan: 0xFF80d3dc,
+    white: 0xFFf4f1e8,
+    brightBlack: 0xFFcbc8c0,
+    brightRed: 0xFFff9c8b,
+    brightGreen: 0xFF99deb5,
+    brightYellow: 0xFFf7db86,
+    brightBlue: 0xFFaac7f3,
+    brightPurple: 0xFFe4b9ed,
+    brightCyan: 0xFFa1e1e7,
+    brightWhite: 0xFFfffdf7,
+    background: 0xFF050608,
+    foreground: 0xFFf4f1e8,
+    cursor: 0xFFffcc33,
+    cursorText: 0xFF050608,
+    selectionForeground: 0xFF050608,
+    selectionBackground: 0xFFf4f1e8,
+  );
+
+  /// ## Black Cat
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/black-cat.png" width="400" />
+  static const ITerm2ColorScheme blackCat = ITerm2ColorScheme(
+    name: 'Black Cat',
+    black: 0xFFa9a0b6,
+    red: 0xFFff8992,
+    green: 0xFF9fda65,
+    yellow: 0xFFedc85e,
+    blue: 0xFF8bbdf0,
+    purple: 0xFFc78bf0,
+    cyan: 0xFF76d2d1,
+    white: 0xFFf5edff,
+    brightBlack: 0xFFb3abbf,
+    brightRed: 0xFFff979f,
+    brightGreen: 0xFFabde77,
+    brightYellow: 0xFFefcf71,
+    brightBlue: 0xFF99c5f2,
+    brightPurple: 0xFFce99f2,
+    brightCyan: 0xFF86d7d7,
+    brightWhite: 0xFFf6efff,
+    background: 0xFF180a2b,
+    foreground: 0xFFf5edff,
+    cursor: 0xFFff979f,
+    cursorText: 0xFF180a2b,
+    selectionForeground: 0xFF180a2b,
+    selectionBackground: 0xFFf5edff,
   );
 
   /// ## Black Metal
@@ -1630,6 +2413,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFd9e6f2,
   );
 
+  /// ## Blood Moon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/blood-moon.png" width="400" />
+  static const ITerm2ColorScheme bloodMoon = ITerm2ColorScheme(
+    name: 'Blood Moon',
+    black: 0xFFbbaaad,
+    red: 0xFFf17c78,
+    green: 0xFF9cca8e,
+    yellow: 0xFFe5c36b,
+    blue: 0xFF8db9d8,
+    purple: 0xFFcd97b7,
+    cyan: 0xFF7fc6c1,
+    white: 0xFFfff0dc,
+    brightBlack: 0xFFcfbfc1,
+    brightRed: 0xFFf49894,
+    brightGreen: 0xFFb0d6a3,
+    brightYellow: 0xFFedd389,
+    brightBlue: 0xFFa8cbe2,
+    brightPurple: 0xFFdab0c7,
+    brightCyan: 0xFF9dd5d0,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF4b080d,
+    foreground: 0xFFfff0dc,
+    cursor: 0xFFff454b,
+    cursorText: 0xFF4b080d,
+    selectionForeground: 0xFF4b080d,
+    selectionBackground: 0xFFfff0dc,
+  );
+
   /// ## Blue Berry Pie
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/blue-berry-pie.png" width="400" />
@@ -1717,6 +2529,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF00a2ff,
   );
 
+  /// ## Blueprint
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/blueprint.png" width="400" />
+  static const ITerm2ColorScheme blueprint = ITerm2ColorScheme(
+    name: 'Blueprint',
+    black: 0xFF0f172a,
+    red: 0xFFdc2626,
+    green: 0xFF16a34a,
+    yellow: 0xFFd97706,
+    blue: 0xFF2563eb,
+    purple: 0xFF7c3aed,
+    cyan: 0xFF0891b2,
+    white: 0xFF94a3b8,
+    brightBlack: 0xFF475569,
+    brightRed: 0xFFef4444,
+    brightGreen: 0xFF22c55e,
+    brightYellow: 0xFFf59e0b,
+    brightBlue: 0xFF3b82f6,
+    brightPurple: 0xFFa855f7,
+    brightCyan: 0xFF06b6d4,
+    brightWhite: 0xFF1e293b,
+    background: 0xFFf8fafc,
+    foreground: 0xFF0f172a,
+    cursor: 0xFFff5a1f,
+    cursorText: 0xFFf1f5f9,
+    selectionForeground: 0xFFf8fafc,
+    selectionBackground: 0xFF0f172a,
+  );
+
   /// ## Bluloco Dark
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/bluloco-dark.png" width="400" />
@@ -1773,6 +2614,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFffffff,
     selectionForeground: 0xFFf9f9f9,
     selectionBackground: 0xFF373a41,
+  );
+
+  /// ## Bone Yard
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/bone-yard.png" width="400" />
+  static const ITerm2ColorScheme boneYard = ITerm2ColorScheme(
+    name: 'Bone Yard',
+    black: 0xFF332f28,
+    red: 0xFF8b342c,
+    green: 0xFF44583b,
+    yellow: 0xFF6c571f,
+    blue: 0xFF374f60,
+    purple: 0xFF60465d,
+    cyan: 0xFF365f5c,
+    white: 0xFF51463b,
+    brightBlack: 0xFF2a2721,
+    brightRed: 0xFF722b24,
+    brightGreen: 0xFF384830,
+    brightYellow: 0xFF594719,
+    brightBlue: 0xFF2d414f,
+    brightPurple: 0xFF4f394c,
+    brightCyan: 0xFF2c4e4b,
+    brightWhite: 0xFF423930,
+    background: 0xFFead9b8,
+    foreground: 0xFF51463b,
+    cursor: 0xFF24150e,
+    cursorText: 0xFFead9b8,
+    selectionForeground: 0xFFead9b8,
+    selectionBackground: 0xFF51463b,
   );
 
   /// ## Borland
@@ -2239,6 +3109,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF262626,
   );
 
+  /// ## CRT Afterglow
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/crt-afterglow.png" width="400" />
+  static const ITerm2ColorScheme crtAfterglow = ITerm2ColorScheme(
+    name: 'CRT Afterglow',
+    black: 0xFF203020,
+    red: 0xFFff5f56,
+    green: 0xFF50fa7b,
+    yellow: 0xFFf1fa8c,
+    blue: 0xFF8be9fd,
+    purple: 0xFFbd93f9,
+    cyan: 0xFF5af78e,
+    white: 0xFF95a99b,
+    brightBlack: 0xFF4a5d4a,
+    brightRed: 0xFFff8a80,
+    brightGreen: 0xFF8aff9d,
+    brightYellow: 0xFFfff59d,
+    brightBlue: 0xFFb3f1ff,
+    brightPurple: 0xFFdda0ff,
+    brightCyan: 0xFF8affd8,
+    brightWhite: 0xFFf5f7ef,
+    background: 0xFF0b0f0b,
+    foreground: 0xFFd0d8c8,
+    cursor: 0xFFf4d35e,
+    cursorText: 0xFF0b0f0b,
+    selectionForeground: 0xFF0b0f0b,
+    selectionBackground: 0xFFd0d8c8,
+  );
+
   /// ## CRT Amber
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/crt-amber.png" width="400" />
@@ -2268,6 +3167,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFfff3c4,
   );
 
+  /// ## Cactus Bloom
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/cactus-bloom.png" width="400" />
+  static const ITerm2ColorScheme cactusBloom = ITerm2ColorScheme(
+    name: 'Cactus Bloom',
+    black: 0xFF292d29,
+    red: 0xFF8c1b1b,
+    green: 0xFF0d5b30,
+    yellow: 0xFF684b00,
+    blue: 0xFF174b9a,
+    purple: 0xFF612d8e,
+    cyan: 0xFF005b69,
+    white: 0xFF3a403a,
+    brightBlack: 0xFF464c46,
+    brightRed: 0xFF961f1f,
+    brightGreen: 0xFF106234,
+    brightYellow: 0xFF704f00,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF693696,
+    brightCyan: 0xFF004a57,
+    brightWhite: 0xFF454b45,
+    background: 0xFFfff9f0,
+    foreground: 0xFF111a11,
+    cursor: 0xFF0b6897,
+    cursorText: 0xFFfff9f0,
+    selectionForeground: 0xFFfff9f0,
+    selectionBackground: 0xFF111a11,
+  );
+
   /// ## Calamity
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/calamity.png" width="400" />
@@ -2295,6 +3223,238 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF2f2833,
     selectionForeground: 0xFF2f2833,
     selectionBackground: 0xFFd5ced9,
+  );
+
+  /// ## Caliche
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/caliche.png" width="400" />
+  static const ITerm2ColorScheme caliche = ITerm2ColorScheme(
+    name: 'Caliche',
+    black: 0xFFc9c4b5,
+    red: 0xFFebad90,
+    green: 0xFF87c79e,
+    yellow: 0xFFdfbf68,
+    blue: 0xFF91c1d6,
+    purple: 0xFFd2afc4,
+    cyan: 0xFF76c9c4,
+    white: 0xFFfff0d5,
+    brightBlack: 0xFFd8d3c5,
+    brightRed: 0xFFeeaa89,
+    brightGreen: 0xFF99d0aa,
+    brightYellow: 0xFFe9d087,
+    brightBlue: 0xFF9bc9dc,
+    brightPurple: 0xFFd8b6c8,
+    brightCyan: 0xFF94d7d2,
+    brightWhite: 0xFFfff9e9,
+    background: 0xFF55452f,
+    foreground: 0xFFfff0d5,
+    cursor: 0xFFf0bd5b,
+    cursorText: 0xFF55452f,
+    selectionForeground: 0xFF55452f,
+    selectionBackground: 0xFFfff0d5,
+  );
+
+  /// ## Callie
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/callie.png" width="400" />
+  static const ITerm2ColorScheme callie = ITerm2ColorScheme(
+    name: 'Callie',
+    black: 0xFF33243a,
+    red: 0xFFeaaba8,
+    green: 0xFF9dcca3,
+    yellow: 0xFFd6ba86,
+    blue: 0xFFa4beef,
+    purple: 0xFFe5aac1,
+    cyan: 0xFF82cdcd,
+    white: 0xFFc9b7c6,
+    brightBlack: 0xFF9a8797,
+    brightRed: 0xFFfac5c2,
+    brightGreen: 0xFFbae0be,
+    brightYellow: 0xFFe8d1a8,
+    brightBlue: 0xFFbfd5fd,
+    brightPurple: 0xFFf5c5d7,
+    brightCyan: 0xFFa6e1e1,
+    brightWhite: 0xFFf6eef5,
+    background: 0xFF1c1220,
+    foreground: 0xFFe0d3df,
+    cursor: 0xFFf08fb8,
+    cursorText: 0xFF2e0f20,
+    selectionForeground: 0xFF1c1220,
+    selectionBackground: 0xFFe0d3df,
+  );
+
+  /// ## Callie Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/callie-light.png" width="400" />
+  static const ITerm2ColorScheme callieLight = ITerm2ColorScheme(
+    name: 'Callie Light',
+    black: 0xFF2b1a26,
+    red: 0xFF9e5251,
+    green: 0xFF3f7b4a,
+    yellow: 0xFF886518,
+    blue: 0xFF4b6ba6,
+    purple: 0xFF985270,
+    cyan: 0xFF027c7d,
+    white: 0xFF8f7a87,
+    brightBlack: 0xFF6b5562,
+    brightRed: 0xFF8a4140,
+    brightGreen: 0xFF2d6a39,
+    brightYellow: 0xFF755402,
+    brightBlue: 0xFF3b5993,
+    brightPurple: 0xFF85415f,
+    brightCyan: 0xFF006869,
+    brightWhite: 0xFFdcc8d3,
+    background: 0xFFfbf5f8,
+    foreground: 0xFF55414e,
+    cursor: 0xFFe45f97,
+    cursorText: 0xFF2e0f20,
+    selectionForeground: 0xFFfbf5f8,
+    selectionBackground: 0xFF55414e,
+  );
+
+  /// ## Candlelight
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/candlelight.png" width="400" />
+  static const ITerm2ColorScheme candlelight = ITerm2ColorScheme(
+    name: 'Candlelight',
+    black: 0xFFc8b99e,
+    red: 0xFFe89661,
+    green: 0xFF9ab57c,
+    yellow: 0xFFdfbb53,
+    blue: 0xFF83aebd,
+    purple: 0xFFbc91a4,
+    cyan: 0xFF79b8ae,
+    white: 0xFFf8e7c4,
+    brightBlack: 0xFFcfc1aa,
+    brightRed: 0xFFeba374,
+    brightGreen: 0xFFa6be8c,
+    brightYellow: 0xFFe3c368,
+    brightBlue: 0xFF92b8c5,
+    brightPurple: 0xFFc49eaf,
+    brightCyan: 0xFF89c1b8,
+    brightWhite: 0xFFf9eacb,
+    background: 0xFF432708,
+    foreground: 0xFFf8e7c4,
+    cursor: 0xFFeba374,
+    cursorText: 0xFF432708,
+    selectionForeground: 0xFF432708,
+    selectionBackground: 0xFFf8e7c4,
+  );
+
+  /// ## Candy Corn
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/candy-corn.png" width="400" />
+  static const ITerm2ColorScheme candyCorn = ITerm2ColorScheme(
+    name: 'Candy Corn',
+    black: 0xFF322b24,
+    red: 0xFF9b2f12,
+    green: 0xFF46612d,
+    yellow: 0xFF785711,
+    blue: 0xFF36516b,
+    purple: 0xFF69416e,
+    cyan: 0xFF28656a,
+    white: 0xFF51463b,
+    brightBlack: 0xFF29231e,
+    brightRed: 0xFF7f270f,
+    brightGreen: 0xFF395025,
+    brightYellow: 0xFF62470e,
+    brightBlue: 0xFF2c4258,
+    brightPurple: 0xFF56355a,
+    brightCyan: 0xFF215357,
+    brightWhite: 0xFF423930,
+    background: 0xFFfff0d2,
+    foreground: 0xFF51463b,
+    cursor: 0xFF24150e,
+    cursorText: 0xFFfff0d2,
+    selectionForeground: 0xFFfff0d2,
+    selectionBackground: 0xFF51463b,
+  );
+
+  /// ## Canyon Shadow
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/canyon-shadow.png" width="400" />
+  static const ITerm2ColorScheme canyonShadow = ITerm2ColorScheme(
+    name: 'Canyon Shadow',
+    black: 0xFFd5ccd3,
+    red: 0xFFfba493,
+    green: 0xFF9bd7ad,
+    yellow: 0xFFf0d176,
+    blue: 0xFFa1cbed,
+    purple: 0xFFe5b1dc,
+    cyan: 0xFF96dfda,
+    white: 0xFFfff0df,
+    brightBlack: 0xFFe2dae0,
+    brightRed: 0xFFffb8a8,
+    brightGreen: 0xFFb1e1bc,
+    brightYellow: 0xFFf8df94,
+    brightBlue: 0xFFbbdaf2,
+    brightPurple: 0xFFedc5e5,
+    brightCyan: 0xFFb4eae5,
+    brightWhite: 0xFFfffaf3,
+    background: 0xFF513554,
+    foreground: 0xFFfff0df,
+    cursor: 0xFFf5c15e,
+    cursorText: 0xFF513554,
+    selectionForeground: 0xFF513554,
+    selectionBackground: 0xFFfff0df,
+  );
+
+  /// ## Canyon Walnut
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/canyon-walnut.png" width="400" />
+  static const ITerm2ColorScheme canyonWalnut = ITerm2ColorScheme(
+    name: 'Canyon Walnut',
+    black: 0xFFc7ad93,
+    red: 0xFFed9371,
+    green: 0xFFb3c98a,
+    yellow: 0xFFf2bb5f,
+    blue: 0xFF8fbde7,
+    purple: 0xFFc9a0d9,
+    cyan: 0xFF8dd1ce,
+    white: 0xFFf8e4c6,
+    brightBlack: 0xFFdcc3a8,
+    brightRed: 0xFFffb08c,
+    brightGreen: 0xFFc8dd9f,
+    brightYellow: 0xFFffd27e,
+    brightBlue: 0xFFabd1f5,
+    brightPurple: 0xFFddb7eb,
+    brightCyan: 0xFFa9e2db,
+    brightWhite: 0xFFfff5dc,
+    background: 0xFF332014,
+    foreground: 0xFFf8e4c6,
+    cursor: 0xFFffd27e,
+    cursorText: 0xFF332014,
+    selectionForeground: 0xFF332014,
+    selectionBackground: 0xFFf8e4c6,
+  );
+
+  /// ## Carbon Paper
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/carbon-paper.png" width="400" />
+  static const ITerm2ColorScheme carbonPaper = ITerm2ColorScheme(
+    name: 'Carbon Paper',
+    black: 0xFF2c3038,
+    red: 0xFF842424,
+    green: 0xFF145a37,
+    yellow: 0xFF654d00,
+    blue: 0xFF17458b,
+    purple: 0xFF603187,
+    cyan: 0xFF005866,
+    white: 0xFF3c4048,
+    brightBlack: 0xFF474b53,
+    brightRed: 0xFF902a2a,
+    brightGreen: 0xFF185f3d,
+    brightYellow: 0xFF6d5300,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF67398f,
+    brightCyan: 0xFF004b57,
+    brightWhite: 0xFF454951,
+    background: 0xFFf8f6ed,
+    foreground: 0xFF1d2028,
+    cursor: 0xFF31558e,
+    cursorText: 0xFFf8f6ed,
+    selectionForeground: 0xFFf8f6ed,
+    selectionBackground: 0xFF1d2028,
   );
 
   /// ## Carbonfox
@@ -2471,6 +3631,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFcdd6f4,
   );
 
+  /// ## Catthode
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/catthode.png" width="400" />
+  static const ITerm2ColorScheme catthode = ITerm2ColorScheme(
+    name: 'Catthode',
+    black: 0xFF141414,
+    red: 0xFFff6b6b,
+    green: 0xFFb9d665,
+    yellow: 0xFFffb86c,
+    blue: 0xFF9cd9e6,
+    purple: 0xFFeba4be,
+    cyan: 0xFFaee6d6,
+    white: 0xFFb3b3b3,
+    brightBlack: 0xFF636363,
+    brightRed: 0xFFff6b6b,
+    brightGreen: 0xFFb9d665,
+    brightYellow: 0xFFfae2c8,
+    brightBlue: 0xFF9cd9e6,
+    brightPurple: 0xFFeba4be,
+    brightCyan: 0xFFaee6d6,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFffffff,
+    cursor: 0xFFff9e3b,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFffffff,
+  );
+
   /// ## Chalk
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/chalk.png" width="400" />
@@ -2558,6 +3747,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFcbe1e7,
   );
 
+  /// ## Charcoal
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/charcoal.png" width="400" />
+  static const ITerm2ColorScheme charcoal = ITerm2ColorScheme(
+    name: 'Charcoal',
+    black: 0xFF111111,
+    red: 0xFF888888,
+    green: 0xFFa8a8a8,
+    yellow: 0xFFb0b0b0,
+    blue: 0xFF9a9a9a,
+    purple: 0xFF8a8a8a,
+    cyan: 0xFFa0a0a0,
+    white: 0xFFc0c0c0,
+    brightBlack: 0xFF474747,
+    brightRed: 0xFFa0a0a0,
+    brightGreen: 0xFFc4c4c4,
+    brightYellow: 0xFFc8c8c8,
+    brightBlue: 0xFFd0d0d0,
+    brightPurple: 0xFFb8b8b8,
+    brightCyan: 0xFFcccccc,
+    brightWhite: 0xFFececec,
+    background: 0xFF0d0d0d,
+    foreground: 0xFFc4c4c4,
+    cursor: 0xFFd0d0d0,
+    cursorText: 0xFF0d0d0d,
+    selectionForeground: 0xFF0d0d0d,
+    selectionBackground: 0xFFc4c4c4,
+  );
+
   /// ## Chester
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/chester.png" width="400" />
@@ -2585,6 +3803,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF2c3643,
     selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Cholla
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/cholla.png" width="400" />
+  static const ITerm2ColorScheme cholla = ITerm2ColorScheme(
+    name: 'Cholla',
+    black: 0xFFc8c9b5,
+    red: 0xFFee9a74,
+    green: 0xFF83cb8f,
+    yellow: 0xFFe9c65c,
+    blue: 0xFF82bdd8,
+    purple: 0xFFd79abb,
+    cyan: 0xFF75d0c6,
+    white: 0xFFfff0d4,
+    brightBlack: 0xFFd7d8c7,
+    brightRed: 0xFFf5ad8c,
+    brightGreen: 0xFF9ed7a6,
+    brightYellow: 0xFFf3d77d,
+    brightBlue: 0xFF9dcee3,
+    brightPurple: 0xFFe3b3ca,
+    brightCyan: 0xFF94ddd5,
+    brightWhite: 0xFFfff9e9,
+    background: 0xFF394122,
+    foreground: 0xFFfff0d4,
+    cursor: 0xFFf3c85d,
+    cursorText: 0xFF394122,
+    selectionForeground: 0xFF394122,
+    selectionBackground: 0xFFfff0d4,
   );
 
   /// ## Ciapre
@@ -2802,14 +4049,14 @@ class ITerm2ColorSchemes {
     blue: 0xFF5685a8,
     purple: 0xFFad64be,
     cyan: 0xFF69c6c9,
-    white: 0xFFb4bbbf,
+    white: 0xFFc1c8cc,
     brightBlack: 0xFF506573,
     brightRed: 0xFFdf6c5a,
     brightGreen: 0xFF79be7e,
-    brightYellow: 0xFFd8bb65,
+    brightYellow: 0xFFe5c872,
     brightBlue: 0xFF49a2e1,
     brightPurple: 0xFFd389e5,
-    brightCyan: 0xFF5ec7cb,
+    brightCyan: 0xFF77e1e5,
     brightWhite: 0xFFd8e1e7,
     background: 0xFFffffff,
     foreground: 0xFF3a4851,
@@ -2817,6 +4064,93 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFffffff,
     selectionForeground: 0xFFffffff,
     selectionBackground: 0xFF3a4851,
+  );
+
+  /// ## Clockwork Gold
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/clockwork-gold.png" width="400" />
+  static const ITerm2ColorScheme clockworkGold = ITerm2ColorScheme(
+    name: 'Clockwork Gold',
+    black: 0xFF1d1c19,
+    red: 0xFFe94b4a,
+    green: 0xFF73c881,
+    yellow: 0xFFffcc00,
+    blue: 0xFF4fa3f4,
+    purple: 0xFFef3ead,
+    cyan: 0xFF64c3c3,
+    white: 0xFFa9a69d,
+    brightBlack: 0xFF4c4b47,
+    brightRed: 0xFFff716b,
+    brightGreen: 0xFF88e196,
+    brightYellow: 0xFFc89f00,
+    brightBlue: 0xFF76c0ff,
+    brightPurple: 0xFFff68c6,
+    brightCyan: 0xFF82e1e0,
+    brightWhite: 0xFFfcfaf4,
+    background: 0xFF1d1c19,
+    foreground: 0xFFebe8e0,
+    cursor: 0xFFffcc00,
+    cursorText: 0xFF1d1c19,
+    selectionForeground: 0xFF1d1c19,
+    selectionBackground: 0xFFebe8e0,
+  );
+
+  /// ## Clu
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/clu.png" width="400" />
+  static const ITerm2ColorScheme clu = ITerm2ColorScheme(
+    name: 'Clu',
+    black: 0xFF21170c,
+    red: 0xFFf60004,
+    green: 0xFF00b5e4,
+    yellow: 0xFFffff0f,
+    blue: 0xFFe96700,
+    purple: 0xFFe96700,
+    cyan: 0xFFffffff,
+    white: 0xFF00b5e4,
+    brightBlack: 0xFF653333,
+    brightRed: 0xFFf60004,
+    brightGreen: 0xFFffffff,
+    brightYellow: 0xFFffffff,
+    brightBlue: 0xFF00b5e4,
+    brightPurple: 0xFFf60004,
+    brightCyan: 0xFFf60004,
+    brightWhite: 0xFFe96700,
+    background: 0xFF000d15,
+    foreground: 0xFFfdd48d,
+    cursor: 0xFF00b5e4,
+    cursorText: 0xFF000d15,
+    selectionForeground: 0xFF000d15,
+    selectionBackground: 0xFFfdd48d,
+  );
+
+  /// ## Cobalt Foundry
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/cobalt-foundry.png" width="400" />
+  static const ITerm2ColorScheme cobaltFoundry = ITerm2ColorScheme(
+    name: 'Cobalt Foundry',
+    black: 0xFF1a2129,
+    red: 0xFFe57373,
+    green: 0xFF81b366,
+    yellow: 0xFFd4a95f,
+    blue: 0xFF4f95e0,
+    purple: 0xFF9d85cf,
+    cyan: 0xFF56b3c4,
+    white: 0xFFa2b0be,
+    brightBlack: 0xFF56626f,
+    brightRed: 0xFFef8f8f,
+    brightGreen: 0xFF9cc983,
+    brightYellow: 0xFFe5c07e,
+    brightBlue: 0xFF74aeec,
+    brightPurple: 0xFFb5a0e0,
+    brightCyan: 0xFF78cbda,
+    brightWhite: 0xFFe2eaf2,
+    background: 0xFF10151c,
+    foreground: 0xFFc2cedb,
+    cursor: 0xFF4fa8ff,
+    cursorText: 0xFF10151c,
+    selectionForeground: 0xFF10151c,
+    selectionBackground: 0xFFc2cedb,
   );
 
   /// ## Cobalt Neon
@@ -2964,6 +4298,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffffff,
   );
 
+  /// ## Cobweb
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/cobweb.png" width="400" />
+  static const ITerm2ColorScheme cobweb = ITerm2ColorScheme(
+    name: 'Cobweb',
+    black: 0xFFaeb5ba,
+    red: 0xFFed8e88,
+    green: 0xFF9bc6a3,
+    yellow: 0xFFdec575,
+    blue: 0xFF92bad5,
+    purple: 0xFFbba4c9,
+    cyan: 0xFF88c8c8,
+    white: 0xFFeef1f3,
+    brightBlack: 0xFFc3c9cd,
+    brightRed: 0xFFf0a7a1,
+    brightGreen: 0xFFafd3b6,
+    brightYellow: 0xFFe8d493,
+    brightBlue: 0xFFabcde0,
+    brightPurple: 0xFFcab8d4,
+    brightCyan: 0xFFa4d6d6,
+    brightWhite: 0xFFffffff,
+    background: 0xFF20272d,
+    foreground: 0xFFeef1f3,
+    cursor: 0xFFe7ebee,
+    cursorText: 0xFF20272d,
+    selectionForeground: 0xFF20272d,
+    selectionBackground: 0xFFeef1f3,
+  );
+
+  /// ## Code 2026 Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/code-2026-dark.png" width="400" />
+  static const ITerm2ColorScheme code2026Dark = ITerm2ColorScheme(
+    name: 'Code 2026 Dark',
+    black: 0xFF202122,
+    red: 0xFFff7b72,
+    green: 0xFF7ee787,
+    yellow: 0xFFcd9731,
+    blue: 0xFF79c0ff,
+    purple: 0xFFd2a8ff,
+    cyan: 0xFF4ec9b0,
+    white: 0xFFbbbebf,
+    brightBlack: 0xFF555555,
+    brightRed: 0xFFffa198,
+    brightGreen: 0xFF91eb99,
+    brightYellow: 0xFFffa657,
+    brightBlue: 0xFFa5d6ff,
+    brightPurple: 0xFFb267e6,
+    brightCyan: 0xFF71d4c0,
+    brightWhite: 0xFFffffff,
+    background: 0xFF121314,
+    foreground: 0xFFbbbebf,
+    cursor: 0xFFbbbebf,
+    cursorText: 0xFF121314,
+    selectionForeground: 0xFF121314,
+    selectionBackground: 0xFFbbbebf,
+  );
+
+  /// ## Code 2026 Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/code-2026-light.png" width="400" />
+  static const ITerm2ColorScheme code2026Light = ITerm2ColorScheme(
+    name: 'Code 2026 Light',
+    black: 0xFFf0f1f2,
+    red: 0xFFcf222e,
+    green: 0xFF116329,
+    yellow: 0xFF953800,
+    blue: 0xFF0550ae,
+    purple: 0xFF8250df,
+    cyan: 0xFF116329,
+    white: 0xFF202020,
+    brightBlack: 0xFF999999,
+    brightRed: 0xFFcf222e,
+    brightGreen: 0xFF116329,
+    brightYellow: 0xFF953800,
+    brightBlue: 0xFF0550ae,
+    brightPurple: 0xFF8250df,
+    brightCyan: 0xFF116329,
+    brightWhite: 0xFFffffff,
+    background: 0xFFffffff,
+    foreground: 0xFF202020,
+    cursor: 0xFF0069cc,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF202020,
+  );
+
   /// ## Coffee Theme
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/coffee-theme.png" width="400" />
@@ -2991,6 +4412,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFfffc67,
     selectionForeground: 0xFFf5deb3,
     selectionBackground: 0xFF000000,
+  );
+
+  /// ## Cold Storage
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/cold-storage.png" width="400" />
+  static const ITerm2ColorScheme coldStorage = ITerm2ColorScheme(
+    name: 'Cold Storage',
+    black: 0xFF29394a,
+    red: 0xFF842121,
+    green: 0xFF0c5935,
+    yellow: 0xFF644b00,
+    blue: 0xFF17468f,
+    purple: 0xFF5e3188,
+    cyan: 0xFF005969,
+    white: 0xFF3b4b5b,
+    brightBlack: 0xFF40505f,
+    brightRed: 0xFF902727,
+    brightGreen: 0xFF10613b,
+    brightYellow: 0xFF6c5100,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF653890,
+    brightCyan: 0xFF004b59,
+    brightWhite: 0xFF455565,
+    background: 0xFFf4f9ff,
+    foreground: 0xFF102235,
+    cursor: 0xFF0b5f83,
+    cursorText: 0xFFf4f9ff,
+    selectionForeground: 0xFFf4f9ff,
+    selectionBackground: 0xFF102235,
   );
 
   /// ## Cool Night
@@ -3022,6 +4472,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFecdef4,
   );
 
+  /// ## Copper Canyon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/copper-canyon.png" width="400" />
+  static const ITerm2ColorScheme copperCanyon = ITerm2ColorScheme(
+    name: 'Copper Canyon',
+    black: 0xFFd6c8b8,
+    red: 0xFFffa17e,
+    green: 0xFF94d9a5,
+    yellow: 0xFFf5cf69,
+    blue: 0xFF91c9ed,
+    purple: 0xFFe5a7d0,
+    cyan: 0xFF85ddd6,
+    white: 0xFFfff0d5,
+    brightBlack: 0xFFe4d8ca,
+    brightRed: 0xFFffb698,
+    brightGreen: 0xFFace2b8,
+    brightYellow: 0xFFffdf8a,
+    brightBlue: 0xFFaed8f3,
+    brightPurple: 0xFFeebedc,
+    brightCyan: 0xFFa5e8e2,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF5a3018,
+    foreground: 0xFFfff0d5,
+    cursor: 0xFFf6bd55,
+    cursorText: 0xFF5a3018,
+    selectionForeground: 0xFF5a3018,
+    selectionBackground: 0xFFfff0d5,
+  );
+
+  /// ## Count Terminal
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/count-terminal.png" width="400" />
+  static const ITerm2ColorScheme countTerminal = ITerm2ColorScheme(
+    name: 'Count Terminal',
+    black: 0xFFbca9ad,
+    red: 0xFFef7e88,
+    green: 0xFF99c58e,
+    yellow: 0xFFe1c467,
+    blue: 0xFF88b5d7,
+    purple: 0xFFc58bb9,
+    cyan: 0xFF7bc6bf,
+    white: 0xFFf7e6dc,
+    brightBlack: 0xFFc4b3b7,
+    brightRed: 0xFFf18d96,
+    brightGreen: 0xFFa5cc9c,
+    brightYellow: 0xFFe5cb79,
+    brightBlue: 0xFF96bedc,
+    brightPurple: 0xFFcc99c1,
+    brightCyan: 0xFF8bcdc7,
+    brightWhite: 0xFFf8e9e0,
+    background: 0xFF480814,
+    foreground: 0xFFf7e6dc,
+    cursor: 0xFFf18d96,
+    cursorText: 0xFF480814,
+    selectionForeground: 0xFF480814,
+    selectionBackground: 0xFFf7e6dc,
+  );
+
   /// ## Crayon Pony Fish
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/crayon-pony-fish.png" width="400" />
@@ -3049,6 +4557,93 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF140707,
     selectionForeground: 0xFF150707,
     selectionBackground: 0xFF68525a,
+  );
+
+  /// ## Crypt Keeper
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/crypt-keeper.png" width="400" />
+  static const ITerm2ColorScheme cryptKeeper = ITerm2ColorScheme(
+    name: 'Crypt Keeper',
+    black: 0xFFbfc1ad,
+    red: 0xFFe89a78,
+    green: 0xFFa6cc8c,
+    yellow: 0xFFdec46c,
+    blue: 0xFF91bdd0,
+    purple: 0xFFc9a1b5,
+    cyan: 0xFF82c9bf,
+    white: 0xFFf2efd5,
+    brightBlack: 0xFFd0d1c0,
+    brightRed: 0xFFeeae8f,
+    brightGreen: 0xFFb9d8a3,
+    brightYellow: 0xFFe8d58a,
+    brightBlue: 0xFFa9ccd9,
+    brightPurple: 0xFFd6b8c7,
+    brightCyan: 0xFF9fd7cf,
+    brightWhite: 0xFFfff9e8,
+    background: 0xFF353b24,
+    foreground: 0xFFf2efd5,
+    cursor: 0xFFe0cb62,
+    cursorText: 0xFF353b24,
+    selectionForeground: 0xFF353b24,
+    selectionBackground: 0xFFf2efd5,
+  );
+
+  /// ## Crystal Ball
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/crystal-ball.png" width="400" />
+  static const ITerm2ColorScheme crystalBall = ITerm2ColorScheme(
+    name: 'Crystal Ball',
+    black: 0xFFb7acc9,
+    red: 0xFFef8ca4,
+    green: 0xFF9ed08c,
+    yellow: 0xFFdfc86b,
+    blue: 0xFF82c8ef,
+    purple: 0xFFc18df0,
+    cyan: 0xFF77d7de,
+    white: 0xFFf2edff,
+    brightBlack: 0xFFc0b6cf,
+    brightRed: 0xFFf19aaf,
+    brightGreen: 0xFFaad69a,
+    brightYellow: 0xFFe3cf7d,
+    brightBlue: 0xFF91cff1,
+    brightPurple: 0xFFc89bf2,
+    brightCyan: 0xFF87dce2,
+    brightWhite: 0xFFf4efff,
+    background: 0xFF2b1050,
+    foreground: 0xFFf2edff,
+    cursor: 0xFFf19aaf,
+    cursorText: 0xFF2b1050,
+    selectionForeground: 0xFF2b1050,
+    selectionBackground: 0xFFf2edff,
+  );
+
+  /// ## Cursed VHS
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/cursed-vhs.png" width="400" />
+  static const ITerm2ColorScheme cursedVhs = ITerm2ColorScheme(
+    name: 'Cursed VHS',
+    black: 0xFFafa3bd,
+    red: 0xFFff6d98,
+    green: 0xFF8ed69e,
+    yellow: 0xFFe5c85f,
+    blue: 0xFF62b9f2,
+    purple: 0xFFd16cf0,
+    cyan: 0xFF4bd9e1,
+    white: 0xFFf4edff,
+    brightBlack: 0xFFb9aec5,
+    brightRed: 0xFFff7fa4,
+    brightGreen: 0xFF9cdbaa,
+    brightYellow: 0xFFe8cf72,
+    brightBlue: 0xFF75c1f4,
+    brightPurple: 0xFFd77ef2,
+    brightCyan: 0xFF61dee5,
+    brightWhite: 0xFFf5efff,
+    background: 0xFF1c082c,
+    foreground: 0xFFf4edff,
+    cursor: 0xFFff7fa4,
+    cursorText: 0xFF1c082c,
+    selectionForeground: 0xFF1c082c,
+    selectionBackground: 0xFFf4edff,
   );
 
   /// ## Cursor Dark
@@ -3283,21 +4878,50 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFc8c9cc,
   );
 
+  /// ## Dark 2026
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/dark-2026.png" width="400" />
+  static const ITerm2ColorScheme dark2026 = ITerm2ColorScheme(
+    name: 'Dark 2026',
+    black: 0xFF000000,
+    red: 0xFFcd3131,
+    green: 0xFF0dbc79,
+    yellow: 0xFFe5e510,
+    blue: 0xFF2472c8,
+    purple: 0xFFbc3fbc,
+    cyan: 0xFF11a8cd,
+    white: 0xFFe5e5e5,
+    brightBlack: 0xFF666666,
+    brightRed: 0xFFf14c4c,
+    brightGreen: 0xFF23d18b,
+    brightYellow: 0xFFf5f543,
+    brightBlue: 0xFF3b8eea,
+    brightPurple: 0xFFd670d6,
+    brightCyan: 0xFF29b8db,
+    brightWhite: 0xFFe5e5e5,
+    background: 0xFF191a1b,
+    foreground: 0xFFcccccc,
+    cursor: 0xFFbfbfbf,
+    cursorText: 0xFF191a1b,
+    selectionForeground: 0xFF191a1b,
+    selectionBackground: 0xFFcccccc,
+  );
+
   /// ## Dark Modern
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/dark-modern.png" width="400" />
   static const ITerm2ColorScheme darkModern = ITerm2ColorScheme(
     name: 'Dark Modern',
-    black: 0xFF272727,
-    red: 0xFFf74949,
-    green: 0xFF2ea043,
-    yellow: 0xFF9e6a03,
-    blue: 0xFF0078d4,
-    purple: 0xFFd01273,
-    cyan: 0xFF1db4d6,
-    white: 0xFFcccccc,
-    brightBlack: 0xFF5d5d5d,
-    brightRed: 0xFFdc5452,
+    black: 0xFF000000,
+    red: 0xFFcd3131,
+    green: 0xFF0dbc79,
+    yellow: 0xFFe5e510,
+    blue: 0xFF2472c8,
+    purple: 0xFFbc3fbc,
+    cyan: 0xFF11a8cd,
+    white: 0xFFe5e5e5,
+    brightBlack: 0xFF666666,
+    brightRed: 0xFFf14c4c,
     brightGreen: 0xFF23d18b,
     brightYellow: 0xFFf5f543,
     brightBlue: 0xFF3b8eea,
@@ -3573,6 +5197,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF44413b,
   );
 
+  /// ## Daybreaker
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/daybreaker.png" width="400" />
+  static const ITerm2ColorScheme daybreaker = ITerm2ColorScheme(
+    name: 'Daybreaker',
+    black: 0xFF292929,
+    red: 0xFF9f1717,
+    green: 0xFF075523,
+    yellow: 0xFF594300,
+    blue: 0xFF1452ad,
+    purple: 0xFF6f2d9b,
+    cyan: 0xFF005064,
+    white: 0xFF3d3d3d,
+    brightBlack: 0xFF555555,
+    brightRed: 0xFFa91e1e,
+    brightGreen: 0xFF075923,
+    brightYellow: 0xFF5d4700,
+    brightBlue: 0xFF16478f,
+    brightPurple: 0xFF7434a1,
+    brightCyan: 0xFF005369,
+    brightWhite: 0xFF484848,
+    background: 0xFFfffaf6,
+    foreground: 0xFF1e1e1e,
+    cursor: 0xFF8a4b00,
+    cursorText: 0xFFfffaf6,
+    selectionForeground: 0xFFfffaf6,
+    selectionBackground: 0xFF1e1e1e,
+  );
+
   /// ## Dayfox
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/dayfox.png" width="400" />
@@ -3600,6 +5253,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFf6f2ee,
     selectionForeground: 0xFFf6f2ee,
     selectionBackground: 0xFF3d2b5a,
+  );
+
+  /// ## Dead Letter Office
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/dead-letter-office.png" width="400" />
+  static const ITerm2ColorScheme deadLetterOffice = ITerm2ColorScheme(
+    name: 'Dead Letter Office',
+    black: 0xFFb8c1cc,
+    red: 0xFFff8178,
+    green: 0xFF79d5a7,
+    yellow: 0xFFffd36a,
+    blue: 0xFF88b6ff,
+    purple: 0xFFdca5ff,
+    cyan: 0xFF83dce5,
+    white: 0xFFeef2f6,
+    brightBlack: 0xFFcbd2da,
+    brightRed: 0xFFff9b94,
+    brightGreen: 0xFF9ae2bd,
+    brightYellow: 0xFFffe18c,
+    brightBlue: 0xFFa9caff,
+    brightPurple: 0xFFe8beff,
+    brightCyan: 0xFFa4e9ef,
+    brightWhite: 0xFFffffff,
+    background: 0xFF090d12,
+    foreground: 0xFFeef2f6,
+    cursor: 0xFF8fc7ff,
+    cursorText: 0xFF090d12,
+    selectionForeground: 0xFF090d12,
+    selectionBackground: 0xFFeef2f6,
   );
 
   /// ## Deep
@@ -3631,6 +5313,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFcdcdcd,
   );
 
+  /// ## Deep Current
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/deep-current.png" width="400" />
+  static const ITerm2ColorScheme deepCurrent = ITerm2ColorScheme(
+    name: 'Deep Current',
+    black: 0xFF1f2a44,
+    red: 0xFFff4d6d,
+    green: 0xFF22c55e,
+    yellow: 0xFFf59e0b,
+    blue: 0xFF3b82f6,
+    purple: 0xFFd946ef,
+    cyan: 0xFF06d6a0,
+    white: 0xFF94a3b8,
+    brightBlack: 0xFF475569,
+    brightRed: 0xFFff7b9c,
+    brightGreen: 0xFF86efac,
+    brightYellow: 0xFFfcd34d,
+    brightBlue: 0xFF60a5fa,
+    brightPurple: 0xFFe879f9,
+    brightCyan: 0xFF2dd4bf,
+    brightWhite: 0xFFf8fafc,
+    background: 0xFF08121f,
+    foreground: 0xFFe2e8f0,
+    cursor: 0xFF00c5ff,
+    cursorText: 0xFF08121f,
+    selectionForeground: 0xFF08121f,
+    selectionBackground: 0xFFe2e8f0,
+  );
+
   /// ## Desert
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/desert.png" width="400" />
@@ -3660,6 +5371,180 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffffff,
   );
 
+  /// ## Desert Bloom
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/desert-bloom.png" width="400" />
+  static const ITerm2ColorScheme desertBloom = ITerm2ColorScheme(
+    name: 'Desert Bloom',
+    black: 0xFFc9bbc3,
+    red: 0xFFf3958d,
+    green: 0xFF86ce91,
+    yellow: 0xFFedc95f,
+    blue: 0xFF92c2e8,
+    purple: 0xFFd99dcc,
+    cyan: 0xFF7ed5cf,
+    white: 0xFFfff0df,
+    brightBlack: 0xFFd9ccd2,
+    brightRed: 0xFFf9aca5,
+    brightGreen: 0xFF9fdaaa,
+    brightYellow: 0xFFf6da80,
+    brightBlue: 0xFFafd2ef,
+    brightPurple: 0xFFe6b6d9,
+    brightCyan: 0xFF9ee2dd,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF54213e,
+    foreground: 0xFFfff0df,
+    cursor: 0xFFf3bc55,
+    cursorText: 0xFF54213e,
+    selectionForeground: 0xFF54213e,
+    selectionBackground: 0xFFfff0df,
+  );
+
+  /// ## Desert Moon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/desert-moon.png" width="400" />
+  static const ITerm2ColorScheme desertMoon = ITerm2ColorScheme(
+    name: 'Desert Moon',
+    black: 0xFFb9c6cb,
+    red: 0xFFe79b90,
+    green: 0xFF8fc9a3,
+    yellow: 0xFFe2c979,
+    blue: 0xFF8dbfdd,
+    purple: 0xFFb9a7d7,
+    cyan: 0xFF80cdd0,
+    white: 0xFFf2f2e8,
+    brightBlack: 0xFFcbd5d8,
+    brightRed: 0xFFefb0a7,
+    brightGreen: 0xFFa8d6b6,
+    brightYellow: 0xFFecd995,
+    brightBlue: 0xFFa9d0e7,
+    brightPurple: 0xFFcabce2,
+    brightCyan: 0xFF9bdadd,
+    brightWhite: 0xFFfffdf5,
+    background: 0xFF0b3459,
+    foreground: 0xFFf2f2e8,
+    cursor: 0xFFd9e3d3,
+    cursorText: 0xFF0b3459,
+    selectionForeground: 0xFF0b3459,
+    selectionBackground: 0xFFf2f2e8,
+  );
+
+  /// ## Desert Morning
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/desert-morning.png" width="400" />
+  static const ITerm2ColorScheme desertMorning = ITerm2ColorScheme(
+    name: 'Desert Morning',
+    black: 0xFF4a3529,
+    red: 0xFF7e2c23,
+    green: 0xFF294f2e,
+    yellow: 0xFF62430b,
+    blue: 0xFF274978,
+    purple: 0xFF61386a,
+    cyan: 0xFF1a4f51,
+    white: 0xFF352417,
+    brightBlack: 0xFF5c4336,
+    brightRed: 0xFF7d3025,
+    brightGreen: 0xFF304e33,
+    brightYellow: 0xFF60430e,
+    brightBlue: 0xFF274875,
+    brightPurple: 0xFF603b6a,
+    brightCyan: 0xFF1e4f52,
+    brightWhite: 0xFF24170e,
+    background: 0xFFd8b590,
+    foreground: 0xFF352417,
+    cursor: 0xFF60430e,
+    cursorText: 0xFFd8b590,
+    selectionForeground: 0xFFd8b590,
+    selectionBackground: 0xFF352417,
+  );
+
+  /// ## Desert Rose
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/desert-rose.png" width="400" />
+  static const ITerm2ColorScheme desertRose = ITerm2ColorScheme(
+    name: 'Desert Rose',
+    black: 0xFFc9b9b8,
+    red: 0xFFff978b,
+    green: 0xFF94d1a1,
+    yellow: 0xFFedc96d,
+    blue: 0xFF8fc4e8,
+    purple: 0xFFdfa2c9,
+    cyan: 0xFF82d7d2,
+    white: 0xFFfff0df,
+    brightBlack: 0xFFdacbca,
+    brightRed: 0xFFffaea3,
+    brightGreen: 0xFFa9dcaf,
+    brightYellow: 0xFFf8d98b,
+    brightBlue: 0xFFacd4ef,
+    brightPurple: 0xFFe9bad7,
+    brightCyan: 0xFFa2e4df,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF5a2032,
+    foreground: 0xFFfff0df,
+    cursor: 0xFFf4bd63,
+    cursorText: 0xFF5a2032,
+    selectionForeground: 0xFF5a2032,
+    selectionBackground: 0xFFfff0df,
+  );
+
+  /// ## Desert Thunder
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/desert-thunder.png" width="400" />
+  static const ITerm2ColorScheme desertThunder = ITerm2ColorScheme(
+    name: 'Desert Thunder',
+    black: 0xFFd0d6d5,
+    red: 0xFFf5a08c,
+    green: 0xFF98d9ad,
+    yellow: 0xFFeed47d,
+    blue: 0xFFa8d2f0,
+    purple: 0xFFdcb4df,
+    cyan: 0xFF9de1df,
+    white: 0xFFf5f1df,
+    brightBlack: 0xFFdee3e2,
+    brightRed: 0xFFf9b6a5,
+    brightGreen: 0xFFb0e3bd,
+    brightYellow: 0xFFf6e19a,
+    brightBlue: 0xFFc1dff4,
+    brightPurple: 0xFFe7cae8,
+    brightCyan: 0xFFb9ebe8,
+    brightWhite: 0xFFfffdf4,
+    background: 0xFF31485a,
+    foreground: 0xFFf5f1df,
+    cursor: 0xFFf4d06f,
+    cursorText: 0xFF31485a,
+    selectionForeground: 0xFF31485a,
+    selectionBackground: 0xFFf5f1df,
+  );
+
+  /// ## Detroit After Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/detroit-after-dark.png" width="400" />
+  static const ITerm2ColorScheme detroitAfterDark = ITerm2ColorScheme(
+    name: 'Detroit After Dark',
+    black: 0xFFa8b2b8,
+    red: 0xFFe66e62,
+    green: 0xFF9dc28e,
+    yellow: 0xFFe9bd66,
+    blue: 0xFF8cb3d9,
+    purple: 0xFFc89bd4,
+    cyan: 0xFF84c9cb,
+    white: 0xFFf7e6d7,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFe97f75,
+    brightGreen: 0xFFa9c99c,
+    brightYellow: 0xFFecc578,
+    brightBlue: 0xFF9abcde,
+    brightPurple: 0xFFcfa7d9,
+    brightCyan: 0xFF93cfd1,
+    brightWhite: 0xFFf9ebdf,
+    background: 0xFF24141b,
+    foreground: 0xFFf7e6d7,
+    cursor: 0xFFecc578,
+    cursorText: 0xFF24141b,
+    selectionForeground: 0xFF24141b,
+    selectionBackground: 0xFFf7e6d7,
+  );
+
   /// ## Detuned
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/detuned.png" width="400" />
@@ -3687,6 +5572,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF8c8c8c,
     selectionForeground: 0xFF000000,
     selectionBackground: 0xFFc7c7c7,
+  );
+
+  /// ## Diary Of A Lunatic
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/diary-of-a-lunatic.png" width="400" />
+  static const ITerm2ColorScheme diaryOfALunatic = ITerm2ColorScheme(
+    name: 'Diary Of A Lunatic',
+    black: 0xFF9ebdc7,
+    red: 0xFFe58c91,
+    green: 0xFF94cfac,
+    yellow: 0xFFe3bb69,
+    blue: 0xFF83bce7,
+    purple: 0xFFb59be8,
+    cyan: 0xFF72d7e3,
+    white: 0xFFd8f5f7,
+    brightBlack: 0xFFb9d3da,
+    brightRed: 0xFFf1a4aa,
+    brightGreen: 0xFFb0e2c1,
+    brightYellow: 0xFFf2d38b,
+    brightBlue: 0xFFa0d1f0,
+    brightPurple: 0xFFccb3f5,
+    brightCyan: 0xFF96eaf1,
+    brightWhite: 0xFFf3ffff,
+    background: 0xFF042631,
+    foreground: 0xFFd8f5f7,
+    cursor: 0xFFeac16a,
+    cursorText: 0xFF042631,
+    selectionForeground: 0xFF042631,
+    selectionBackground: 0xFFd8f5f7,
   );
 
   /// ## Dimidium
@@ -4008,6 +5922,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFf8f8f2,
   );
 
+  /// ## Dracula+ High Contrast
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/dracula-high-contrast.png" width="400" />
+  static const ITerm2ColorScheme draculaPlusHighContrast = ITerm2ColorScheme(
+    name: 'Dracula+ High Contrast',
+    black: 0xFF9ba0b4,
+    red: 0xFFff7676,
+    green: 0xFF50fa7b,
+    yellow: 0xFFffcb6b,
+    blue: 0xFF82aaff,
+    purple: 0xFFc792ea,
+    cyan: 0xFF8be9fd,
+    white: 0xFFf8f8f2,
+    brightBlack: 0xFF9ba1b5,
+    brightRed: 0xFFff8a8a,
+    brightGreen: 0xFF69ff94,
+    brightYellow: 0xFFffd98a,
+    brightBlue: 0xFFd6acff,
+    brightPurple: 0xFFff92df,
+    brightCyan: 0xFFa4ffff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF14141a,
+    foreground: 0xFFf8f8f2,
+    cursor: 0xFFeceff4,
+    cursorText: 0xFF14141a,
+    selectionForeground: 0xFF14141a,
+    selectionBackground: 0xFFf8f8f2,
+  );
+
+  /// ## Dream Onward
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/dream-onward.png" width="400" />
+  static const ITerm2ColorScheme dreamOnward = ITerm2ColorScheme(
+    name: 'Dream Onward',
+    black: 0xFFa6a7a6,
+    red: 0xFFdc7862,
+    green: 0xFF91b88c,
+    yellow: 0xFFe3b65b,
+    blue: 0xFF7fa9c8,
+    purple: 0xFFb99ad4,
+    cyan: 0xFF7dbeb9,
+    white: 0xFFf7e7ce,
+    brightBlack: 0xFFc4c7c8,
+    brightRed: 0xFFe28e7b,
+    brightGreen: 0xFFa3c39e,
+    brightYellow: 0xFFe7c275,
+    brightBlue: 0xFF93b7d1,
+    brightPurple: 0xFFc4aadb,
+    brightCyan: 0xFF92c8c4,
+    brightWhite: 0xFFfff9ee,
+    background: 0xFF19120f,
+    foreground: 0xFFf7e7ce,
+    cursor: 0xFFe3b65b,
+    cursorText: 0xFF19120f,
+    selectionForeground: 0xFF19120f,
+    selectionBackground: 0xFFf7e7ce,
+  );
+
   /// ## Driftwood
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/driftwood.png" width="400" />
@@ -4153,6 +6125,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF00a595,
   );
 
+  /// ## EVH FrankenTone
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/evh-frankentone.png" width="400" />
+  static const ITerm2ColorScheme evhFrankentone = ITerm2ColorScheme(
+    name: 'EVH FrankenTone',
+    black: 0xFFe7d8d0,
+    red: 0xFFffb4a5,
+    green: 0xFFe6d27e,
+    yellow: 0xFFf4d45d,
+    blue: 0xFFa9cbe7,
+    purple: 0xFFd9c3c9,
+    cyan: 0xFFa7d7d7,
+    white: 0xFFf7ede5,
+    brightBlack: 0xFFc9b8b1,
+    brightRed: 0xFFffd0bf,
+    brightGreen: 0xFFf2e4a0,
+    brightYellow: 0xFFffe27d,
+    brightBlue: 0xFFc5ddf3,
+    brightPurple: 0xFFf0d8de,
+    brightCyan: 0xFFc4e9e8,
+    brightWhite: 0xFFffffff,
+    background: 0xFF76231f,
+    foreground: 0xFFf7ede5,
+    cursor: 0xFFf5cc48,
+    cursorText: 0xFF171313,
+    selectionForeground: 0xFF76231f,
+    selectionBackground: 0xFFf7ede5,
+  );
+
+  /// ## Earl Grey
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/earl-grey.png" width="400" />
+  static const ITerm2ColorScheme earlGrey = ITerm2ColorScheme(
+    name: 'Earl Grey',
+    black: 0xFF605a52,
+    red: 0xFF8f5652,
+    green: 0xFF747b4d,
+    yellow: 0xFF897d43,
+    blue: 0xFF556995,
+    purple: 0xFF83577d,
+    cyan: 0xFF477a7b,
+    white: 0xFFc2beb8,
+    brightBlack: 0xFFa8a094,
+    brightRed: 0xFF82403c,
+    brightGreen: 0xFF656d37,
+    brightYellow: 0xFF796d2f,
+    brightBlue: 0xFF3e5588,
+    brightPurple: 0xFF77406f,
+    brightCyan: 0xFF326b6c,
+    brightWhite: 0xFFc2beb8,
+    background: 0xFFfcfbf9,
+    foreground: 0xFF605a52,
+    cursor: 0xFF605a52,
+    cursorText: 0xFFfcfbf9,
+    selectionForeground: 0xFFfcfbf9,
+    selectionBackground: 0xFF605a52,
+  );
+
   /// ## Earthsong
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/earthsong.png" width="400" />
@@ -4209,6 +6239,122 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF0e1116,
     selectionForeground: 0xFF0e1116,
     selectionBackground: 0xFFdce3ed,
+  );
+
+  /// ## Ectoplasm
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ectoplasm.png" width="400" />
+  static const ITerm2ColorScheme ectoplasm = ITerm2ColorScheme(
+    name: 'Ectoplasm',
+    black: 0xFFc1d0cf,
+    red: 0xFFf19b8d,
+    green: 0xFF78e0aa,
+    yellow: 0xFFd7dd5e,
+    blue: 0xFF76c9ef,
+    purple: 0xFFafa1e9,
+    cyan: 0xFF58e0d6,
+    white: 0xFFeffffb,
+    brightBlack: 0xFFc8d6d5,
+    brightRed: 0xFFf3a79b,
+    brightGreen: 0xFF88e4b4,
+    brightYellow: 0xFFdce171,
+    brightBlue: 0xFF86cff1,
+    brightPurple: 0xFFb4a7eb,
+    brightCyan: 0xFF6ce4db,
+    brightWhite: 0xFFf1fffb,
+    background: 0xFF06454a,
+    foreground: 0xFFeffffb,
+    cursor: 0xFFf3a79b,
+    cursorText: 0xFF06454a,
+    selectionForeground: 0xFF06454a,
+    selectionBackground: 0xFFeffffb,
+  );
+
+  /// ## Edge Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/edge-light.png" width="400" />
+  static const ITerm2ColorScheme edgeLight = ITerm2ColorScheme(
+    name: 'Edge Light',
+    black: 0xFFfafafa,
+    red: 0xFFd05858,
+    green: 0xFF608e32,
+    yellow: 0xFFbe7e05,
+    blue: 0xFF5079be,
+    purple: 0xFFb05ccc,
+    cyan: 0xFF3a8b84,
+    white: 0xFF8790a0,
+    brightBlack: 0xFFafb8c2,
+    brightRed: 0xFFe17373,
+    brightGreen: 0xFF76af6f,
+    brightYellow: 0xFFdeb974,
+    brightBlue: 0xFF6996e0,
+    brightPurple: 0xFFbf75d6,
+    brightCyan: 0xFF5dbbc1,
+    brightWhite: 0xFF7e869b,
+    background: 0xFFfafafa,
+    foreground: 0xFF4b505b,
+    cursor: 0xFF3a8b84,
+    cursorText: 0xFFfafafa,
+    selectionForeground: 0xFFfafafa,
+    selectionBackground: 0xFF4b505b,
+  );
+
+  /// ## Eight Hundred
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/eight-hundred.png" width="400" />
+  static const ITerm2ColorScheme eightHundred = ITerm2ColorScheme(
+    name: 'Eight Hundred',
+    black: 0xFFb2c0c9,
+    red: 0xFFf08b81,
+    green: 0xFF8ed1a3,
+    yellow: 0xFFf3c76c,
+    blue: 0xFF8bb9ea,
+    purple: 0xFFc4a2e6,
+    cyan: 0xFF69d9cb,
+    white: 0xFFe9e6d9,
+    brightBlack: 0xFFd1d9de,
+    brightRed: 0xFFffa69b,
+    brightGreen: 0xFFa9e0b9,
+    brightYellow: 0xFFffe09a,
+    brightBlue: 0xFFaacdf3,
+    brightPurple: 0xFFd8bcee,
+    brightCyan: 0xFF91e8dd,
+    brightWhite: 0xFFffffff,
+    background: 0xFF101c28,
+    foreground: 0xFFe9e6d9,
+    cursor: 0xFFf3c76c,
+    cursorText: 0xFF101c28,
+    selectionForeground: 0xFF101c28,
+    selectionBackground: 0xFFe9e6d9,
+  );
+
+  /// ## Electric Voodoo
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/electric-voodoo.png" width="400" />
+  static const ITerm2ColorScheme electricVoodoo = ITerm2ColorScheme(
+    name: 'Electric Voodoo',
+    black: 0xFFa8b2b8,
+    red: 0xFFf08b76,
+    green: 0xFFa9ca89,
+    yellow: 0xFFedc077,
+    blue: 0xFF92bae0,
+    purple: 0xFFd99fe4,
+    cyan: 0xFF8bd1c9,
+    white: 0xFFfae6ce,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFf29986,
+    brightGreen: 0xFFb3d097,
+    brightYellow: 0xFFefc887,
+    brightBlue: 0xFF9fc2e4,
+    brightPurple: 0xFFdeabe7,
+    brightCyan: 0xFF99d7cf,
+    brightWhite: 0xFFfbebd8,
+    background: 0xFF40213c,
+    foreground: 0xFFfae6ce,
+    cursor: 0xFFefc887,
+    cursorText: 0xFF40213c,
+    selectionForeground: 0xFF40213c,
+    selectionBackground: 0xFFfae6ce,
   );
 
   /// ## Electron Highlighter
@@ -4385,6 +6531,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFeeffff,
   );
 
+  /// ## Ember
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ember.png" width="400" />
+  static const ITerm2ColorScheme ember = ITerm2ColorScheme(
+    name: 'Ember',
+    black: 0xFF40261b,
+    red: 0xFFe4573f,
+    green: 0xFF79ad58,
+    yellow: 0xFFd99a33,
+    blue: 0xFF6196e6,
+    purple: 0xFFd077b3,
+    cyan: 0xFF4ac3b1,
+    white: 0xFFd7b995,
+    brightBlack: 0xFF6a4a38,
+    brightRed: 0xFFff7b5e,
+    brightGreen: 0xFFa8c976,
+    brightYellow: 0xFFffc15a,
+    brightBlue: 0xFF8bb8f2,
+    brightPurple: 0xFFe59ad6,
+    brightCyan: 0xFF66d9c4,
+    brightWhite: 0xFFffe8c7,
+    background: 0xFF1b0f0b,
+    foreground: 0xFFf3e3d1,
+    cursor: 0xFFd17a3c,
+    cursorText: 0xFF1b0f0b,
+    selectionForeground: 0xFF1b0f0b,
+    selectionBackground: 0xFFf3e3d1,
+  );
+
+  /// ## Ember Peak
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ember-peak.png" width="400" />
+  static const ITerm2ColorScheme emberPeak = ITerm2ColorScheme(
+    name: 'Ember Peak',
+    black: 0xFFb7b5b2,
+    red: 0xFFff806f,
+    green: 0xFF65d493,
+    yellow: 0xFFffd166,
+    blue: 0xFF86b5ff,
+    purple: 0xFFe29aff,
+    cyan: 0xFFb8e7ef,
+    white: 0xFFf8fafc,
+    brightBlack: 0xFFcbc8c3,
+    brightRed: 0xFFff9b8f,
+    brightGreen: 0xFF84e0a8,
+    brightYellow: 0xFFffe18a,
+    brightBlue: 0xFFa8c9ff,
+    brightPurple: 0xFFecb2ff,
+    brightCyan: 0xFFc5eef4,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0a0f,
+    foreground: 0xFFf8fafc,
+    cursor: 0xFFffb86b,
+    cursorText: 0xFF1a0f08,
+    selectionForeground: 0xFF0a0a0f,
+    selectionBackground: 0xFFf8fafc,
+  );
+
+  /// ## Emberglass
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/emberglass.png" width="400" />
+  static const ITerm2ColorScheme emberglass = ITerm2ColorScheme(
+    name: 'Emberglass',
+    black: 0xFF2a2f36,
+    red: 0xFFf97316,
+    green: 0xFF22c55e,
+    yellow: 0xFFeab308,
+    blue: 0xFF38bdf8,
+    purple: 0xFFa855f7,
+    cyan: 0xFF14b8a6,
+    white: 0xFFcbd5e1,
+    brightBlack: 0xFF64748b,
+    brightRed: 0xFFfb923c,
+    brightGreen: 0xFF86efac,
+    brightYellow: 0xFFfacc15,
+    brightBlue: 0xFF7dd3fc,
+    brightPurple: 0xFFc084fc,
+    brightCyan: 0xFF67e8f9,
+    brightWhite: 0xFFf1f5f9,
+    background: 0xFF0b0e11,
+    foreground: 0xFFe6e7eb,
+    cursor: 0xFFf59e0b,
+    cursorText: 0xFF0b0e11,
+    selectionForeground: 0xFF0b0e11,
+    selectionBackground: 0xFFe6e7eb,
+  );
+
   /// ## Embers Dark
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/embers-dark.png" width="400" />
@@ -4499,6 +6732,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF2a211c,
     selectionBackground: 0xFFb8a898,
+  );
+
+  /// ## Eventide
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/eventide.png" width="400" />
+  static const ITerm2ColorScheme eventide = ITerm2ColorScheme(
+    name: 'Eventide',
+    black: 0xFFaeb8c5,
+    red: 0xFFff7272,
+    green: 0xFF62d6a5,
+    yellow: 0xFFffd166,
+    blue: 0xFF79aaff,
+    purple: 0xFFc79aff,
+    cyan: 0xFF73d9e8,
+    white: 0xFFe6edf3,
+    brightBlack: 0xFFc3ccd6,
+    brightRed: 0xFFff9292,
+    brightGreen: 0xFF82e2b8,
+    brightYellow: 0xFFffe08a,
+    brightBlue: 0xFF9bbdff,
+    brightPurple: 0xFFdab6ff,
+    brightCyan: 0xFF96e8f1,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0b1220,
+    foreground: 0xFFe6edf3,
+    cursor: 0xFF8ecbff,
+    cursorText: 0xFF0b1220,
+    selectionForeground: 0xFF0b1220,
+    selectionBackground: 0xFFe6edf3,
   );
 
   /// ## Everblush
@@ -4702,6 +6964,93 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFe1e4bd,
     selectionForeground: 0xFFe5dfc5,
     selectionBackground: 0xFF5c6a72,
+  );
+
+  /// ## Evergreen
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/evergreen.png" width="400" />
+  static const ITerm2ColorScheme evergreen = ITerm2ColorScheme(
+    name: 'Evergreen',
+    black: 0xFFaebfb6,
+    red: 0xFFff8a82,
+    green: 0xFF82d6a5,
+    yellow: 0xFFf0d16e,
+    blue: 0xFF8bb8ee,
+    purple: 0xFFd6a5e5,
+    cyan: 0xFF82d7d2,
+    white: 0xFFe9f7ef,
+    brightBlack: 0xFFc5d1cb,
+    brightRed: 0xFFffa29b,
+    brightGreen: 0xFFa2e2bc,
+    brightYellow: 0xFFf6df90,
+    brightBlue: 0xFFabcdf4,
+    brightPurple: 0xFFe5bfed,
+    brightCyan: 0xFFa3e5e0,
+    brightWhite: 0xFFffffff,
+    background: 0xFF032b1b,
+    foreground: 0xFFe9f7ef,
+    cursor: 0xFF7cf0ad,
+    cursorText: 0xFF032b1b,
+    selectionForeground: 0xFF032b1b,
+    selectionBackground: 0xFFe9f7ef,
+  );
+
+  /// ## Everslate
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/everslate.png" width="400" />
+  static const ITerm2ColorScheme everslate = ITerm2ColorScheme(
+    name: 'Everslate',
+    black: 0xFF66717d,
+    red: 0xFFcf7677,
+    green: 0xFF6e9e8b,
+    yellow: 0xFFb7875a,
+    blue: 0xFF4196c7,
+    purple: 0xFF9583b8,
+    cyan: 0xFF6997a7,
+    white: 0xFFede6d5,
+    brightBlack: 0xFF819298,
+    brightRed: 0xFFff918e,
+    brightGreen: 0xFF8bbe95,
+    brightYellow: 0xFFdbbc7f,
+    brightBlue: 0xFF7fbbb3,
+    brightPurple: 0xFFd699b6,
+    brightCyan: 0xFF8bbaca,
+    brightWhite: 0xFFf8f5e5,
+    background: 0xFF191f21,
+    foreground: 0xFFede6d5,
+    cursor: 0xFFede6d5,
+    cursorText: 0xFF191f21,
+    selectionForeground: 0xFF191f21,
+    selectionBackground: 0xFFede6d5,
+  );
+
+  /// ## Eyesclosed
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/eyesclosed.png" width="400" />
+  static const ITerm2ColorScheme eyesclosed = ITerm2ColorScheme(
+    name: 'Eyesclosed',
+    black: 0xFF383b4a,
+    red: 0xFFffaba2,
+    green: 0xFF779bb0,
+    yellow: 0xFFecd8ae,
+    blue: 0xFFb7c8cb,
+    purple: 0xFF9a9dae,
+    cyan: 0xFFd8d0d0,
+    white: 0xFFbbbcc7,
+    brightBlack: 0xFF696d7d,
+    brightRed: 0xFFffaba2,
+    brightGreen: 0xFF779bb0,
+    brightYellow: 0xFFecd8ae,
+    brightBlue: 0xFFb7c8cb,
+    brightPurple: 0xFF9a9dae,
+    brightCyan: 0xFFd8d0d0,
+    brightWhite: 0xFFcdcfd1,
+    background: 0xFF111214,
+    foreground: 0xFFbbbcc7,
+    cursor: 0xFFcdcfd1,
+    cursorText: 0xFF111214,
+    selectionForeground: 0xFF111214,
+    selectionBackground: 0xFFbbbcc7,
   );
 
   /// ## Fahrenheit
@@ -5168,6 +7517,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFf4e2c8,
   );
 
+  /// ## Forged In Steel
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/forged-in-steel.png" width="400" />
+  static const ITerm2ColorScheme forgedInSteel = ITerm2ColorScheme(
+    name: 'Forged In Steel',
+    black: 0xFF9daebc,
+    red: 0xFFdb7779,
+    green: 0xFF95b9b7,
+    yellow: 0xFFbcb9a1,
+    blue: 0xFF83b8da,
+    purple: 0xFFa8b2c9,
+    cyan: 0xFF81c8d4,
+    white: 0xFFdbe8ee,
+    brightBlack: 0xFFb7c6d0,
+    brightRed: 0xFFef8583,
+    brightGreen: 0xFFa9c9c4,
+    brightYellow: 0xFFd2cfb7,
+    brightBlue: 0xFFa0cbea,
+    brightPurple: 0xFFc0c8d9,
+    brightCyan: 0xFF9ad9e0,
+    brightWhite: 0xFFffffff,
+    background: 0xFF14232f,
+    foreground: 0xFFe8f1f5,
+    cursor: 0xFFc8dce8,
+    cursorText: 0xFF14232f,
+    selectionForeground: 0xFF14232f,
+    selectionBackground: 0xFFe8f1f5,
+  );
+
   /// ## Framer
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/framer.png" width="400" />
@@ -5253,6 +7631,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFeef5fc,
     selectionForeground: 0xFFeef5fc,
     selectionBackground: 0xFF283645,
+  );
+
+  /// ## Frostline
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/frostline.png" width="400" />
+  static const ITerm2ColorScheme frostline = ITerm2ColorScheme(
+    name: 'Frostline',
+    black: 0xFF29394a,
+    red: 0xFF812121,
+    green: 0xFF0b5934,
+    yellow: 0xFF654a00,
+    blue: 0xFF164891,
+    purple: 0xFF5c3189,
+    cyan: 0xFF00596a,
+    white: 0xFF3b4a59,
+    brightBlack: 0xFF536273,
+    brightRed: 0xFF8d2727,
+    brightGreen: 0xFF0e603a,
+    brightYellow: 0xFF6c5000,
+    brightBlue: 0xFF194f9d,
+    brightPurple: 0xFF653991,
+    brightCyan: 0xFF006173,
+    brightWhite: 0xFF455565,
+    background: 0xFFf7fbff,
+    foreground: 0xFF102a43,
+    cursor: 0xFF0e5f8f,
+    cursorText: 0xFFf7fbff,
+    selectionForeground: 0xFFf7fbff,
+    selectionBackground: 0xFF102a43,
   );
 
   /// ## Fun Forrest
@@ -5342,6 +7749,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFddeeff,
   );
 
+  /// ## Ghost Circuit
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ghost-circuit.png" width="400" />
+  static const ITerm2ColorScheme ghostCircuit = ITerm2ColorScheme(
+    name: 'Ghost Circuit',
+    black: 0xFFaebfba,
+    red: 0xFFed7f86,
+    green: 0xFF72d2a2,
+    yellow: 0xFFe7cc69,
+    blue: 0xFF82b3e8,
+    purple: 0xFFcaa0df,
+    cyan: 0xFF72d3d1,
+    white: 0xFFe9f4f0,
+    brightBlack: 0xFFc4d0cc,
+    brightRed: 0xFFf09ba0,
+    brightGreen: 0xFF91dfb8,
+    brightYellow: 0xFFeddc8b,
+    brightBlue: 0xFFa2c8ef,
+    brightPurple: 0xFFdabbe8,
+    brightCyan: 0xFF94e2df,
+    brightWhite: 0xFFffffff,
+    background: 0xFF07100f,
+    foreground: 0xFFe9f4f0,
+    cursor: 0xFF7ce4df,
+    cursorText: 0xFF07100f,
+    selectionForeground: 0xFF07100f,
+    selectionBackground: 0xFFe9f4f0,
+  );
+
   /// ## Ghostty Default Style Dark
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ghostty-default-style-dark.png" width="400" />
@@ -5369,6 +7805,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF353a44,
     selectionForeground: 0xFF282c34,
     selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Gilded Forest Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/gilded-forest-dark.png" width="400" />
+  static const ITerm2ColorScheme gildedForestDark = ITerm2ColorScheme(
+    name: 'Gilded Forest Dark',
+    black: 0xFF000000,
+    red: 0xFFec6c8b,
+    green: 0xFFa5fcaf,
+    yellow: 0xFFf3b46d,
+    blue: 0xFF658cf7,
+    purple: 0xFFae7bff,
+    cyan: 0xFF72bef9,
+    white: 0xFFfcfef9,
+    brightBlack: 0xFF655656,
+    brightRed: 0xFFb36562,
+    brightGreen: 0xFF9dce62,
+    brightYellow: 0xFFddd044,
+    brightBlue: 0xFF4eadbd,
+    brightPurple: 0xFF751c6c,
+    brightCyan: 0xFF54adbd,
+    brightWhite: 0xFFfeffff,
+    background: 0xFF0d1505,
+    foreground: 0xFFf7d27d,
+    cursor: 0xFFf7d27d,
+    cursorText: 0xFF0d1505,
+    selectionForeground: 0xFF0d1505,
+    selectionBackground: 0xFFf7d27d,
   );
 
   /// ## GitHub
@@ -5748,6 +8213,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffffff,
   );
 
+  /// ## Glacier Mint
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/glacier-mint.png" width="400" />
+  static const ITerm2ColorScheme glacierMint = ITerm2ColorScheme(
+    name: 'Glacier Mint',
+    black: 0xFF2f4640,
+    red: 0xFFc05045,
+    green: 0xFF3d9060,
+    yellow: 0xFFa48224,
+    blue: 0xFF3f7ab8,
+    purple: 0xFF8858ab,
+    cyan: 0xFF26948e,
+    white: 0xFFacc2ba,
+    brightBlack: 0xFF6c837c,
+    brightRed: 0xFFd76458,
+    brightGreen: 0xFF4aa971,
+    brightYellow: 0xFFbb9830,
+    brightBlue: 0xFF5190cc,
+    brightPurple: 0xFF9e6ec1,
+    brightCyan: 0xFF32ada6,
+    brightWhite: 0xFFfbfffd,
+    background: 0xFFf0f9f6,
+    foreground: 0xFF2f4640,
+    cursor: 0xFF2aa88a,
+    cursorText: 0xFFf0f9f6,
+    selectionForeground: 0xFFf0f9f6,
+    selectionBackground: 0xFF2f4640,
+  );
+
   /// ## Gleam
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/gleam.png" width="400" />
@@ -5804,6 +8298,122 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF2f2f2f,
     selectionForeground: 0xFF1e1e1e,
     selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Golden Mischief
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/golden-mischief.png" width="400" />
+  static const ITerm2ColorScheme goldenMischief = ITerm2ColorScheme(
+    name: 'Golden Mischief',
+    black: 0xFF30233d,
+    red: 0xFF8b1838,
+    green: 0xFF145232,
+    yellow: 0xFF5f4300,
+    blue: 0xFF233f88,
+    purple: 0xFF632b85,
+    cyan: 0xFF005058,
+    white: 0xFF392b1b,
+    brightBlack: 0xFF4e3b54,
+    brightRed: 0xFF881e3a,
+    brightGreen: 0xFF195233,
+    brightYellow: 0xFF604300,
+    brightBlue: 0xFF2d4584,
+    brightPurple: 0xFF672d88,
+    brightCyan: 0xFF005059,
+    brightWhite: 0xFF493727,
+    background: 0xFFd7b37a,
+    foreground: 0xFF30233d,
+    cursor: 0xFF632b85,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFd7b37a,
+    selectionBackground: 0xFF30233d,
+  );
+
+  /// ## Golden Retriever Cream
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/golden-retriever-cream.png" width="400" />
+  static const ITerm2ColorScheme goldenRetrieverCream = ITerm2ColorScheme(
+    name: 'Golden Retriever Cream',
+    black: 0xFF6f5b47,
+    red: 0xFFdf6a5b,
+    green: 0xFF70ad72,
+    yellow: 0xFFd79b32,
+    blue: 0xFF5b8fd9,
+    purple: 0xFFc77dbb,
+    cyan: 0xFF4fbfb3,
+    white: 0xFFa89b8c,
+    brightBlack: 0xFFc3b6a6,
+    brightRed: 0xFFe86f7a,
+    brightGreen: 0xFF78c98a,
+    brightYellow: 0xFFe2ac42,
+    brightBlue: 0xFF69a8ea,
+    brightPurple: 0xFFe2a8d9,
+    brightCyan: 0xFF61cabb,
+    brightWhite: 0xFFede3d4,
+    background: 0xFFfaf7f2,
+    foreground: 0xFF3a2f24,
+    cursor: 0xFFc1945a,
+    cursorText: 0xFFf1f1e5,
+    selectionForeground: 0xFFfaf7f2,
+    selectionBackground: 0xFF3a2f24,
+  );
+
+  /// ## Golden Retriever Honey
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/golden-retriever-honey.png" width="400" />
+  static const ITerm2ColorScheme goldenRetrieverHoney = ITerm2ColorScheme(
+    name: 'Golden Retriever Honey',
+    black: 0xFF6b4a2f,
+    red: 0xFFd35400,
+    green: 0xFF8ba83e,
+    yellow: 0xFFd4b24c,
+    blue: 0xFF4a8fbd,
+    purple: 0xFFa86bd8,
+    cyan: 0xFF5fb7a7,
+    white: 0xFFc2baac,
+    brightBlack: 0xFF805e3b,
+    brightRed: 0xFFf1734f,
+    brightGreen: 0xFF9abc5d,
+    brightYellow: 0xFFd9ba4f,
+    brightBlue: 0xFF6eb9f5,
+    brightPurple: 0xFFc28ae6,
+    brightCyan: 0xFF56c9b5,
+    brightWhite: 0xFFf4e4c9,
+    background: 0xFFfdf6e7,
+    foreground: 0xFF5b4630,
+    cursor: 0xFFd4a24c,
+    cursorText: 0xFF5b4630,
+    selectionForeground: 0xFFfdf6e7,
+    selectionBackground: 0xFF5b4630,
+  );
+
+  /// ## Golden Retriever Red
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/golden-retriever-red.png" width="400" />
+  static const ITerm2ColorScheme goldenRetrieverRed = ITerm2ColorScheme(
+    name: 'Golden Retriever Red',
+    black: 0xFF8b3a1b,
+    red: 0xFFd3542c,
+    green: 0xFF7a9b45,
+    yellow: 0xFFd9a441,
+    blue: 0xFF468bd6,
+    purple: 0xFFb05cc7,
+    cyan: 0xFF4db7a0,
+    white: 0xFFe06b8f,
+    brightBlack: 0xFF8c5a3c,
+    brightRed: 0xFFe67356,
+    brightGreen: 0xFF9bba5d,
+    brightYellow: 0xFFd6ad45,
+    brightBlue: 0xFF65b8e8,
+    brightPurple: 0xFFc889e0,
+    brightCyan: 0xFF57c8b4,
+    brightWhite: 0xFFf4a7c3,
+    background: 0xFFfff0e3,
+    foreground: 0xFF6b3d2a,
+    cursor: 0xFFc97b2e,
+    cursorText: 0xFF6b3d2a,
+    selectionForeground: 0xFFfff0e3,
+    selectionBackground: 0xFF6b3d2a,
   );
 
   /// ## Grape
@@ -5893,6 +8503,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFfff0a5,
   );
 
+  /// ## Graveyard Shift
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/graveyard-shift.png" width="400" />
+  static const ITerm2ColorScheme graveyardShift = ITerm2ColorScheme(
+    name: 'Graveyard Shift',
+    black: 0xFFc0cbc5,
+    red: 0xFFed9b86,
+    green: 0xFF9fc79a,
+    yellow: 0xFFdfc977,
+    blue: 0xFF91bcc8,
+    purple: 0xFFb6a5c0,
+    cyan: 0xFF87c7c2,
+    white: 0xFFeef2e8,
+    brightBlack: 0xFFc8d1cc,
+    brightRed: 0xFFefa795,
+    brightGreen: 0xFFabcea6,
+    brightYellow: 0xFFe3cf87,
+    brightBlue: 0xFF9ec4cf,
+    brightPurple: 0xFFbfb0c8,
+    brightCyan: 0xFF95cec9,
+    brightWhite: 0xFFf0f4eb,
+    background: 0xFF2e4240,
+    foreground: 0xFFeef2e8,
+    cursor: 0xFFefa795,
+    cursorText: 0xFF2e4240,
+    selectionForeground: 0xFF2e4240,
+    selectionBackground: 0xFFeef2e8,
+  );
+
+  /// ## Great Pumpkin
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/great-pumpkin.png" width="400" />
+  static const ITerm2ColorScheme greatPumpkin = ITerm2ColorScheme(
+    name: 'Great Pumpkin',
+    black: 0xFF24150e,
+    red: 0xFF62190d,
+    green: 0xFF29391a,
+    yellow: 0xFF443106,
+    blue: 0xFF16374b,
+    purple: 0xFF51234c,
+    cyan: 0xFF103a40,
+    white: 0xFF34251c,
+    brightBlack: 0xFF1e110b,
+    brightRed: 0xFF58160b,
+    brightGreen: 0xFF283719,
+    brightYellow: 0xFF483406,
+    brightBlue: 0xFF143142,
+    brightPurple: 0xFF421d3e,
+    brightCyan: 0xFF113d44,
+    brightWhite: 0xFF2b1e17,
+    background: 0xFFf98128,
+    foreground: 0xFF34251c,
+    cursor: 0xFF24150e,
+    cursorText: 0xFFf98128,
+    selectionForeground: 0xFFf98128,
+    selectionBackground: 0xFF34251c,
+  );
+
   /// ## Green Phosphor CRT
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/green-phosphor-crt.png" width="400" />
@@ -5920,6 +8588,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF0b0f0b,
     selectionForeground: 0xFF0b0f0b,
     selectionBackground: 0xFF33ff33,
+  );
+
+  /// ## Green Screen
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/green-screen.png" width="400" />
+  static const ITerm2ColorScheme greenScreen = ITerm2ColorScheme(
+    name: 'Green Screen',
+    black: 0xFFa9bdb0,
+    red: 0xFFed8087,
+    green: 0xFF70d19c,
+    yellow: 0xFFe5cc69,
+    blue: 0xFF82b3e7,
+    purple: 0xFFc99fdf,
+    cyan: 0xFF70d2ce,
+    white: 0xFFdff7e8,
+    brightBlack: 0xFFc0cec5,
+    brightRed: 0xFFf09ba1,
+    brightGreen: 0xFF90dfb4,
+    brightYellow: 0xFFecdc8b,
+    brightBlue: 0xFFa1c8ef,
+    brightPurple: 0xFFd9bae8,
+    brightCyan: 0xFF92e1dc,
+    brightWhite: 0xFFf6fff9,
+    background: 0xFF031009,
+    foreground: 0xFFdff7e8,
+    cursor: 0xFF8af0b4,
+    cursorText: 0xFF031009,
+    selectionForeground: 0xFF031009,
+    selectionBackground: 0xFFdff7e8,
   );
 
   /// ## Grey Green
@@ -5951,11 +8648,98 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffffff,
   );
 
+  /// ## Grok Day
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/grok-day.png" width="400" />
+  static const ITerm2ColorScheme grokDay = ITerm2ColorScheme(
+    name: 'Grok Day',
+    black: 0xFF262626,
+    red: 0xFFcd3048,
+    green: 0xFF378e23,
+    yellow: 0xFFa27612,
+    blue: 0xFF2f64d2,
+    purple: 0xFF7d4bc6,
+    cyan: 0xFF0082aa,
+    white: 0xFFbbbbbb,
+    brightBlack: 0xFF767676,
+    brightRed: 0xFFcd3048,
+    brightGreen: 0xFF378e23,
+    brightYellow: 0xFFa27612,
+    brightBlue: 0xFF2f64d2,
+    brightPurple: 0xFF7d4bc6,
+    brightCyan: 0xFF0082aa,
+    brightWhite: 0xFF444444,
+    background: 0xFFf5f5f5,
+    foreground: 0xFF262626,
+    cursor: 0xFF7d4bc6,
+    cursorText: 0xFFf5f5f5,
+    selectionForeground: 0xFFf5f5f5,
+    selectionBackground: 0xFF262626,
+  );
+
+  /// ## Grok Night
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/grok-night.png" width="400" />
+  static const ITerm2ColorScheme grokNight = ITerm2ColorScheme(
+    name: 'Grok Night',
+    black: 0xFF0a0a0a,
+    red: 0xFFf7768e,
+    green: 0xFF9ece6a,
+    yellow: 0xFFe0af68,
+    blue: 0xFF7aa2f7,
+    purple: 0xFFbb9af7,
+    cyan: 0xFF7dcfff,
+    white: 0xFFc8c8c8,
+    brightBlack: 0xFF6c6c6c,
+    brightRed: 0xFFf7768e,
+    brightGreen: 0xFF9ece6a,
+    brightYellow: 0xFFe0af68,
+    brightBlue: 0xFF7aa2f7,
+    brightPurple: 0xFFbb9af7,
+    brightCyan: 0xFF7dcfff,
+    brightWhite: 0xFFe1e1e1,
+    background: 0xFF141414,
+    foreground: 0xFFe1e1e1,
+    cursor: 0xFFe0af68,
+    cursorText: 0xFF141414,
+    selectionForeground: 0xFF141414,
+    selectionBackground: 0xFFe1e1e1,
+  );
+
   /// ## Gruber Darker
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/gruber-darker.png" width="400" />
   static const ITerm2ColorScheme gruberDarker = ITerm2ColorScheme(
     name: 'Gruber Darker',
+    black: 0xFF181818,
+    red: 0xFFf43841,
+    green: 0xFF73c936,
+    yellow: 0xFFffdd33,
+    blue: 0xFF96a6c8,
+    purple: 0xFF9e95c7,
+    cyan: 0xFF95a99f,
+    white: 0xFFe4e4ef,
+    brightBlack: 0xFF52494e,
+    brightRed: 0xFFff4f58,
+    brightGreen: 0xFF73c936,
+    brightYellow: 0xFFffdd33,
+    brightBlue: 0xFF96a6c8,
+    brightPurple: 0xFFafafd7,
+    brightCyan: 0xFF95a99f,
+    brightWhite: 0xFFf5f5f5,
+    background: 0xFF181818,
+    foreground: 0xFFe4e4ef,
+    cursor: 0xFFffdd33,
+    cursorText: 0xFFa6a6a6,
+    selectionForeground: 0xFF181818,
+    selectionBackground: 0xFFe4e4ef,
+  );
+
+  /// ## Gruber Darker Legacy
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/gruber-darker-legacy.png" width="400" />
+  static const ITerm2ColorScheme gruberDarkerLegacy = ITerm2ColorScheme(
+    name: 'Gruber Darker Legacy',
     black: 0xFF181818,
     red: 0xFFff0a36,
     green: 0xFF42dc00,
@@ -6212,6 +8996,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFd9d9d9,
   );
 
+  /// ## HN After Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hn-after-dark.png" width="400" />
+  static const ITerm2ColorScheme hnAfterDark = ITerm2ColorScheme(
+    name: 'HN After Dark',
+    black: 0xFF858585,
+    red: 0xFFff765c,
+    green: 0xFF65c878,
+    yellow: 0xFFe5b94d,
+    blue: 0xFF5599ff,
+    purple: 0xFFc27acb,
+    cyan: 0xFF53c5e8,
+    white: 0xFFdddddd,
+    brightBlack: 0xFF929292,
+    brightRed: 0xFFff916f,
+    brightGreen: 0xFF85dc94,
+    brightYellow: 0xFFf2d17b,
+    brightBlue: 0xFF83b7ff,
+    brightPurple: 0xFFd89ce0,
+    brightCyan: 0xFF78dbee,
+    brightWhite: 0xFFffffff,
+    background: 0xFF181818,
+    foreground: 0xFFf6f6ef,
+    cursor: 0xFFff6600,
+    cursorText: 0xFF181818,
+    selectionForeground: 0xFF181818,
+    selectionBackground: 0xFFf6f6ef,
+  );
+
+  /// ## HN Classic
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hn-classic.png" width="400" />
+  static const ITerm2ColorScheme hnClassic = ITerm2ColorScheme(
+    name: 'HN Classic',
+    black: 0xFF242424,
+    red: 0xFFc52e27,
+    green: 0xFF237a3d,
+    yellow: 0xFF956300,
+    blue: 0xFF0759b8,
+    purple: 0xFF8747a5,
+    cyan: 0xFF007688,
+    white: 0xFF6d6d69,
+    brightBlack: 0xFF575757,
+    brightRed: 0xFFc83323,
+    brightGreen: 0xFF2b8044,
+    brightYellow: 0xFF906000,
+    brightBlue: 0xFF1263bf,
+    brightPurple: 0xFF9250a9,
+    brightCyan: 0xFF00798f,
+    brightWhite: 0xFF383838,
+    background: 0xFFf6f6ef,
+    foreground: 0xFF242424,
+    cursor: 0xFFff6600,
+    cursorText: 0xFFf6f6ef,
+    selectionForeground: 0xFFf6f6ef,
+    selectionBackground: 0xFF242424,
+  );
+
   /// ## HaX0R Blue
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hax0r-blue.png" width="400" />
@@ -6328,6 +9170,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFc9c9c9,
   );
 
+  /// ## Hadal Bloom
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hadal-bloom.png" width="400" />
+  static const ITerm2ColorScheme hadalBloom = ITerm2ColorScheme(
+    name: 'Hadal Bloom',
+    black: 0xFF142a35,
+    red: 0xFFd97494,
+    green: 0xFF65bfa7,
+    yellow: 0xFFc7b87c,
+    blue: 0xFF6e9cd6,
+    purple: 0xFFa995ed,
+    cyan: 0xFF4abfc6,
+    white: 0xFFbfd6df,
+    brightBlack: 0xFF42606d,
+    brightRed: 0xFFf3a0bc,
+    brightGreen: 0xFF87e3c2,
+    brightYellow: 0xFFe7d89d,
+    brightBlue: 0xFF94bef6,
+    brightPurple: 0xFFc9b5ff,
+    brightCyan: 0xFF76eaf0,
+    brightWhite: 0xFFf1fcff,
+    background: 0xFF091923,
+    foreground: 0xFFd6eaf0,
+    cursor: 0xFF59d9cb,
+    cursorText: 0xFF091923,
+    selectionForeground: 0xFF091923,
+    selectionBackground: 0xFFd6eaf0,
+  );
+
   /// ## Hardcore
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hardcore.png" width="400" />
@@ -6384,6 +9255,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF010101,
     selectionForeground: 0xFF010101,
     selectionBackground: 0xFFa8a49d,
+  );
+
+  /// ## Harvest Moon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/harvest-moon.png" width="400" />
+  static const ITerm2ColorScheme harvestMoon = ITerm2ColorScheme(
+    name: 'Harvest Moon',
+    black: 0xFFb8c2c6,
+    red: 0xFFee997d,
+    green: 0xFF9bca8e,
+    yellow: 0xFFedc667,
+    blue: 0xFF8fc1dd,
+    purple: 0xFFc7a1c8,
+    cyan: 0xFF80ced0,
+    white: 0xFFfff1d2,
+    brightBlack: 0xFFcbd3d6,
+    brightRed: 0xFFf2ae92,
+    brightGreen: 0xFFb0d6a4,
+    brightYellow: 0xFFf4d585,
+    brightBlue: 0xFFaad1e7,
+    brightPurple: 0xFFd4b8d5,
+    brightCyan: 0xFF9edbdc,
+    brightWhite: 0xFFfff9e8,
+    background: 0xFF0d3557,
+    foreground: 0xFFfff1d2,
+    cursor: 0xFFf3b64a,
+    cursorText: 0xFF0d3557,
+    selectionForeground: 0xFF0d3557,
+    selectionBackground: 0xFFfff1d2,
+  );
+
+  /// ## Haunted House
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/haunted-house.png" width="400" />
+  static const ITerm2ColorScheme hauntedHouse = ITerm2ColorScheme(
+    name: 'Haunted House',
+    black: 0xFFb9c2c9,
+    red: 0xFFed9b8c,
+    green: 0xFF9fcba7,
+    yellow: 0xFFe5cb7c,
+    blue: 0xFF9fc7e5,
+    purple: 0xFFc2add8,
+    cyan: 0xFF93d0d0,
+    white: 0xFFf1f4ed,
+    brightBlack: 0xFFccd3d8,
+    brightRed: 0xFFf1afa3,
+    brightGreen: 0xFFb3d8ba,
+    brightYellow: 0xFFedda99,
+    brightBlue: 0xFFb8d6ec,
+    brightPurple: 0xFFd0c2e0,
+    brightCyan: 0xFFaddddd,
+    brightWhite: 0xFFffffff,
+    background: 0xFF23394e,
+    foreground: 0xFFf1f4ed,
+    cursor: 0xFFd5e2ee,
+    cursorText: 0xFF23394e,
+    selectionForeground: 0xFF23394e,
+    selectionBackground: 0xFFf1f4ed,
   );
 
   /// ## Havn Daggry
@@ -6473,6 +9402,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFfdfdfd,
   );
 
+  /// ## Hellfire
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hellfire.png" width="400" />
+  static const ITerm2ColorScheme hellfire = ITerm2ColorScheme(
+    name: 'Hellfire',
+    black: 0xFFc5afa7,
+    red: 0xFFf2815f,
+    green: 0xFFa9bd72,
+    yellow: 0xFFe8bd4e,
+    blue: 0xFF83a9c2,
+    purple: 0xFFbf879f,
+    cyan: 0xFF76b6ad,
+    white: 0xFFf8e2c7,
+    brightBlack: 0xFFccb9b2,
+    brightRed: 0xFFf49072,
+    brightGreen: 0xFFb3c583,
+    brightYellow: 0xFFebc563,
+    brightBlue: 0xFF92b3c9,
+    brightPurple: 0xFFc795ab,
+    brightCyan: 0xFF86bfb7,
+    brightWhite: 0xFFf9e5ce,
+    background: 0xFF5b0e05,
+    foreground: 0xFFf8e2c7,
+    cursor: 0xFFf49072,
+    cursorText: 0xFF5b0e05,
+    selectionForeground: 0xFF5b0e05,
+    selectionBackground: 0xFFf8e2c7,
+  );
+
+  /// ## High Desert Snow
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/high-desert-snow.png" width="400" />
+  static const ITerm2ColorScheme highDesertSnow = ITerm2ColorScheme(
+    name: 'High Desert Snow',
+    black: 0xFF1f2937,
+    red: 0xFFdc2626,
+    green: 0xFF16a34a,
+    yellow: 0xFFca8a04,
+    blue: 0xFF2563eb,
+    purple: 0xFF9333ea,
+    cyan: 0xFF0891b2,
+    white: 0xFF475569,
+    brightBlack: 0xFF64748b,
+    brightRed: 0xFFef4444,
+    brightGreen: 0xFF22c55e,
+    brightYellow: 0xFFeab308,
+    brightBlue: 0xFF3b82f6,
+    brightPurple: 0xFFc084fc,
+    brightCyan: 0xFF06b6d4,
+    brightWhite: 0xFF1f2937,
+    background: 0xFFf9fafb,
+    foreground: 0xFF1f2937,
+    cursor: 0xFFd97706,
+    cursorText: 0xFFf3f4f6,
+    selectionForeground: 0xFFf9fafb,
+    selectionBackground: 0xFF1f2937,
+  );
+
+  /// ## High Voltage Highway
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/high-voltage-highway.png" width="400" />
+  static const ITerm2ColorScheme highVoltageHighway = ITerm2ColorScheme(
+    name: 'High Voltage Highway',
+    black: 0xFFa8b2b8,
+    red: 0xFFe17a64,
+    green: 0xFF9ec49a,
+    yellow: 0xFFe6c277,
+    blue: 0xFF8bb8d4,
+    purple: 0xFFcaa4d5,
+    cyan: 0xFF88d0cb,
+    white: 0xFFf1ece4,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFe58a77,
+    brightGreen: 0xFFaacba6,
+    brightYellow: 0xFFe9c987,
+    brightBlue: 0xFF99c1d9,
+    brightPurple: 0xFFd0afda,
+    brightCyan: 0xFF96d6d1,
+    brightWhite: 0xFFf4f0e9,
+    background: 0xFF151619,
+    foreground: 0xFFf1ece4,
+    cursor: 0xFFe9c987,
+    cursorText: 0xFF151619,
+    selectionForeground: 0xFF151619,
+    selectionBackground: 0xFFf1ece4,
+  );
+
   /// ## Highway
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/highway.png" width="400" />
@@ -6558,6 +9574,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF202746,
     selectionForeground: 0xFF132638,
     selectionBackground: 0xFFede4e4,
+  );
+
+  /// ## Hocus Pocus
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hocus-pocus.png" width="400" />
+  static const ITerm2ColorScheme hocusPocus = ITerm2ColorScheme(
+    name: 'Hocus Pocus',
+    black: 0xFFc2b1ca,
+    red: 0xFFf18b8c,
+    green: 0xFF9bd674,
+    yellow: 0xFFe9c657,
+    blue: 0xFF8fc1e8,
+    purple: 0xFFd187e4,
+    cyan: 0xFF7bd3d1,
+    white: 0xFFf6edff,
+    brightBlack: 0xFFc9bad0,
+    brightRed: 0xFFf3999a,
+    brightGreen: 0xFFa7db85,
+    brightYellow: 0xFFeccd6b,
+    brightBlue: 0xFF9cc8eb,
+    brightPurple: 0xFFd795e7,
+    brightCyan: 0xFF8bd8d7,
+    brightWhite: 0xFFf7efff,
+    background: 0xFF431455,
+    foreground: 0xFFf6edff,
+    cursor: 0xFFf3999a,
+    cursorText: 0xFF431455,
+    selectionForeground: 0xFF431455,
+    selectionBackground: 0xFFf6edff,
   );
 
   /// ## Homebrew
@@ -6705,6 +9750,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF16161d,
   );
 
+  /// ## Horizons
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/horizons.png" width="400" />
+  static const ITerm2ColorScheme horizons = ITerm2ColorScheme(
+    name: 'Horizons',
+    black: 0xFF283548,
+    red: 0xFF761515,
+    green: 0xFF126b32,
+    yellow: 0xFF755600,
+    blue: 0xFF174da6,
+    purple: 0xFF65349a,
+    cyan: 0xFF00657a,
+    white: 0xFF3d4858,
+    brightBlack: 0xFF536071,
+    brightRed: 0xFF7d1818,
+    brightGreen: 0xFF16713a,
+    brightYellow: 0xFF7a5c00,
+    brightBlue: 0xFF123d82,
+    brightPurple: 0xFF6c3ca0,
+    brightCyan: 0xFF006c81,
+    brightWhite: 0xFF465264,
+    background: 0xFFf8fafc,
+    foreground: 0xFF0f172a,
+    cursor: 0xFF8a4300,
+    cursorText: 0xFFf8fafc,
+    selectionForeground: 0xFFf8fafc,
+    selectionBackground: 0xFF0f172a,
+  );
+
   /// ## Hot Dog Stand
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hot-dog-stand.png" width="400" />
@@ -6819,6 +9893,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1e1f22,
     selectionForeground: 0xFF161719,
     selectionBackground: 0xFFb7bcba,
+  );
+
+  /// ## Hyper
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hyper.png" width="400" />
+  static const ITerm2ColorScheme hyper = ITerm2ColorScheme(
+    name: 'Hyper',
+    black: 0xFF000000,
+    red: 0xFFc51e14,
+    green: 0xFF1dc121,
+    yellow: 0xFFc7c329,
+    blue: 0xFF0a2fc4,
+    purple: 0xFFc839c5,
+    cyan: 0xFF20c5c6,
+    white: 0xFFc7c7c7,
+    brightBlack: 0xFF686868,
+    brightRed: 0xFFfd6f6b,
+    brightGreen: 0xFF67f86f,
+    brightYellow: 0xFFfffa72,
+    brightBlue: 0xFF6a76fb,
+    brightPurple: 0xFFfd7cfc,
+    brightCyan: 0xFF68fdfe,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFffffff,
+    cursor: 0xFFf81ce5,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Hysterical Frequency
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/hysterical-frequency.png" width="400" />
+  static const ITerm2ColorScheme hystericalFrequency = ITerm2ColorScheme(
+    name: 'Hysterical Frequency',
+    black: 0xFFa8b2b8,
+    red: 0xFFe77b9c,
+    green: 0xFF8dc8a0,
+    yellow: 0xFFedc86e,
+    blue: 0xFF82baf0,
+    purple: 0xFFd1a1eb,
+    cyan: 0xFF7bd1db,
+    white: 0xFFf1ebfa,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFea8ba8,
+    brightGreen: 0xFF9bcfab,
+    brightYellow: 0xFFefcf7f,
+    brightBlue: 0xFF91c2f2,
+    brightPurple: 0xFFd7aced,
+    brightCyan: 0xFF8bd7df,
+    brightWhite: 0xFFf4effb,
+    background: 0xFF202444,
+    foreground: 0xFFf1ebfa,
+    cursor: 0xFFefcf7f,
+    cursorText: 0xFF202444,
+    selectionForeground: 0xFF202444,
+    selectionBackground: 0xFFf1ebfa,
   );
 
   /// ## IBM 5153 CGA
@@ -7343,6 +10475,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF33374c,
   );
 
+  /// ## Icy Glacier
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/icy-glacier.png" width="400" />
+  static const ITerm2ColorScheme icyGlacier = ITerm2ColorScheme(
+    name: 'Icy Glacier',
+    black: 0xFF263548,
+    red: 0xFF8f2424,
+    green: 0xFF17613c,
+    yellow: 0xFF6e5500,
+    blue: 0xFF174c9b,
+    purple: 0xFF64379a,
+    cyan: 0xFF006275,
+    white: 0xFF3b4858,
+    brightBlack: 0xFF536171,
+    brightRed: 0xFF741a1a,
+    brightGreen: 0xFF1b6945,
+    brightYellow: 0xFF765d00,
+    brightBlue: 0xFF123b78,
+    brightPurple: 0xFF503075,
+    brightCyan: 0xFF006b80,
+    brightWhite: 0xFF455365,
+    background: 0xFFeef6ff,
+    foreground: 0xFF0f172a,
+    cursor: 0xFF07517a,
+    cursorText: 0xFFeef6ff,
+    selectionForeground: 0xFFeef6ff,
+    selectionBackground: 0xFF0f172a,
+  );
+
   /// ## Idea
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/idea.png" width="400" />
@@ -7399,6 +10560,151 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF323232,
     selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Iglass Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/iglass-dark.png" width="400" />
+  static const ITerm2ColorScheme iglassDark = ITerm2ColorScheme(
+    name: 'Iglass Dark',
+    black: 0xFF2c2c2e,
+    red: 0xFFff7f70,
+    green: 0xFF32d74b,
+    yellow: 0xFFffd60a,
+    blue: 0xFF62a7ff,
+    purple: 0xFFd384ff,
+    cyan: 0xFF64d2ff,
+    white: 0xFFd1d1d6,
+    brightBlack: 0xFFa4a5aa,
+    brightRed: 0xFFffb8b0,
+    brightGreen: 0xFF44e968,
+    brightYellow: 0xFFffeaa3,
+    brightBlue: 0xFFa3cdff,
+    brightPurple: 0xFFe7b9ff,
+    brightCyan: 0xFF95e0ff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF17181c,
+    foreground: 0xFFf7f8fd,
+    cursor: 0xFF62a7ff,
+    cursorText: 0xFF17181c,
+    selectionForeground: 0xFF17181c,
+    selectionBackground: 0xFFf7f8fd,
+  );
+
+  /// ## Iglass Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/iglass-light.png" width="400" />
+  static const ITerm2ColorScheme iglassLight = ITerm2ColorScheme(
+    name: 'Iglass Light',
+    black: 0xFF1d1d1f,
+    red: 0xFF92000b,
+    green: 0xFF00521b,
+    yellow: 0xFF763200,
+    blue: 0xFF0035bb,
+    purple: 0xFF6a238a,
+    cyan: 0xFF004a6e,
+    white: 0xFFbababf,
+    brightBlack: 0xFF605f64,
+    brightRed: 0xFFc30006,
+    brightGreen: 0xFF007019,
+    brightYellow: 0xFF765d00,
+    brightBlue: 0xFF005cc5,
+    brightPurple: 0xFF902fbd,
+    brightCyan: 0xFF00678d,
+    brightWhite: 0xFFe5e5ea,
+    background: 0xFFf5f5f7,
+    foreground: 0xFF1d1d1f,
+    cursor: 0xFF005cc5,
+    cursorText: 0xFFf5f5f7,
+    selectionForeground: 0xFFf5f5f7,
+    selectionBackground: 0xFF1d1d1f,
+  );
+
+  /// ## Isocon Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/isocon-dark.png" width="400" />
+  static const ITerm2ColorScheme isoconDark = ITerm2ColorScheme(
+    name: 'Isocon Dark',
+    black: 0xFF062329,
+    red: 0xFFe34b87,
+    green: 0xFF419658,
+    yellow: 0xFFba783e,
+    blue: 0xFF408cbd,
+    purple: 0xFF976fe3,
+    cyan: 0xFF3e8c7e,
+    white: 0xFF868686,
+    brightBlack: 0xFF565656,
+    brightRed: 0xFFf81486,
+    brightGreen: 0xFF109b48,
+    brightYellow: 0xFFc7700e,
+    brightBlue: 0xFF0f8dcd,
+    brightPurple: 0xFF9c61fc,
+    brightCyan: 0xFF0f907f,
+    brightWhite: 0xFF868686,
+    background: 0xFF062329,
+    foreground: 0xFF868686,
+    cursor: 0xFF868686,
+    cursorText: 0xFF062329,
+    selectionForeground: 0xFF062329,
+    selectionBackground: 0xFF868686,
+  );
+
+  /// ## Isocon Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/isocon-light.png" width="400" />
+  static const ITerm2ColorScheme isoconLight = ITerm2ColorScheme(
+    name: 'Isocon Light',
+    black: 0xFFeef3ea,
+    red: 0xFFc33f3d,
+    green: 0xFF347b47,
+    yellow: 0xFF856b31,
+    blue: 0xFF2f6bcf,
+    purple: 0xFF9242d6,
+    cyan: 0xFF306f72,
+    white: 0xFF6e6e6e,
+    brightBlack: 0xFF8c8c8c,
+    brightRed: 0xFFd0272f,
+    brightGreen: 0xFF1f7d3f,
+    brightYellow: 0xFF896a1c,
+    brightBlue: 0xFF1a67e1,
+    brightPurple: 0xFF982ae9,
+    brightCyan: 0xFF1c7175,
+    brightWhite: 0xFF6e6e6e,
+    background: 0xFFeef3ea,
+    foreground: 0xFF6e6e6e,
+    cursor: 0xFF6e6e6e,
+    cursorText: 0xFFeef3ea,
+    selectionForeground: 0xFFeef3ea,
+    selectionBackground: 0xFF6e6e6e,
+  );
+
+  /// ## Jack O' Lantern
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/jack-o-lantern.png" width="400" />
+  static const ITerm2ColorScheme jackOLantern = ITerm2ColorScheme(
+    name: 'Jack O\' Lantern',
+    black: 0xFFbdb2a4,
+    red: 0xFFff8b61,
+    green: 0xFF8dcc7a,
+    yellow: 0xFFf3c969,
+    blue: 0xFF8fc5e8,
+    purple: 0xFFdca2c9,
+    cyan: 0xFF7fd3cf,
+    white: 0xFFfff0d5,
+    brightBlack: 0xFFd1c7ba,
+    brightRed: 0xFFffa07c,
+    brightGreen: 0xFFa5d99a,
+    brightYellow: 0xFFf8d98a,
+    brightBlue: 0xFFacd5ef,
+    brightPurple: 0xFFe8bad8,
+    brightCyan: 0xFF9fe1dc,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF4a1b08,
+    foreground: 0xFFfff0d5,
+    cursor: 0xFFff9f1c,
+    cursorText: 0xFF4a1b08,
+    selectionForeground: 0xFF4a1b08,
+    selectionBackground: 0xFFfff0d5,
   );
 
   /// ## Jackie Brown
@@ -7602,6 +10908,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1e1b2e,
     selectionForeground: 0xFF262b33,
     selectionBackground: 0xFFc3d3de,
+  );
+
+  /// ## Jump Start
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/jump-start.png" width="400" />
+  static const ITerm2ColorScheme jumpStart = ITerm2ColorScheme(
+    name: 'Jump Start',
+    black: 0xFFa8b2b8,
+    red: 0xFFee798a,
+    green: 0xFF83c7a3,
+    yellow: 0xFFf1c86b,
+    blue: 0xFF81b9f2,
+    purple: 0xFFd49ee5,
+    cyan: 0xFF79d0e0,
+    white: 0xFFe8f1fa,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFf08998,
+    brightGreen: 0xFF92ceae,
+    brightYellow: 0xFFf3cf7d,
+    brightBlue: 0xFF90c1f4,
+    brightPurple: 0xFFd9aae8,
+    brightCyan: 0xFF89d6e4,
+    brightWhite: 0xFFedf4fb,
+    background: 0xFF071e35,
+    foreground: 0xFFe8f1fa,
+    cursor: 0xFFf3cf7d,
+    cursorText: 0xFF071e35,
+    selectionForeground: 0xFF071e35,
+    selectionBackground: 0xFFe8f1fa,
+  );
+
+  /// ## Jute Espresso
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/jute-espresso.png" width="400" />
+  static const ITerm2ColorScheme juteEspresso = ITerm2ColorScheme(
+    name: 'Jute Espresso',
+    black: 0xFFe0c7ab,
+    red: 0xFFffc0a1,
+    green: 0xFFc4ddad,
+    yellow: 0xFFfbd18a,
+    blue: 0xFFa9cbea,
+    purple: 0xFFd8b9dc,
+    cyan: 0xFFa9ded6,
+    white: 0xFFfff0d7,
+    brightBlack: 0xFFefd9c1,
+    brightRed: 0xFFffd1b3,
+    brightGreen: 0xFFd5e9c1,
+    brightYellow: 0xFFffe0a4,
+    brightBlue: 0xFFc2ddf7,
+    brightPurple: 0xFFe9cdea,
+    brightCyan: 0xFFc2ece3,
+    brightWhite: 0xFFfff9e9,
+    background: 0xFF604331,
+    foreground: 0xFFfff0d7,
+    cursor: 0xFFffe0a4,
+    cursorText: 0xFF604331,
+    selectionForeground: 0xFF604331,
+    selectionBackground: 0xFFfff0d7,
   );
 
   /// ## Kanagawa Dragon
@@ -8068,6 +11432,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF000000,
   );
 
+  /// ## Kashmir Nights
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/kashmir-nights.png" width="400" />
+  static const ITerm2ColorScheme kashmirNights = ITerm2ColorScheme(
+    name: 'Kashmir Nights',
+    black: 0xFFb4a29a,
+    red: 0xFFdc805e,
+    green: 0xFFb6b18a,
+    yellow: 0xFFe6b46a,
+    blue: 0xFF9cacc1,
+    purple: 0xFFb5a0b7,
+    cyan: 0xFFa6b6ad,
+    white: 0xFFf4dfc9,
+    brightBlack: 0xFFc9b8a9,
+    brightRed: 0xFFf09b72,
+    brightGreen: 0xFFcbc59d,
+    brightYellow: 0xFFf7cc82,
+    brightBlue: 0xFFb5c2d2,
+    brightPurple: 0xFFceb5d0,
+    brightCyan: 0xFFbcd1c1,
+    brightWhite: 0xFFfff0dd,
+    background: 0xFF291714,
+    foreground: 0xFFf4dfc9,
+    cursor: 0xFFf1bb72,
+    cursorText: 0xFF291714,
+    selectionForeground: 0xFF291714,
+    selectionBackground: 0xFFf4dfc9,
+  );
+
   /// ## Keys Ocean Sunset
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/keys-ocean-sunset.png" width="400" />
@@ -8329,6 +11722,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFe0cfc2,
   );
 
+  /// ## Kwyjibo
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/kwyjibo.png" width="400" />
+  static const ITerm2ColorScheme kwyjibo = ITerm2ColorScheme(
+    name: 'Kwyjibo',
+    black: 0xFF9eabc8,
+    red: 0xFFff6973,
+    green: 0xFF67d391,
+    yellow: 0xFFffd529,
+    blue: 0xFF70afff,
+    purple: 0xFFe893e4,
+    cyan: 0xFF66dce8,
+    white: 0xFFf5f1e8,
+    brightBlack: 0xFFb9c3d9,
+    brightRed: 0xFFff8a91,
+    brightGreen: 0xFF8ae0aa,
+    brightYellow: 0xFFffe269,
+    brightBlue: 0xFF98c6ff,
+    brightPurple: 0xFFefb3ec,
+    brightCyan: 0xFF8ce7ef,
+    brightWhite: 0xFFffffff,
+    background: 0xFF07173b,
+    foreground: 0xFFf5f1e8,
+    cursor: 0xFFffd529,
+    cursorText: 0xFF07173b,
+    selectionForeground: 0xFF07173b,
+    selectionBackground: 0xFFf5f1e8,
+  );
+
   /// ## Lab Fox
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lab-fox.png" width="400" />
@@ -8385,6 +11807,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFa6a6a6,
     selectionForeground: 0xFF030d18,
     selectionBackground: 0xFFf106e3,
+  );
+
+  /// ## Last Broadcast
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/last-broadcast.png" width="400" />
+  static const ITerm2ColorScheme lastBroadcast = ITerm2ColorScheme(
+    name: 'Last Broadcast',
+    black: 0xFFb7b5b0,
+    red: 0xFFff806f,
+    green: 0xFF79d09e,
+    yellow: 0xFFefcb69,
+    blue: 0xFF8bb4ed,
+    purple: 0xFFd5a2e5,
+    cyan: 0xFF80d3da,
+    white: 0xFFf2efe8,
+    brightBlack: 0xFFcac7c1,
+    brightRed: 0xFFff9c8d,
+    brightGreen: 0xFF99ddb5,
+    brightYellow: 0xFFf6dc8b,
+    brightBlue: 0xFFaac9f3,
+    brightPurple: 0xFFe4bbed,
+    brightCyan: 0xFFa2e1e5,
+    brightWhite: 0xFFfffdf8,
+    background: 0xFF08090d,
+    foreground: 0xFFf2efe8,
+    cursor: 0xFFffca72,
+    cursorText: 0xFF08090d,
+    selectionForeground: 0xFF08090d,
+    selectionBackground: 0xFFf2efe8,
   );
 
   /// ## Later This Evening
@@ -8445,6 +11896,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF736e7d,
   );
 
+  /// ## Lemon Graphite
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lemon-graphite.png" width="400" />
+  static const ITerm2ColorScheme lemonGraphite = ITerm2ColorScheme(
+    name: 'Lemon Graphite',
+    black: 0xFF0b0f14,
+    red: 0xFFff6b6b,
+    green: 0xFF7bd88f,
+    yellow: 0xFFf2c14e,
+    blue: 0xFF5cc8ff,
+    purple: 0xFFc792ea,
+    cyan: 0xFF57d3c8,
+    white: 0xFFdce3ea,
+    brightBlack: 0xFF59636e,
+    brightRed: 0xFFff8a80,
+    brightGreen: 0xFFa7e8b5,
+    brightYellow: 0xFFffd978,
+    brightBlue: 0xFF8ad8ff,
+    brightPurple: 0xFFdab1f4,
+    brightCyan: 0xFF86e6de,
+    brightWhite: 0xFFf7fafc,
+    background: 0xFF0b0f14,
+    foreground: 0xFFdce3ea,
+    cursor: 0xFFf2c14e,
+    cursorText: 0xFF0b0f14,
+    selectionForeground: 0xFF0b0f14,
+    selectionBackground: 0xFFdce3ea,
+  );
+
   /// ## Letterpress
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/letterpress.png" width="400" />
@@ -8472,6 +11952,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFf3ecdf,
     selectionForeground: 0xFFf3ecdf,
     selectionBackground: 0xFF3a352c,
+  );
+
+  /// ## Light 2026
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/light-2026.png" width="400" />
+  static const ITerm2ColorScheme light2026 = ITerm2ColorScheme(
+    name: 'Light 2026',
+    black: 0xFF000000,
+    red: 0xFFcd3131,
+    green: 0xFF107c10,
+    yellow: 0xFF949800,
+    blue: 0xFF0451a5,
+    purple: 0xFFbc05bc,
+    cyan: 0xFF0598bc,
+    white: 0xFF555555,
+    brightBlack: 0xFF666666,
+    brightRed: 0xFFf14c4c,
+    brightGreen: 0xFF14ce14,
+    brightYellow: 0xFFb5ba00,
+    brightBlue: 0xFF3b8eea,
+    brightPurple: 0xFFd670d6,
+    brightCyan: 0xFF29b8db,
+    brightWhite: 0xFFa5a5a5,
+    background: 0xFFffffff,
+    foreground: 0xFF3b3b3b,
+    cursor: 0xFF202020,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF3b3b3b,
   );
 
   /// ## Light Owl
@@ -8559,6 +12068,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF000000,
     selectionBackground: 0xFFafc2c2,
+  );
+
+  /// ## Lit Cell
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lit-cell.png" width="400" />
+  static const ITerm2ColorScheme litCell = ITerm2ColorScheme(
+    name: 'Lit Cell',
+    black: 0xFF1c2420,
+    red: 0xFFff6b6b,
+    green: 0xFF3df2a0,
+    yellow: 0xFFffb000,
+    blue: 0xFF6fb3f2,
+    purple: 0xFFc99af2,
+    cyan: 0xFF48d6cf,
+    white: 0xFFb9c7be,
+    brightBlack: 0xFF758679,
+    brightRed: 0xFFff9494,
+    brightGreen: 0xFF86ffc6,
+    brightYellow: 0xFFffcb5c,
+    brightBlue: 0xFF9ccbff,
+    brightPurple: 0xFFddbcff,
+    brightCyan: 0xFF86ece6,
+    brightWhite: 0xFFedefea,
+    background: 0xFF0c110e,
+    foreground: 0xFFcfddd3,
+    cursor: 0xFF3df2a0,
+    cursorText: 0xFF0c110e,
+    selectionForeground: 0xFF0c110e,
+    selectionBackground: 0xFFcfddd3,
+  );
+
+  /// ## Lit Cell Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lit-cell-light.png" width="400" />
+  static const ITerm2ColorScheme litCellLight = ITerm2ColorScheme(
+    name: 'Lit Cell Light',
+    black: 0xFF1b2620,
+    red: 0xFFaa2826,
+    green: 0xFF09663f,
+    yellow: 0xFF834d00,
+    blue: 0xFF225b9d,
+    purple: 0xFF7e3e98,
+    cyan: 0xFF096561,
+    white: 0xFFa9b4ad,
+    brightBlack: 0xFF5f6e66,
+    brightRed: 0xFFc9382f,
+    brightGreen: 0xFF0c7e4f,
+    brightYellow: 0xFF9e5f00,
+    brightBlue: 0xFF316fb7,
+    brightPurple: 0xFF9a4bb9,
+    brightCyan: 0xFF0c7b75,
+    brightWhite: 0xFFffffff,
+    background: 0xFFf1f4ef,
+    foreground: 0xFF1b2620,
+    cursor: 0xFF0b7a4b,
+    cursorText: 0xFFf1f4ef,
+    selectionForeground: 0xFFf1f4ef,
+    selectionBackground: 0xFF1b2620,
   );
 
   /// ## London Bonfire Night
@@ -8706,6 +12273,992 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFfdfdfd,
   );
 
+  /// ## Lumina Aurora Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-aurora-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaAuroraDark = ITerm2ColorScheme(
+    name: 'Lumina Aurora Dark',
+    black: 0xFF061717,
+    red: 0xFFd86f66,
+    green: 0xFF6cd79d,
+    yellow: 0xFFe9d487,
+    blue: 0xFFc5d8ed,
+    purple: 0xFFe7ade1,
+    cyan: 0xFF84d2db,
+    white: 0xFFb6c3c2,
+    brightBlack: 0xFF789091,
+    brightRed: 0xFFe59289,
+    brightGreen: 0xFFa7eac2,
+    brightYellow: 0xFFffe791,
+    brightBlue: 0xFFd7eaff,
+    brightPurple: 0xFFffc9f9,
+    brightCyan: 0xFF9decf6,
+    brightWhite: 0xFFd6e3e2,
+    background: 0xFF041212,
+    foreground: 0xFFd6e3e2,
+    cursor: 0xFFd6e3e2,
+    cursorText: 0xFF041212,
+    selectionForeground: 0xFF041212,
+    selectionBackground: 0xFFd6e3e2,
+  );
+
+  /// ## Lumina Aurora Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-aurora-light.png" width="400" />
+  static const ITerm2ColorScheme luminaAuroraLight = ITerm2ColorScheme(
+    name: 'Lumina Aurora Light',
+    black: 0xFF163236,
+    red: 0xFF942a28,
+    green: 0xFF026d43,
+    yellow: 0xFF9f6116,
+    blue: 0xFF425b7a,
+    purple: 0xFF894c84,
+    cyan: 0xFF007386,
+    white: 0xFF59767b,
+    brightBlack: 0xFF556f71,
+    brightRed: 0xFF6d2926,
+    brightGreen: 0xFF005734,
+    brightYellow: 0xFF864e01,
+    brightBlue: 0xFF17467d,
+    brightPurple: 0xFF733a6e,
+    brightCyan: 0xFF005d6d,
+    brightWhite: 0xFF77959a,
+    background: 0xFFf2faf9,
+    foreground: 0xFF163236,
+    cursor: 0xFF163236,
+    cursorText: 0xFFf2faf9,
+    selectionForeground: 0xFFf2faf9,
+    selectionBackground: 0xFF163236,
+  );
+
+  /// ## Lumina Canopy Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-canopy-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaCanopyDark = ITerm2ColorScheme(
+    name: 'Lumina Canopy Dark',
+    black: 0xFF0f2014,
+    red: 0xFFd57068,
+    green: 0xFF99d0a4,
+    yellow: 0xFFd1cca8,
+    blue: 0xFF9acaf1,
+    purple: 0xFFe2acdd,
+    cyan: 0xFF86cfd7,
+    white: 0xFFb8c3b6,
+    brightBlack: 0xFF7c917e,
+    brightRed: 0xFFe1928b,
+    brightGreen: 0xFFb2ebbd,
+    brightYellow: 0xFFf4e792,
+    brightBlue: 0xFFc0e3ff,
+    brightPurple: 0xFFfdc5f8,
+    brightCyan: 0xFF9fe9f1,
+    brightWhite: 0xFFd8e3d6,
+    background: 0xFF0c1b10,
+    foreground: 0xFFd8e3d6,
+    cursor: 0xFFd8e3d6,
+    cursorText: 0xFF0c1b10,
+    selectionForeground: 0xFF0c1b10,
+    selectionBackground: 0xFFd8e3d6,
+  );
+
+  /// ## Lumina Canopy Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-canopy-light.png" width="400" />
+  static const ITerm2ColorScheme luminaCanopyLight = ITerm2ColorScheme(
+    name: 'Lumina Canopy Light',
+    black: 0xFF1e3323,
+    red: 0xFF860c2c,
+    green: 0xFF337545,
+    yellow: 0xFF905705,
+    blue: 0xFF046aa7,
+    purple: 0xFF864c82,
+    cyan: 0xFF007184,
+    white: 0xFF5e7563,
+    brightBlack: 0xFF5b6f5d,
+    brightRed: 0xFF5b1d26,
+    brightGreen: 0xFF206033,
+    brightYellow: 0xFF764600,
+    brightBlue: 0xFF0e5686,
+    brightPurple: 0xFF70396c,
+    brightCyan: 0xFF005b6b,
+    brightWhite: 0xFF7d9582,
+    background: 0xFFf1f9ef,
+    foreground: 0xFF1e3323,
+    cursor: 0xFF1e3323,
+    cursorText: 0xFFf1f9ef,
+    selectionForeground: 0xFFf1f9ef,
+    selectionBackground: 0xFF1e3323,
+  );
+
+  /// ## Lumina Cherenkov Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-cherenkov-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaCherenkovDark = ITerm2ColorScheme(
+    name: 'Lumina Cherenkov Dark',
+    black: 0xFF031530,
+    red: 0xFFdb6c64,
+    green: 0xFF9ad8a6,
+    yellow: 0xFFead293,
+    blue: 0xFF4ca1ff,
+    purple: 0xFFecafe6,
+    cyan: 0xFF8fe7fd,
+    white: 0xFFb7c6d4,
+    brightBlack: 0xFF738fad,
+    brightRed: 0xFFe79088,
+    brightGreen: 0xFFb2f3bf,
+    brightYellow: 0xFFffe6a4,
+    brightBlue: 0xFF90bbee,
+    brightPurple: 0xFFffcefa,
+    brightCyan: 0xFFbff2ff,
+    brightWhite: 0xFFd7e7f5,
+    background: 0xFF021129,
+    foreground: 0xFFd7e7f5,
+    cursor: 0xFFd7e7f5,
+    cursorText: 0xFF021129,
+    selectionForeground: 0xFF021129,
+    selectionBackground: 0xFFd7e7f5,
+  );
+
+  /// ## Lumina Cherenkov Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-cherenkov-light.png" width="400" />
+  static const ITerm2ColorScheme luminaCherenkovLight = ITerm2ColorScheme(
+    name: 'Lumina Cherenkov Light',
+    black: 0xFF1f2e53,
+    red: 0xFFa32224,
+    green: 0xFF227a3e,
+    yellow: 0xFFa35f00,
+    blue: 0xFF0a4fcc,
+    purple: 0xFF90478a,
+    cyan: 0xFF087181,
+    white: 0xFF5e709b,
+    brightBlack: 0xFF5b6b89,
+    brightRed: 0xFF792825,
+    brightGreen: 0xFF07652c,
+    brightYellow: 0xFF874e00,
+    brightBlue: 0xFF1d448f,
+    brightPurple: 0xFF793474,
+    brightCyan: 0xFF005c69,
+    brightWhite: 0xFF7c90bc,
+    background: 0xFFf5f8ff,
+    foreground: 0xFF1f2e53,
+    cursor: 0xFF1f2e53,
+    cursorText: 0xFFf5f8ff,
+    selectionForeground: 0xFFf5f8ff,
+    selectionBackground: 0xFF1f2e53,
+  );
+
+  /// ## Lumina Dusk Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-dusk-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaDuskDark = ITerm2ColorScheme(
+    name: 'Lumina Dusk Dark',
+    black: 0xFF1f1c2b,
+    red: 0xFFd0746c,
+    green: 0xFFa0d1a9,
+    yellow: 0xFFefcb7b,
+    blue: 0xFF9bbef2,
+    purple: 0xFFe1b0dc,
+    cyan: 0xFF90cfd7,
+    white: 0xFFc0bcc9,
+    brightBlack: 0xFF8a8499,
+    brightRed: 0xFFde958d,
+    brightGreen: 0xFFb9ecc2,
+    brightYellow: 0xFFffe5ad,
+    brightBlue: 0xFFbdd8ff,
+    brightPurple: 0xFFfcc9f7,
+    brightCyan: 0xFFa9e9f2,
+    brightWhite: 0xFFe0dcea,
+    background: 0xFF1a1825,
+    foreground: 0xFFe0dcea,
+    cursor: 0xFFe0dcea,
+    cursorText: 0xFF1a1825,
+    selectionForeground: 0xFF1a1825,
+    selectionBackground: 0xFFe0dcea,
+  );
+
+  /// ## Lumina Dusk Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-dusk-light.png" width="400" />
+  static const ITerm2ColorScheme luminaDuskLight = ITerm2ColorScheme(
+    name: 'Lumina Dusk Light',
+    black: 0xFF2e2945,
+    red: 0xFF872423,
+    green: 0xFF357545,
+    yellow: 0xFF9e611b,
+    blue: 0xFF3163ad,
+    purple: 0xFF874d82,
+    cyan: 0xFF007185,
+    white: 0xFF706b8b,
+    brightBlack: 0xFF69637b,
+    brightRed: 0xFF622320,
+    brightGreen: 0xFF216033,
+    brightYellow: 0xFF854e07,
+    brightBlue: 0xFF2b5088,
+    brightPurple: 0xFF713a6c,
+    brightCyan: 0xFF005b6c,
+    brightWhite: 0xFF8e8aac,
+    background: 0xFFf6f3fe,
+    foreground: 0xFF2e2945,
+    cursor: 0xFF2e2945,
+    cursorText: 0xFFf6f3fe,
+    selectionForeground: 0xFFf6f3fe,
+    selectionBackground: 0xFF2e2945,
+  );
+
+  /// ## Lumina Ember Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-ember-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaEmberDark = ITerm2ColorScheme(
+    name: 'Lumina Ember Dark',
+    black: 0xFF1c1a15,
+    red: 0xFFcb7870,
+    green: 0xFFa9cc97,
+    yellow: 0xFFe5cc88,
+    blue: 0xFF94bedc,
+    purple: 0xFFd7a2c6,
+    cyan: 0xFF91c7cd,
+    white: 0xFFc4bdb0,
+    brightBlack: 0xFF8e8577,
+    brightRed: 0xFFda9890,
+    brightGreen: 0xFFc5e5b5,
+    brightYellow: 0xFFffe6a2,
+    brightBlue: 0xFFb0d7f4,
+    brightPurple: 0xFFf0bcdf,
+    brightCyan: 0xFFaae1e7,
+    brightWhite: 0xFFe4ddd0,
+    background: 0xFF171511,
+    foreground: 0xFFe4ddd0,
+    cursor: 0xFFe4ddd0,
+    cursorText: 0xFF171511,
+    selectionForeground: 0xFF171511,
+    selectionBackground: 0xFFe4ddd0,
+  );
+
+  /// ## Lumina Ember Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-ember-light.png" width="400" />
+  static const ITerm2ColorScheme luminaEmberLight = ITerm2ColorScheme(
+    name: 'Lumina Ember Light',
+    black: 0xFF372b1e,
+    red: 0xFF811d1d,
+    green: 0xFF437329,
+    yellow: 0xFFa06116,
+    blue: 0xFF256b99,
+    purple: 0xFF96437b,
+    cyan: 0xFF007285,
+    white: 0xFF7a6c5e,
+    brightBlack: 0xFF716657,
+    brightRed: 0xFF5c1d1b,
+    brightGreen: 0xFF355d20,
+    brightYellow: 0xFF874e01,
+    brightBlue: 0xFF005785,
+    brightPurple: 0xFF783763,
+    brightCyan: 0xFF005c6c,
+    brightWhite: 0xFF9a8b7c,
+    background: 0xFFf9f4ea,
+    foreground: 0xFF372b1e,
+    cursor: 0xFF372b1e,
+    cursorText: 0xFFf9f4ea,
+    selectionForeground: 0xFFf9f4ea,
+    selectionBackground: 0xFF372b1e,
+  );
+
+  /// ## Lumina Espresso Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-espresso-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaEspressoDark = ITerm2ColorScheme(
+    name: 'Lumina Espresso Dark',
+    black: 0xFF231911,
+    red: 0xFFcd766e,
+    green: 0xFF95d3b1,
+    yellow: 0xFFefca86,
+    blue: 0xFF96bfe9,
+    purple: 0xFFdbadd6,
+    cyan: 0xFF90cad1,
+    white: 0xFFc5bfb6,
+    brightBlack: 0xFF938a81,
+    brightRed: 0xFFdb968f,
+    brightGreen: 0xFFb5ebcd,
+    brightYellow: 0xFFffe4b4,
+    brightBlue: 0xFFb5d8fd,
+    brightPurple: 0xFFf6c6f1,
+    brightCyan: 0xFFa9e4ec,
+    brightWhite: 0xFFe5dfd6,
+    background: 0xFF1e150e,
+    foreground: 0xFFe5dfd6,
+    cursor: 0xFFe5dfd6,
+    cursorText: 0xFF1e150e,
+    selectionForeground: 0xFF1e150e,
+    selectionBackground: 0xFFe5dfd6,
+  );
+
+  /// ## Lumina Espresso Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-espresso-light.png" width="400" />
+  static const ITerm2ColorScheme luminaEspressoLight = ITerm2ColorScheme(
+    name: 'Lumina Espresso Light',
+    black: 0xFF39261b,
+    red: 0xFF842120,
+    green: 0xFF15744d,
+    yellow: 0xFF6d4e36,
+    blue: 0xFF2868a3,
+    purple: 0xFF864b81,
+    cyan: 0xFF007083,
+    white: 0xFF7f685c,
+    brightBlack: 0xFF756457,
+    brightRed: 0xFF5f201e,
+    brightGreen: 0xFF005e3c,
+    brightYellow: 0xFF653400,
+    brightBlue: 0xFF1a5488,
+    brightPurple: 0xFF70386b,
+    brightCyan: 0xFF005a6a,
+    brightWhite: 0xFF9f877a,
+    background: 0xFFfcf0e3,
+    foreground: 0xFF39261b,
+    cursor: 0xFF39261b,
+    cursorText: 0xFFfcf0e3,
+    selectionForeground: 0xFFfcf0e3,
+    selectionBackground: 0xFF39261b,
+  );
+
+  /// ## Lumina Harbor Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-harbor-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaHarborDark = ITerm2ColorScheme(
+    name: 'Lumina Harbor Dark',
+    black: 0xFF111523,
+    red: 0xFFd0756c,
+    green: 0xFF9bd8b4,
+    yellow: 0xFFeace8c,
+    blue: 0xFF91c5ea,
+    purple: 0xFFd3a9dd,
+    cyan: 0xFF91cfd6,
+    white: 0xFFbdc1ca,
+    brightBlack: 0xFF808599,
+    brightRed: 0xFFde968e,
+    brightGreen: 0xFFb9f1d0,
+    brightYellow: 0xFFffe5a9,
+    brightBlue: 0xFFb1deff,
+    brightPurple: 0xFFebc4f5,
+    brightCyan: 0xFFaae9f0,
+    brightWhite: 0xFFdde1eb,
+    background: 0xFF0d111d,
+    foreground: 0xFFdde1eb,
+    cursor: 0xFFdde1eb,
+    cursorText: 0xFF0d111d,
+    selectionForeground: 0xFF0d111d,
+    selectionBackground: 0xFFdde1eb,
+  );
+
+  /// ## Lumina Harbor Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-harbor-light.png" width="400" />
+  static const ITerm2ColorScheme luminaHarborLight = ITerm2ColorScheme(
+    name: 'Lumina Harbor Light',
+    black: 0xFF1c2d4f,
+    red: 0xFF8c1c1d,
+    green: 0xFF19784d,
+    yellow: 0xFFa25f06,
+    blue: 0xFF0468a4,
+    purple: 0xFF8b499a,
+    cyan: 0xFF046871,
+    white: 0xFF5b7097,
+    brightBlack: 0xFF5d6b7e,
+    brightRed: 0xFF651f1d,
+    brightGreen: 0xFF00623c,
+    brightYellow: 0xFF874e00,
+    brightBlue: 0xFF005486,
+    brightPurple: 0xFF713b7d,
+    brightCyan: 0xFF00535a,
+    brightWhite: 0xFF7a8fb8,
+    background: 0xFFfbf5ec,
+    foreground: 0xFF1c2d4f,
+    cursor: 0xFF1c2d4f,
+    cursorText: 0xFFfbf5ec,
+    selectionForeground: 0xFFfbf5ec,
+    selectionBackground: 0xFF1c2d4f,
+  );
+
+  /// ## Lumina Lagoon Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-lagoon-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaLagoonDark = ITerm2ColorScheme(
+    name: 'Lumina Lagoon Dark',
+    black: 0xFF042e36,
+    red: 0xFFd3726a,
+    green: 0xFF9fd4a9,
+    yellow: 0xFFe7cf94,
+    blue: 0xFF8ec3f9,
+    purple: 0xFFe5b0df,
+    cyan: 0xFF5ad3d6,
+    white: 0xFFb7c5c6,
+    brightBlack: 0xFF7d9ba2,
+    brightRed: 0xFFe0938c,
+    brightGreen: 0xFFb8efc2,
+    brightYellow: 0xFFffe6a7,
+    brightBlue: 0xFFbadcff,
+    brightPurple: 0xFFffcaf9,
+    brightCyan: 0xFF9fe6e8,
+    brightWhite: 0xFFd7e6e7,
+    background: 0xFF042930,
+    foreground: 0xFFd7e6e7,
+    cursor: 0xFFd7e6e7,
+    cursorText: 0xFF042930,
+    selectionForeground: 0xFF042930,
+    selectionBackground: 0xFFd7e6e7,
+  );
+
+  /// ## Lumina Lagoon Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-lagoon-light.png" width="400" />
+  static const ITerm2ColorScheme luminaLagoonLight = ITerm2ColorScheme(
+    name: 'Lumina Lagoon Light',
+    black: 0xFF0b323b,
+    red: 0xFF8f2121,
+    green: 0xFF2e6147,
+    yellow: 0xFFa1600d,
+    blue: 0xFF185ca9,
+    purple: 0xFF894984,
+    cyan: 0xFF006e71,
+    white: 0xFF507580,
+    brightBlack: 0xFF546f74,
+    brightRed: 0xFF682220,
+    brightGreen: 0xFF005031,
+    brightYellow: 0xFF874e00,
+    brightBlue: 0xFF154986,
+    brightPurple: 0xFF72366e,
+    brightCyan: 0xFF00585b,
+    brightWhite: 0xFF6f95a0,
+    background: 0xFFe9fafa,
+    foreground: 0xFF0b323b,
+    cursor: 0xFF0b323b,
+    cursorText: 0xFFe9fafa,
+    selectionForeground: 0xFFe9fafa,
+    selectionBackground: 0xFF0b323b,
+  );
+
+  /// ## Lumina Nebula Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-nebula-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaNebulaDark = ITerm2ColorScheme(
+    name: 'Lumina Nebula Dark',
+    black: 0xFF1a1c2c,
+    red: 0xFFd57068,
+    green: 0xFF8fdcba,
+    yellow: 0xFFf3c085,
+    blue: 0xFFc6d6e8,
+    purple: 0xFFe5aedf,
+    cyan: 0xFF88d2da,
+    white: 0xFFbdc1cb,
+    brightBlack: 0xFF838ba5,
+    brightRed: 0xFFe2928a,
+    brightGreen: 0xFFb0f5d5,
+    brightYellow: 0xFFffdfba,
+    brightBlue: 0xFFd8eaff,
+    brightPurple: 0xFFffc8f9,
+    brightCyan: 0xFFa1ecf5,
+    brightWhite: 0xFFdde1ec,
+    background: 0xFF161826,
+    foreground: 0xFFdde1ec,
+    cursor: 0xFFdde1ec,
+    cursorText: 0xFF161826,
+    selectionForeground: 0xFF161826,
+    selectionBackground: 0xFFdde1ec,
+  );
+
+  /// ## Lumina Nebula Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-nebula-light.png" width="400" />
+  static const ITerm2ColorScheme luminaNebulaLight = ITerm2ColorScheme(
+    name: 'Lumina Nebula Light',
+    black: 0xFF2d2c46,
+    red: 0xFF932222,
+    green: 0xFF007650,
+    yellow: 0xFF955b01,
+    blue: 0xFF3f5777,
+    purple: 0xFF894884,
+    cyan: 0xFF016e90,
+    white: 0xFF6d6d8b,
+    brightBlack: 0xFF676680,
+    brightRed: 0xFF6c2421,
+    brightGreen: 0xFF005f40,
+    brightYellow: 0xFF7a4a00,
+    brightBlue: 0xFF0e417f,
+    brightPurple: 0xFF72356e,
+    brightCyan: 0xFF005975,
+    brightWhite: 0xFF8c8cab,
+    background: 0xFFf8f4ff,
+    foreground: 0xFF2d2c46,
+    cursor: 0xFF2d2c46,
+    cursorText: 0xFFf8f4ff,
+    selectionForeground: 0xFFf8f4ff,
+    selectionBackground: 0xFF2d2c46,
+  );
+
+  /// ## Lumina Olive Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-olive-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaOliveDark = ITerm2ColorScheme(
+    name: 'Lumina Olive Dark',
+    black: 0xFF1f200f,
+    red: 0xFFd3726a,
+    green: 0xFFb5d5c6,
+    yellow: 0xFFebc27c,
+    blue: 0xFFa2c4f0,
+    purple: 0xFFd5a2d0,
+    cyan: 0xFF8bcfd7,
+    white: 0xFFc1bfae,
+    brightBlack: 0xFF8c8c76,
+    brightRed: 0xFFe0938c,
+    brightGreen: 0xFFb5f7da,
+    brightYellow: 0xFFffdea7,
+    brightBlue: 0xFFc4ddff,
+    brightPurple: 0xFFf0bbeb,
+    brightCyan: 0xFFa3e9f2,
+    brightWhite: 0xFFe1dfce,
+    background: 0xFF1a1b0c,
+    foreground: 0xFFe1dfce,
+    cursor: 0xFFe1dfce,
+    cursorText: 0xFF1a1b0c,
+    selectionForeground: 0xFF1a1b0c,
+    selectionBackground: 0xFFe1dfce,
+  );
+
+  /// ## Lumina Olive Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-olive-light.png" width="400" />
+  static const ITerm2ColorScheme luminaOliveLight = ITerm2ColorScheme(
+    name: 'Lumina Olive Light',
+    black: 0xFF302e16,
+    red: 0xFF8a1f1f,
+    green: 0xFF30624e,
+    yellow: 0xFFa16010,
+    blue: 0xFF3264a3,
+    purple: 0xFF8e4c89,
+    cyan: 0xFF006f83,
+    white: 0xFF727056,
+    brightBlack: 0xFF6a6b54,
+    brightRed: 0xFF64201e,
+    brightGreen: 0xFF005139,
+    brightYellow: 0xFF874e00,
+    brightBlue: 0xFF1e508c,
+    brightPurple: 0xFF763a72,
+    brightCyan: 0xFF00596a,
+    brightWhite: 0xFF918f74,
+    background: 0xFFf7f6e5,
+    foreground: 0xFF302e16,
+    cursor: 0xFF302e16,
+    cursorText: 0xFFf7f6e5,
+    selectionForeground: 0xFFf7f6e5,
+    selectionBackground: 0xFF302e16,
+  );
+
+  /// ## Lumina Oxblood Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-oxblood-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaOxbloodDark = ITerm2ColorScheme(
+    name: 'Lumina Oxblood Dark',
+    black: 0xFF26131b,
+    red: 0xFFdb6c63,
+    green: 0xFF7dc797,
+    yellow: 0xFFf9c875,
+    blue: 0xFF9ac3f8,
+    purple: 0xFFddb7ed,
+    cyan: 0xFF6fcad4,
+    white: 0xFFc7b6bc,
+    brightBlack: 0xFFa6838f,
+    brightRed: 0xFFe78f86,
+    brightGreen: 0xFF9ce0b2,
+    brightYellow: 0xFFffe4b8,
+    brightBlue: 0xFFc2dcff,
+    brightPurple: 0xFFf2d5ff,
+    brightCyan: 0xFF8de4ed,
+    brightWhite: 0xFFe8d6dc,
+    background: 0xFF200f16,
+    foreground: 0xFFe8d6dc,
+    cursor: 0xFFe8d6dc,
+    cursorText: 0xFF200f16,
+    selectionForeground: 0xFF200f16,
+    selectionBackground: 0xFFe8d6dc,
+  );
+
+  /// ## Lumina Oxblood Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-oxblood-light.png" width="400" />
+  static const ITerm2ColorScheme luminaOxbloodLight = ITerm2ColorScheme(
+    name: 'Lumina Oxblood Light',
+    black: 0xFF42222f,
+    red: 0xFF9b2827,
+    green: 0xFF237742,
+    yellow: 0xFFa1600a,
+    blue: 0xFF3166a6,
+    purple: 0xFF82469d,
+    cyan: 0xFF087380,
+    white: 0xFF8a6472,
+    brightBlack: 0xFF7d5d68,
+    brightRed: 0xFF732926,
+    brightGreen: 0xFF0f6131,
+    brightYellow: 0xFF874e00,
+    brightBlue: 0xFF1c5290,
+    brightPurple: 0xFF683a7d,
+    brightCyan: 0xFF005d68,
+    brightWhite: 0xFFab8392,
+    background: 0xFFfef2f4,
+    foreground: 0xFF42222f,
+    cursor: 0xFF42222f,
+    cursorText: 0xFFfef2f4,
+    selectionForeground: 0xFFfef2f4,
+    selectionBackground: 0xFF42222f,
+  );
+
+  /// ## Lumina Parchment Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-parchment-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaParchmentDark = ITerm2ColorScheme(
+    name: 'Lumina Parchment Dark',
+    black: 0xFF302619,
+    red: 0xFFd47169,
+    green: 0xFF92d3b9,
+    yellow: 0xFFe0ba6a,
+    blue: 0xFF97bdf4,
+    purple: 0xFFd4a3dc,
+    cyan: 0xFF85cbd3,
+    white: 0xFFcec4b0,
+    brightBlack: 0xFF9f9180,
+    brightRed: 0xFFe1938b,
+    brightGreen: 0xFFaaeed2,
+    brightYellow: 0xFFfad484,
+    brightBlue: 0xFFbbd7ff,
+    brightPurple: 0xFFecbef3,
+    brightCyan: 0xFF9ee5ee,
+    brightWhite: 0xFFefe5d0,
+    background: 0xFF2a2116,
+    foreground: 0xFFefe5d0,
+    cursor: 0xFFefe5d0,
+    cursorText: 0xFF2a2116,
+    selectionForeground: 0xFF2a2116,
+    selectionBackground: 0xFFefe5d0,
+  );
+
+  /// ## Lumina Parchment Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-parchment-light.png" width="400" />
+  static const ITerm2ColorScheme luminaParchmentLight = ITerm2ColorScheme(
+    name: 'Lumina Parchment Light',
+    black: 0xFF352516,
+    red: 0xFF912918,
+    green: 0xFF2d7341,
+    yellow: 0xFF654935,
+    blue: 0xFF2e5fb0,
+    purple: 0xFF87418e,
+    cyan: 0xFF006e81,
+    white: 0xFF7b6858,
+    brightBlack: 0xFF706251,
+    brightRed: 0xFF6b281c,
+    brightGreen: 0xFF195e2f,
+    brightYellow: 0xFF5f2f00,
+    brightBlue: 0xFF284d8a,
+    brightPurple: 0xFF6b3770,
+    brightCyan: 0xFF005868,
+    brightWhite: 0xFF9b8776,
+    background: 0xFFf9efda,
+    foreground: 0xFF352516,
+    cursor: 0xFF352516,
+    cursorText: 0xFFf9efda,
+    selectionForeground: 0xFFf9efda,
+    selectionBackground: 0xFF352516,
+  );
+
+  /// ## Lumina Polaire Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-polaire-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaPolaireDark = ITerm2ColorScheme(
+    name: 'Lumina Polaire Dark',
+    black: 0xFF121f27,
+    red: 0xFFcd776f,
+    green: 0xFFa9d6b1,
+    yellow: 0xFFe2c682,
+    blue: 0xFFaeccf2,
+    purple: 0xFFe6b8e1,
+    cyan: 0xFF8cd9f4,
+    white: 0xFFb7c1c7,
+    brightBlack: 0xFF8395a2,
+    brightRed: 0xFFdc978f,
+    brightGreen: 0xFFc2f1ca,
+    brightYellow: 0xFFfde099,
+    brightBlue: 0xFFd1e5ff,
+    brightPurple: 0xFFffd3fa,
+    brightCyan: 0xFFc2efff,
+    brightWhite: 0xFFd7e1e8,
+    background: 0xFF0f1a21,
+    foreground: 0xFFd7e1e8,
+    cursor: 0xFFd7e1e8,
+    cursorText: 0xFF0f1a21,
+    selectionForeground: 0xFF0f1a21,
+    selectionBackground: 0xFFd7e1e8,
+  );
+
+  /// ## Lumina Polaire Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-polaire-light.png" width="400" />
+  static const ITerm2ColorScheme luminaPolaireLight = ITerm2ColorScheme(
+    name: 'Lumina Polaire Light',
+    black: 0xFF17323f,
+    red: 0xFF882322,
+    green: 0xFF327645,
+    yellow: 0xFF965a1c,
+    blue: 0xFF3e5372,
+    purple: 0xFF884c84,
+    cyan: 0xFF06677c,
+    white: 0xFF587483,
+    brightBlack: 0xFF556a74,
+    brightRed: 0xFF63221f,
+    brightGreen: 0xFF1f6133,
+    brightYellow: 0xFF7f4700,
+    brightBlue: 0xFF173e76,
+    brightPurple: 0xFF723a6e,
+    brightCyan: 0xFF005264,
+    brightWhite: 0xFF7694a4,
+    background: 0xFFf0f9fa,
+    foreground: 0xFF17323f,
+    cursor: 0xFF17323f,
+    cursorText: 0xFFf0f9fa,
+    selectionForeground: 0xFFf0f9fa,
+    selectionBackground: 0xFF17323f,
+  );
+
+  /// ## Lumina Quartz Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-quartz-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaQuartzDark = ITerm2ColorScheme(
+    name: 'Lumina Quartz Dark',
+    black: 0xFF1a1c1e,
+    red: 0xFFc57c74,
+    green: 0xFF9dd7b7,
+    yellow: 0xFFdfcfb0,
+    blue: 0xFFb6ceed,
+    purple: 0xFFe4bddf,
+    cyan: 0xFFa8d5db,
+    white: 0xFFacb0b3,
+    brightBlack: 0xFF868b90,
+    brightRed: 0xFFd59a93,
+    brightGreen: 0xFFc2edd5,
+    brightYellow: 0xFFffe5b1,
+    brightBlue: 0xFFd6e8ff,
+    brightPurple: 0xFFffd7fa,
+    brightCyan: 0xFFc1eff6,
+    brightWhite: 0xFFccd0d3,
+    background: 0xFF161719,
+    foreground: 0xFFccd0d3,
+    cursor: 0xFFccd0d3,
+    cursorText: 0xFF161719,
+    selectionForeground: 0xFF161719,
+    selectionBackground: 0xFFccd0d3,
+  );
+
+  /// ## Lumina Quartz Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-quartz-light.png" width="400" />
+  static const ITerm2ColorScheme luminaQuartzLight = ITerm2ColorScheme(
+    name: 'Lumina Quartz Light',
+    black: 0xFF30353b,
+    red: 0xFF7d2b28,
+    green: 0xFF217550,
+    yellow: 0xFF9a642c,
+    blue: 0xFF446894,
+    purple: 0xFF82527e,
+    cyan: 0xFF007092,
+    white: 0xFF6b7177,
+    brightBlack: 0xFF656b72,
+    brightRed: 0xFF5a2522,
+    brightGreen: 0xFF215e41,
+    brightYellow: 0xFF82511c,
+    brightBlue: 0xFF31547e,
+    brightPurple: 0xFF6c3f69,
+    brightCyan: 0xFF115a74,
+    brightWhite: 0xFF8a9097,
+    background: 0xFFf5f7fa,
+    foreground: 0xFF30353b,
+    cursor: 0xFF30353b,
+    cursorText: 0xFFf5f7fa,
+    selectionForeground: 0xFFf5f7fa,
+    selectionBackground: 0xFF30353b,
+  );
+
+  /// ## Lumina Rayleigh Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-rayleigh-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaRayleighDark = ITerm2ColorScheme(
+    name: 'Lumina Rayleigh Dark',
+    black: 0xFF0b2237,
+    red: 0xFFd96d65,
+    green: 0xFF96d2a2,
+    yellow: 0xFFf1cc79,
+    blue: 0xFF6fc3ff,
+    purple: 0xFFeea3c9,
+    cyan: 0xFFafdee6,
+    white: 0xFFb4bfca,
+    brightBlack: 0xFF849bb4,
+    brightRed: 0xFFe59088,
+    brightGreen: 0xFFaeedbb,
+    brightYellow: 0xFFffe5ad,
+    brightBlue: 0xFFaadaff,
+    brightPurple: 0xFFffc3e0,
+    brightCyan: 0xFFb6f4ff,
+    brightWhite: 0xFFd4dfeb,
+    background: 0xFF091d30,
+    foreground: 0xFFd4dfeb,
+    cursor: 0xFFd4dfeb,
+    cursorText: 0xFF091d30,
+    selectionForeground: 0xFF091d30,
+    selectionBackground: 0xFFd4dfeb,
+  );
+
+  /// ## Lumina Rayleigh Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-rayleigh-light.png" width="400" />
+  static const ITerm2ColorScheme luminaRayleighLight = ITerm2ColorScheme(
+    name: 'Lumina Rayleigh Light',
+    black: 0xFF1d2f47,
+    red: 0xFF94171b,
+    green: 0xFF1e773b,
+    yellow: 0xFFa35f00,
+    blue: 0xFF0160a7,
+    purple: 0xFF8d4487,
+    cyan: 0xFF056271,
+    white: 0xFF5d718d,
+    brightBlack: 0xFF576c81,
+    brightRed: 0xFF6c1f1d,
+    brightGreen: 0xFF01622a,
+    brightYellow: 0xFF874e00,
+    brightBlue: 0xFF004c87,
+    brightPurple: 0xFF763171,
+    brightCyan: 0xFF004d59,
+    brightWhite: 0xFF7b90ad,
+    background: 0xFFedf8ff,
+    foreground: 0xFF1d2f47,
+    cursor: 0xFF1d2f47,
+    cursorText: 0xFFedf8ff,
+    selectionForeground: 0xFFedf8ff,
+    selectionBackground: 0xFF1d2f47,
+  );
+
+  /// ## Lumina Vitrail Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-vitrail-dark.png" width="400" />
+  static const ITerm2ColorScheme luminaVitrailDark = ITerm2ColorScheme(
+    name: 'Lumina Vitrail Dark',
+    black: 0xFF0a0d17,
+    red: 0xFFff763b,
+    green: 0xFF76d983,
+    yellow: 0xFFfbca3f,
+    blue: 0xFF7299ff,
+    purple: 0xFFd19cdf,
+    cyan: 0xFF4de0f7,
+    white: 0xFFd0cdc5,
+    brightBlack: 0xFF959fac,
+    brightRed: 0xFFffa37f,
+    brightGreen: 0xFF93f39f,
+    brightYellow: 0xFFffe6a7,
+    brightBlue: 0xFF97b6ff,
+    brightPurple: 0xFFefb2ff,
+    brightCyan: 0xFFabf2ff,
+    brightWhite: 0xFFf1eee6,
+    background: 0xFF070912,
+    foreground: 0xFFf1eee6,
+    cursor: 0xFFf1eee6,
+    cursorText: 0xFF070912,
+    selectionForeground: 0xFF070912,
+    selectionBackground: 0xFFf1eee6,
+  );
+
+  /// ## Lumina Vitrail Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lumina-vitrail-light.png" width="400" />
+  static const ITerm2ColorScheme luminaVitrailLight = ITerm2ColorScheme(
+    name: 'Lumina Vitrail Light',
+    black: 0xFF0f141d,
+    red: 0xFF752200,
+    green: 0xFF00490f,
+    yellow: 0xFF7c4700,
+    blue: 0xFF1729b2,
+    purple: 0xFF62127e,
+    cyan: 0xFF005b72,
+    white: 0xFF6c727e,
+    brightBlack: 0xFF5f5e54,
+    brightRed: 0xFF581700,
+    brightGreen: 0xFF003408,
+    brightYellow: 0xFF623700,
+    brightBlue: 0xFF12247b,
+    brightPurple: 0xFF480d5e,
+    brightCyan: 0xFF004659,
+    brightWhite: 0xFF8b929e,
+    background: 0xFFfcfaf4,
+    foreground: 0xFF0f141d,
+    cursor: 0xFF0f141d,
+    cursorText: 0xFFfcfaf4,
+    selectionForeground: 0xFFfcfaf4,
+    selectionBackground: 0xFF0f141d,
+  );
+
+  /// ## Lunar Dust
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/lunar-dust.png" width="400" />
+  static const ITerm2ColorScheme lunarDust = ITerm2ColorScheme(
+    name: 'Lunar Dust',
+    black: 0xFF30343b,
+    red: 0xFF842626,
+    green: 0xFF165a38,
+    yellow: 0xFF654d00,
+    blue: 0xFF17458a,
+    purple: 0xFF603286,
+    cyan: 0xFF005765,
+    white: 0xFF40444b,
+    brightBlack: 0xFF4b4f56,
+    brightRed: 0xFF902b2b,
+    brightGreen: 0xFF1a603e,
+    brightYellow: 0xFF6d5300,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF67398e,
+    brightCyan: 0xFF004a57,
+    brightWhite: 0xFF484c53,
+    background: 0xFFf3f1ed,
+    foreground: 0xFF20242b,
+    cursor: 0xFF48515e,
+    cursorText: 0xFFf3f1ed,
+    selectionForeground: 0xFFf3f1ed,
+    selectionBackground: 0xFF20242b,
+  );
+
+  /// ## Madman's Diary
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/madman-s-diary.png" width="400" />
+  static const ITerm2ColorScheme madmanSDiary = ITerm2ColorScheme(
+    name: 'Madman\'s Diary',
+    black: 0xFF3b1919,
+    red: 0xFF8b1e3e,
+    green: 0xFFd25944,
+    yellow: 0xFF59ae08,
+    blue: 0xFFfbbf24,
+    purple: 0xFFa855f7,
+    cyan: 0xFFef4444,
+    white: 0xFFf472b6,
+    brightBlack: 0xFF5a3a2e,
+    brightRed: 0xFFfb7185,
+    brightGreen: 0xFF34d399,
+    brightYellow: 0xFFfde047,
+    brightBlue: 0xFF60a5fa,
+    brightPurple: 0xFFc084fc,
+    brightCyan: 0xFF22d3ee,
+    brightWhite: 0xFFfff7e6,
+    background: 0xFF1a0e17,
+    foreground: 0xFFf4e7d7,
+    cursor: 0xFFff3e3e,
+    cursorText: 0xFF3a1b15,
+    selectionForeground: 0xFF1a0e17,
+    selectionBackground: 0xFFf4e7d7,
+  );
+
   /// ## Man Page
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/man-page.png" width="400" />
@@ -8733,6 +13286,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFFfef49c,
     selectionBackground: 0xFF000000,
+  );
+
+  /// ## Maple Jute
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/maple-jute.png" width="400" />
+  static const ITerm2ColorScheme mapleJute = ITerm2ColorScheme(
+    name: 'Maple Jute',
+    black: 0xFFcfb7a1,
+    red: 0xFFf5a18d,
+    green: 0xFFb9d8a1,
+    yellow: 0xFFf2c87c,
+    blue: 0xFFa8c9ec,
+    purple: 0xFFdbb0dd,
+    cyan: 0xFF9ed9d2,
+    white: 0xFFfbe9d3,
+    brightBlack: 0xFFe2cbb7,
+    brightRed: 0xFFffbd9e,
+    brightGreen: 0xFFcfe6b2,
+    brightYellow: 0xFFffdf9c,
+    brightBlue: 0xFFc2dafa,
+    brightPurple: 0xFFecc9ec,
+    brightCyan: 0xFFb9e9e0,
+    brightWhite: 0xFFfff7e8,
+    background: 0xFF56351f,
+    foreground: 0xFFfbe9d3,
+    cursor: 0xFFffdf9c,
+    cursorText: 0xFF56351f,
+    selectionForeground: 0xFF56351f,
+    selectionBackground: 0xFFfbe9d3,
   );
 
   /// ## Mariana
@@ -9170,6 +13752,122 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFc9c7cd,
   );
 
+  /// ## Merino Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/merino-dark.png" width="400" />
+  static const ITerm2ColorScheme merinoDark = ITerm2ColorScheme(
+    name: 'Merino Dark',
+    black: 0xFF484f58,
+    red: 0xFFff7b72,
+    green: 0xFF3fb950,
+    yellow: 0xFFd29922,
+    blue: 0xFF58a6ff,
+    purple: 0xFFbc8cff,
+    cyan: 0xFF39c5cf,
+    white: 0xFFb1bac4,
+    brightBlack: 0xFF6e7681,
+    brightRed: 0xFFffa198,
+    brightGreen: 0xFF56d364,
+    brightYellow: 0xFFe3b341,
+    brightBlue: 0xFF79c0ff,
+    brightPurple: 0xFFd2a8ff,
+    brightCyan: 0xFF56d4dd,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0d1117,
+    foreground: 0xFFe6edf3,
+    cursor: 0xFF2f81f7,
+    cursorText: 0xFFeff8ff,
+    selectionForeground: 0xFF0d1117,
+    selectionBackground: 0xFFe6edf3,
+  );
+
+  /// ## Merino Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/merino-light.png" width="400" />
+  static const ITerm2ColorScheme merinoLight = ITerm2ColorScheme(
+    name: 'Merino Light',
+    black: 0xFF24292f,
+    red: 0xFFcf222e,
+    green: 0xFF116329,
+    yellow: 0xFF9d5c00,
+    blue: 0xFF0969da,
+    purple: 0xFF8250df,
+    cyan: 0xFF1b7c83,
+    white: 0xFF6e7781,
+    brightBlack: 0xFF57606a,
+    brightRed: 0xFFa40e26,
+    brightGreen: 0xFF1a7f37,
+    brightYellow: 0xFFc47a00,
+    brightBlue: 0xFF218bff,
+    brightPurple: 0xFFa475f9,
+    brightCyan: 0xFF3192aa,
+    brightWhite: 0xFF8c959f,
+    background: 0xFFffffff,
+    foreground: 0xFF1f2328,
+    cursor: 0xFF0969da,
+    cursorText: 0xFFb6d8ff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF1f2328,
+  );
+
+  /// ## Mesa Blue
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/mesa-blue.png" width="400" />
+  static const ITerm2ColorScheme mesaBlue = ITerm2ColorScheme(
+    name: 'Mesa Blue',
+    black: 0xFFd3d8d5,
+    red: 0xFFffad91,
+    green: 0xFF9fdfad,
+    yellow: 0xFFf6d67a,
+    blue: 0xFFb7d9f4,
+    purple: 0xFFecafd4,
+    cyan: 0xFFa6e5df,
+    white: 0xFFfff0d7,
+    brightBlack: 0xFFe1e5e2,
+    brightRed: 0xFFffc0a8,
+    brightGreen: 0xFFb9e9c2,
+    brightYellow: 0xFFffe596,
+    brightBlue: 0xFFcee6f8,
+    brightPurple: 0xFFf3c7e0,
+    brightCyan: 0xFFc2efea,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF164c72,
+    foreground: 0xFFfff0d7,
+    cursor: 0xFFffc05d,
+    cursorText: 0xFF164c72,
+    selectionForeground: 0xFF164c72,
+    selectionBackground: 0xFFfff0d7,
+  );
+
+  /// ## Mesa Twilight
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/mesa-twilight.png" width="400" />
+  static const ITerm2ColorScheme mesaTwilight = ITerm2ColorScheme(
+    name: 'Mesa Twilight',
+    black: 0xFFbfc4ce,
+    red: 0xFFf1958c,
+    green: 0xFF83cba2,
+    yellow: 0xFFe9c96c,
+    blue: 0xFF83b9e6,
+    purple: 0xFFc89edb,
+    cyan: 0xFF78ced3,
+    white: 0xFFfff0df,
+    brightBlack: 0xFFd0d4dc,
+    brightRed: 0xFFf8aca5,
+    brightGreen: 0xFF9dd8b5,
+    brightYellow: 0xFFf2d98a,
+    brightBlue: 0xFF9fcaf0,
+    brightPurple: 0xFFd9b6e5,
+    brightCyan: 0xFF97dce0,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF172b54,
+    foreground: 0xFFfff0df,
+    cursor: 0xFFf3b85b,
+    cursorText: 0xFF172b54,
+    selectionForeground: 0xFF172b54,
+    selectionBackground: 0xFFfff0df,
+  );
+
   /// ## Mesila One
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/mesila-one.png" width="400" />
@@ -9315,6 +14013,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffffff,
   );
 
+  /// ## Midnight Rambler
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/midnight-rambler.png" width="400" />
+  static const ITerm2ColorScheme midnightRambler = ITerm2ColorScheme(
+    name: 'Midnight Rambler',
+    black: 0xFFa6a7a6,
+    red: 0xFFed748d,
+    green: 0xFF7ac9ac,
+    yellow: 0xFFe4c274,
+    blue: 0xFF77b8f0,
+    purple: 0xFFc18be9,
+    cyan: 0xFF73d3df,
+    white: 0xFFe6f0fa,
+    brightBlack: 0xFFc4c7c8,
+    brightRed: 0xFFf08a9f,
+    brightGreen: 0xFF8fd2b9,
+    brightYellow: 0xFFe8cc8a,
+    brightBlue: 0xFF8dc3f2,
+    brightPurple: 0xFFcb9eed,
+    brightCyan: 0xFF89dae4,
+    brightWhite: 0xFFfff9ee,
+    background: 0xFF081a30,
+    foreground: 0xFFe6f0fa,
+    cursor: 0xFFe4c274,
+    cursorText: 0xFF081a30,
+    selectionForeground: 0xFF081a30,
+    selectionBackground: 0xFFe6f0fa,
+  );
+
+  /// ## Midnight Tundra
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/midnight-tundra.png" width="400" />
+  static const ITerm2ColorScheme midnightTundra = ITerm2ColorScheme(
+    name: 'Midnight Tundra',
+    black: 0xFF17202a,
+    red: 0xFFd9707c,
+    green: 0xFF7fb88a,
+    yellow: 0xFFd8b174,
+    blue: 0xFF6da3cf,
+    purple: 0xFFa58cc7,
+    cyan: 0xFF6fb5b8,
+    white: 0xFFaebccb,
+    brightBlack: 0xFF4f6272,
+    brightRed: 0xFFe88a95,
+    brightGreen: 0xFF99cfa3,
+    brightYellow: 0xFFe8c88f,
+    brightBlue: 0xFF8abde4,
+    brightPurple: 0xFFbda6dd,
+    brightCyan: 0xFF8cced0,
+    brightWhite: 0xFFe6eef5,
+    background: 0xFF0e141b,
+    foreground: 0xFFc9d4de,
+    cursor: 0xFF8fb8d8,
+    cursorText: 0xFF0e141b,
+    selectionForeground: 0xFF0e141b,
+    selectionBackground: 0xFFc9d4de,
+  );
+
+  /// ## Mindcrime
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/mindcrime.png" width="400" />
+  static const ITerm2ColorScheme mindcrime = ITerm2ColorScheme(
+    name: 'Mindcrime',
+    black: 0xFF9dacae,
+    red: 0xFFe5625a,
+    green: 0xFF82baa0,
+    yellow: 0xFFd3aa77,
+    blue: 0xFF8daebc,
+    purple: 0xFFb9a3af,
+    cyan: 0xFF8cbab7,
+    white: 0xFFe6dfd6,
+    brightBlack: 0xFFb5bdbb,
+    brightRed: 0xFFfa8176,
+    brightGreen: 0xFF9bc9a9,
+    brightYellow: 0xFFebc18b,
+    brightBlue: 0xFFa8c4cf,
+    brightPurple: 0xFFd1b4c2,
+    brightCyan: 0xFFa4d1ca,
+    brightWhite: 0xFFfff4e8,
+    background: 0xFF19191c,
+    foreground: 0xFFeee6dd,
+    cursor: 0xFFe86e62,
+    cursorText: 0xFF19191c,
+    selectionForeground: 0xFF19191c,
+    selectionBackground: 0xFFeee6dd,
+  );
+
   /// ## Mirage
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/mirage.png" width="400" />
@@ -9371,6 +14156,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFffffff,
     selectionForeground: 0xFF2d3743,
     selectionBackground: 0xFFe1e1e0,
+  );
+
+  /// ## Mistpine
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/mistpine.png" width="400" />
+  static const ITerm2ColorScheme mistpine = ITerm2ColorScheme(
+    name: 'Mistpine',
+    black: 0xFF0f272e,
+    red: 0xFFbe7356,
+    green: 0xFF8a9a5b,
+    yellow: 0xFFc2a55b,
+    blue: 0xFF6f8fa8,
+    purple: 0xFF9a88a8,
+    cyan: 0xFF5f9a96,
+    white: 0xFFa7b0bb,
+    brightBlack: 0xFF546b76,
+    brightRed: 0xFFd08a6e,
+    brightGreen: 0xFFa9b97a,
+    brightYellow: 0xFFdcc27e,
+    brightBlue: 0xFF93afc4,
+    brightPurple: 0xFFb8a8c6,
+    brightCyan: 0xFF86bcb6,
+    brightWhite: 0xFFd0d1d6,
+    background: 0xFF0b1f27,
+    foreground: 0xFFc4c9d0,
+    cursor: 0xFFc4c9d0,
+    cursorText: 0xFF0b1f27,
+    selectionForeground: 0xFF0b1f27,
+    selectionBackground: 0xFFc4c9d0,
   );
 
   /// ## Modus Operandi
@@ -9632,6 +14446,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFffffff,
     selectionForeground: 0xFF121212,
     selectionBackground: 0xFFbbbbbb,
+  );
+
+  /// ## Molten Core
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/molten-core.png" width="400" />
+  static const ITerm2ColorScheme moltenCore = ITerm2ColorScheme(
+    name: 'Molten Core',
+    black: 0xFFb8b5b0,
+    red: 0xFFff6b57,
+    green: 0xFF68d391,
+    yellow: 0xFFffbf47,
+    blue: 0xFF79aaff,
+    purple: 0xFFdf83ef,
+    cyan: 0xFF70d8e5,
+    white: 0xFFf8f8f2,
+    brightBlack: 0xFFccc8c1,
+    brightRed: 0xFFff8979,
+    brightGreen: 0xFF88e0a8,
+    brightYellow: 0xFFffd273,
+    brightBlue: 0xFF9abfff,
+    brightPurple: 0xFFeca4f5,
+    brightCyan: 0xFF94e7ef,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0908,
+    foreground: 0xFFf8f8f2,
+    cursor: 0xFFffc37a,
+    cursorText: 0xFF0a0908,
+    selectionForeground: 0xFF0a0908,
+    selectionBackground: 0xFFf8f8f2,
   );
 
   /// ## Mona Lisa
@@ -10069,6 +14912,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF475365,
   );
 
+  /// ## Monsoon Mesa
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/monsoon-mesa.png" width="400" />
+  static const ITerm2ColorScheme monsoonMesa = ITerm2ColorScheme(
+    name: 'Monsoon Mesa',
+    black: 0xFFd0d8d6,
+    red: 0xFFf7a18d,
+    green: 0xFF98d9ac,
+    yellow: 0xFFf0d278,
+    blue: 0xFFa7d1ef,
+    purple: 0xFFdfb1dc,
+    cyan: 0xFF9ae1de,
+    white: 0xFFf8f1df,
+    brightBlack: 0xFFdee4e2,
+    brightRed: 0xFFfbb7a6,
+    brightGreen: 0xFFafe3bc,
+    brightYellow: 0xFFf7e097,
+    brightBlue: 0xFFc0def4,
+    brightPurple: 0xFFe9c8e7,
+    brightCyan: 0xFFb7ebe7,
+    brightWhite: 0xFFfffdf4,
+    background: 0xFF164b58,
+    foreground: 0xFFf8f1df,
+    cursor: 0xFFf4c96a,
+    cursorText: 0xFF164b58,
+    selectionForeground: 0xFF164b58,
+    selectionBackground: 0xFFf8f1df,
+  );
+
+  /// ## Monster Mash
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/monster-mash.png" width="400" />
+  static const ITerm2ColorScheme monsterMash = ITerm2ColorScheme(
+    name: 'Monster Mash',
+    black: 0xFFb8c9ae,
+    red: 0xFFf09579,
+    green: 0xFF9ee566,
+    yellow: 0xFFe7cf52,
+    blue: 0xFF86c5e8,
+    purple: 0xFFbd91e8,
+    cyan: 0xFF72d8cc,
+    white: 0xFFf0f5d8,
+    brightBlack: 0xFFc1cfb8,
+    brightRed: 0xFFf2a289,
+    brightGreen: 0xFFaae878,
+    brightYellow: 0xFFead567,
+    brightBlue: 0xFF95cceb,
+    brightPurple: 0xFFc59eeb,
+    brightCyan: 0xFF83ddd2,
+    brightWhite: 0xFFf2f6dd,
+    background: 0xFF173b0d,
+    foreground: 0xFFf0f5d8,
+    cursor: 0xFFf2a289,
+    cursorText: 0xFF173b0d,
+    selectionForeground: 0xFF173b0d,
+    selectionBackground: 0xFFf0f5d8,
+  );
+
   /// ## Moonfly
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/moonfly.png" width="400" />
@@ -10127,6 +15028,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF061f4a,
   );
 
+  /// ## Moss & Ember
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/moss-ember.png" width="400" />
+  static const ITerm2ColorScheme mossEmber = ITerm2ColorScheme(
+    name: 'Moss & Ember',
+    black: 0xFF26342c,
+    red: 0xFFc5755e,
+    green: 0xFF829d69,
+    yellow: 0xFFc6a667,
+    blue: 0xFF799ca0,
+    purple: 0xFFad8a9b,
+    cyan: 0xFF72a69b,
+    white: 0xFFd8ceb9,
+    brightBlack: 0xFF586a59,
+    brightRed: 0xFFe69a75,
+    brightGreen: 0xFFa9bd79,
+    brightYellow: 0xFFe4c481,
+    brightBlue: 0xFF9ebcc0,
+    brightPurple: 0xFFc8a4b6,
+    brightCyan: 0xFF92cec0,
+    brightWhite: 0xFFfff0d6,
+    background: 0xFF18231f,
+    foreground: 0xFFe9ddc6,
+    cursor: 0xFFd98a59,
+    cursorText: 0xFF18231f,
+    selectionForeground: 0xFF18231f,
+    selectionBackground: 0xFFe9ddc6,
+  );
+
+  /// ## Motel Vacancy
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/motel-vacancy.png" width="400" />
+  static const ITerm2ColorScheme motelVacancy = ITerm2ColorScheme(
+    name: 'Motel Vacancy',
+    black: 0xFFbbb1b8,
+    red: 0xFFf3838e,
+    green: 0xFF7bd09e,
+    yellow: 0xFFebca69,
+    blue: 0xFF8db2e8,
+    purple: 0xFFd7a0e4,
+    cyan: 0xFF7dd2d7,
+    white: 0xFFf8edf4,
+    brightBlack: 0xFFcec4ca,
+    brightRed: 0xFFf59ca5,
+    brightGreen: 0xFF9addb5,
+    brightYellow: 0xFFf2db8a,
+    brightBlue: 0xFFabc7ef,
+    brightPurple: 0xFFe5b9eb,
+    brightCyan: 0xFF9ee1e2,
+    brightWhite: 0xFFfffaff,
+    background: 0xFF10070d,
+    foreground: 0xFFf8edf4,
+    cursor: 0xFFff93c7,
+    cursorText: 0xFF10070d,
+    selectionForeground: 0xFF10070d,
+    selectionBackground: 0xFFf8edf4,
+  );
+
+  /// ## Moving Signals
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/moving-signals.png" width="400" />
+  static const ITerm2ColorScheme movingSignals = ITerm2ColorScheme(
+    name: 'Moving Signals',
+    black: 0xFFa99b9d,
+    red: 0xFFd56b70,
+    green: 0xFF9cb6a2,
+    yellow: 0xFFd7a96c,
+    blue: 0xFF8baac0,
+    purple: 0xFFb9a0b7,
+    cyan: 0xFF91b5b2,
+    white: 0xFFefe1d3,
+    brightBlack: 0xFFc2b2b2,
+    brightRed: 0xFFee8382,
+    brightGreen: 0xFFafcbb2,
+    brightYellow: 0xFFedc385,
+    brightBlue: 0xFFa2bfd1,
+    brightPurple: 0xFFcdb2c8,
+    brightCyan: 0xFFa7ccc5,
+    brightWhite: 0xFFfff4e8,
+    background: 0xFF28141b,
+    foreground: 0xFFf6e9dc,
+    cursor: 0xFFe6c077,
+    cursorText: 0xFF28141b,
+    selectionForeground: 0xFF28141b,
+    selectionBackground: 0xFFf6e9dc,
+  );
+
   /// ## N0Tch2K
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/n0tch2k.png" width="400" />
@@ -10154,6 +15142,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF222222,
     selectionBackground: 0xFFa0a0a0,
+  );
+
+  /// ## Nachtschicht
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/nachtschicht.png" width="400" />
+  static const ITerm2ColorScheme nachtschicht = ITerm2ColorScheme(
+    name: 'Nachtschicht',
+    black: 0xFF0e1012,
+    red: 0xFFe5484d,
+    green: 0xFF33d17a,
+    yellow: 0xFFe3b341,
+    blue: 0xFF4d7cfe,
+    purple: 0xFFc86ad8,
+    cyan: 0xFF3fc8b0,
+    white: 0xFFc9cfd6,
+    brightBlack: 0xFF9da4af,
+    brightRed: 0xFFef8f92,
+    brightGreen: 0xFF76e0a5,
+    brightYellow: 0xFFedcf88,
+    brightBlue: 0xFF9eb8fe,
+    brightPurple: 0xFFe0abe9,
+    brightCyan: 0xFF7edaca,
+    brightWhite: 0xFFe8eaed,
+    background: 0xFF17191d,
+    foreground: 0xFFe8eaed,
+    cursor: 0xFFe3b341,
+    cursorText: 0xFF17191d,
+    selectionForeground: 0xFF17191d,
+    selectionBackground: 0xFFe8eaed,
   );
 
   /// ## Nebula Drift
@@ -10272,6 +15289,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF00fffc,
   );
 
+  /// ## Neon Analog
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/neon-analog.png" width="400" />
+  static const ITerm2ColorScheme neonAnalog = ITerm2ColorScheme(
+    name: 'Neon Analog',
+    black: 0xFFaeb8c7,
+    red: 0xFFff6b9d,
+    green: 0xFFa8d8bc,
+    yellow: 0xFFf5c14d,
+    blue: 0xFFa8c9f2,
+    purple: 0xFFd5a6f5,
+    cyan: 0xFFb8e5e8,
+    white: 0xFFe6ebf5,
+    brightBlack: 0xFFc1cad6,
+    brightRed: 0xFFff8ab5,
+    brightGreen: 0xFFb9e4c9,
+    brightYellow: 0xFFf8d36d,
+    brightBlue: 0xFFbdd7f7,
+    brightPurple: 0xFFdfbdf7,
+    brightCyan: 0xFFc8eef0,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0b0f14,
+    foreground: 0xFFe6ebf5,
+    cursor: 0xFF00e5ff,
+    cursorText: 0xFF0b0f14,
+    selectionForeground: 0xFF0b0f14,
+    selectionBackground: 0xFFe6ebf5,
+  );
+
+  /// ## Neon Arcade
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/neon-arcade.png" width="400" />
+  static const ITerm2ColorScheme neonArcade = ITerm2ColorScheme(
+    name: 'Neon Arcade',
+    black: 0xFF1a1a28,
+    red: 0xFFff5370,
+    green: 0xFF3ddc97,
+    yellow: 0xFFffd166,
+    blue: 0xFF4f9cff,
+    purple: 0xFFc774ff,
+    cyan: 0xFF2fd6e0,
+    white: 0xFFb8bcd8,
+    brightBlack: 0xFF5c5e78,
+    brightRed: 0xFFff7a92,
+    brightGreen: 0xFF6ceeb4,
+    brightYellow: 0xFFffe08a,
+    brightBlue: 0xFF7cb6ff,
+    brightPurple: 0xFFda9bff,
+    brightCyan: 0xFF63e6ee,
+    brightWhite: 0xFFf0f2ff,
+    background: 0xFF0d0d15,
+    foreground: 0xFFd8dcf0,
+    cursor: 0xFFff4fd8,
+    cursorText: 0xFF0d0d15,
+    selectionForeground: 0xFF0d0d15,
+    selectionBackground: 0xFFd8dcf0,
+  );
+
   /// ## Neon Purple
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/neon-purple.png" width="400" />
@@ -10299,6 +15374,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF999999,
     selectionForeground: 0xFF291b47,
     selectionBackground: 0xFFe5e5e5,
+  );
+
+  /// ## Neon Raincheck
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/neon-raincheck.png" width="400" />
+  static const ITerm2ColorScheme neonRaincheck = ITerm2ColorScheme(
+    name: 'Neon Raincheck',
+    black: 0xFF1c2435,
+    red: 0xFFe36b8d,
+    green: 0xFF70c6ad,
+    yellow: 0xFFe2c179,
+    blue: 0xFF789de8,
+    purple: 0xFFb58deb,
+    cyan: 0xFF51b9cd,
+    white: 0xFFc8d4e6,
+    brightBlack: 0xFF4c5871,
+    brightRed: 0xFFff86a5,
+    brightGreen: 0xFF91e9c9,
+    brightYellow: 0xFFf6d894,
+    brightBlue: 0xFF9cb8ff,
+    brightPurple: 0xFFd2a9ff,
+    brightCyan: 0xFF77e7f3,
+    brightWhite: 0xFFf5f8ff,
+    background: 0xFF101522,
+    foreground: 0xFFdce6f5,
+    cursor: 0xFF51d9e8,
+    cursorText: 0xFF101522,
+    selectionForeground: 0xFF101522,
+    selectionBackground: 0xFFdce6f5,
+  );
+
+  /// ## Neon Raincheck: After Hours
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/neon-raincheck-after-hours.png" width="400" />
+  static const ITerm2ColorScheme neonRaincheckAfterHours = ITerm2ColorScheme(
+    name: 'Neon Raincheck: After Hours',
+    black: 0xFF18202d,
+    red: 0xFFb95c7b,
+    green: 0xFF609d8c,
+    yellow: 0xFFb8a46b,
+    blue: 0xFF6586c0,
+    purple: 0xFF9679c5,
+    cyan: 0xFF4c9faf,
+    white: 0xFFa4b5c5,
+    brightBlack: 0xFF3d4c63,
+    brightRed: 0xFFd77c99,
+    brightGreen: 0xFF7abba5,
+    brightYellow: 0xFFd5c183,
+    brightBlue: 0xFF86a6dc,
+    brightPurple: 0xFFb69adb,
+    brightCyan: 0xFF6bc4d1,
+    brightWhite: 0xFFdceaf2,
+    background: 0xFF0b1019,
+    foreground: 0xFFb8c9d9,
+    cursor: 0xFF79c9d8,
+    cursorText: 0xFF0b1019,
+    selectionForeground: 0xFF0b1019,
+    selectionBackground: 0xFFb8c9d9,
   );
 
   /// ## Neopolitan
@@ -10330,6 +15463,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFffffff,
   );
 
+  /// ## Nephrite Forest
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/nephrite-forest.png" width="400" />
+  static const ITerm2ColorScheme nephriteForest = ITerm2ColorScheme(
+    name: 'Nephrite Forest',
+    black: 0xFF25342c,
+    red: 0xFFffa09c,
+    green: 0xFF4dbf74,
+    yellow: 0xFFd9bb5c,
+    blue: 0xFF89c3fe,
+    purple: 0xFFd0aafc,
+    cyan: 0xFF43d5dc,
+    white: 0xFFb4c1ba,
+    brightBlack: 0xFF76847c,
+    brightRed: 0xFFffa09c,
+    brightGreen: 0xFF5ed7b5,
+    brightYellow: 0xFFd9bb5c,
+    brightBlue: 0xFF89c3fe,
+    brightPurple: 0xFFf99dc6,
+    brightCyan: 0xFF43d5dc,
+    brightWhite: 0xFFe0ebe5,
+    background: 0xFF0d1c14,
+    foreground: 0xFFe0ebe5,
+    cursor: 0xFF4dbf74,
+    cursorText: 0xFF0d1c14,
+    selectionForeground: 0xFF0d1c14,
+    selectionBackground: 0xFFe0ebe5,
+  );
+
+  /// ## Nephrite Jade
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/nephrite-jade.png" width="400" />
+  static const ITerm2ColorScheme nephriteJade = ITerm2ColorScheme(
+    name: 'Nephrite Jade',
+    black: 0xFF2e4639,
+    red: 0xFFffaaa7,
+    green: 0xFF4dbf74,
+    yellow: 0xFFe0c262,
+    blue: 0xFF96c9fe,
+    purple: 0xFFd5b2ff,
+    cyan: 0xFF4cdbe3,
+    white: 0xFFbdccc3,
+    brightBlack: 0xFF7f9187,
+    brightRed: 0xFFffaaa7,
+    brightGreen: 0xFF65ddbb,
+    brightYellow: 0xFFe0c262,
+    brightBlue: 0xFF96c9fe,
+    brightPurple: 0xFFfea4cc,
+    brightCyan: 0xFF4cdbe3,
+    brightWhite: 0xFFe7f2eb,
+    background: 0xFF132e20,
+    foreground: 0xFFe7f2eb,
+    cursor: 0xFF4dbf74,
+    cursorText: 0xFF132e20,
+    selectionForeground: 0xFF132e20,
+    selectionBackground: 0xFFe7f2eb,
+  );
+
+  /// ## Nephrite Mint
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/nephrite-mint.png" width="400" />
+  static const ITerm2ColorScheme nephriteMint = ITerm2ColorScheme(
+    name: 'Nephrite Mint',
+    black: 0xFFcbe1d4,
+    red: 0xFFad4b4b,
+    green: 0xFF048149,
+    yellow: 0xFF866c02,
+    blue: 0xFF2672b7,
+    purple: 0xFF8058ab,
+    cyan: 0xFF017b80,
+    white: 0xFF3f5247,
+    brightBlack: 0xFF607268,
+    brightRed: 0xFFad4b4b,
+    brightGreen: 0xFF037e65,
+    brightYellow: 0xFF866c02,
+    brightBlue: 0xFF2672b7,
+    brightPurple: 0xFFa54a77,
+    brightCyan: 0xFF017b80,
+    brightWhite: 0xFF192e23,
+    background: 0xFFedfbf3,
+    foreground: 0xFF192e23,
+    cursor: 0xFF048149,
+    cursorText: 0xFFedfbf3,
+    selectionForeground: 0xFFedfbf3,
+    selectionBackground: 0xFF192e23,
+  );
+
   /// ## Neutron
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/neutron.png" width="400" />
@@ -10357,6 +15577,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFb7b8a8,
     selectionForeground: 0xFF1c1e22,
     selectionBackground: 0xFFe6e8ef,
+  );
+
+  /// ## Newsprint Fog
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/newsprint-fog.png" width="400" />
+  static const ITerm2ColorScheme newsprintFog = ITerm2ColorScheme(
+    name: 'Newsprint Fog',
+    black: 0xFF333331,
+    red: 0xFFb3402e,
+    green: 0xFF5d7f52,
+    yellow: 0xFF987921,
+    blue: 0xFF4f6d94,
+    purple: 0xFF85607f,
+    cyan: 0xFF4d7f7c,
+    white: 0xFFd5d5d0,
+    brightBlack: 0xFF78786f,
+    brightRed: 0xFFcc4f3b,
+    brightGreen: 0xFF6f9562,
+    brightYellow: 0xFFaf8e2c,
+    brightBlue: 0xFF6182ab,
+    brightPurple: 0xFF9b7494,
+    brightCyan: 0xFF5e9692,
+    brightWhite: 0xFFfdfdfb,
+    background: 0xFFf2f2f0,
+    foreground: 0xFF333331,
+    cursor: 0xFFb3402e,
+    cursorText: 0xFFf2f2f0,
+    selectionForeground: 0xFFf2f2f0,
+    selectionBackground: 0xFF333331,
   );
 
   /// ## Night Lion V1
@@ -10473,6 +15722,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFfbfbfb,
     selectionForeground: 0xFFffffff,
     selectionBackground: 0xFF403f53,
+  );
+
+  /// ## Night Pharmacy
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/night-pharmacy.png" width="400" />
+  static const ITerm2ColorScheme nightPharmacy = ITerm2ColorScheme(
+    name: 'Night Pharmacy',
+    black: 0xFFafbeb5,
+    red: 0xFFef8088,
+    green: 0xFF72d1a0,
+    yellow: 0xFFe6cb69,
+    blue: 0xFF83b3e7,
+    purple: 0xFFcba0df,
+    cyan: 0xFF72d3d0,
+    white: 0xFFecf5ef,
+    brightBlack: 0xFFc4d0c9,
+    brightRed: 0xFFf19ba1,
+    brightGreen: 0xFF91dfb7,
+    brightYellow: 0xFFeddb8b,
+    brightBlue: 0xFFa3c8ef,
+    brightPurple: 0xFFdabbe8,
+    brightCyan: 0xFF94e2df,
+    brightWhite: 0xFFffffff,
+    background: 0xFF07100b,
+    foreground: 0xFFecf5ef,
+    cursor: 0xFF7ff0bd,
+    cursorText: 0xFF07100b,
+    selectionForeground: 0xFF07100b,
+    selectionBackground: 0xFFecf5ef,
+  );
+
+  /// ## Nightfall
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/nightfall.png" width="400" />
+  static const ITerm2ColorScheme nightfall = ITerm2ColorScheme(
+    name: 'Nightfall',
+    black: 0xFF3a2f24,
+    red: 0xFFe87555,
+    green: 0xFF83b96f,
+    yellow: 0xFFe8ad3f,
+    blue: 0xFF5f9ed8,
+    purple: 0xFFbd6fae,
+    cyan: 0xFF4dbeb1,
+    white: 0xFFd9c09a,
+    brightBlack: 0xFF5b4a3a,
+    brightRed: 0xFFf28b6b,
+    brightGreen: 0xFFa8d07d,
+    brightYellow: 0xFFffd166,
+    brightBlue: 0xFF79b5e8,
+    brightPurple: 0xFFeba1d9,
+    brightCyan: 0xFF66d0c4,
+    brightWhite: 0xFFfff2d6,
+    background: 0xFF1a140e,
+    foreground: 0xFFf6e8d0,
+    cursor: 0xFFd4a85c,
+    cursorText: 0xFF1a140e,
+    selectionForeground: 0xFF1a140e,
+    selectionBackground: 0xFFf6e8d0,
   );
 
   /// ## Nightfox
@@ -11055,6 +16362,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFcdcecf,
   );
 
+  /// ## Northstar
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/northstar.png" width="400" />
+  static const ITerm2ColorScheme northstar = ITerm2ColorScheme(
+    name: 'Northstar',
+    black: 0xFFaeb6c2,
+    red: 0xFFff6f73,
+    green: 0xFF6ed99a,
+    yellow: 0xFFf7d66d,
+    blue: 0xFF7ea8ff,
+    purple: 0xFFd79af4,
+    cyan: 0xFF70dce8,
+    white: 0xFFeef2f7,
+    brightBlack: 0xFFc1c7d0,
+    brightRed: 0xFFff8b8e,
+    brightGreen: 0xFF8ae3ad,
+    brightYellow: 0xFFffe38b,
+    brightBlue: 0xFF9bbcff,
+    brightPurple: 0xFFe5b0f8,
+    brightCyan: 0xFF91e7ef,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0b0f1a,
+    foreground: 0xFFf5f7fb,
+    cursor: 0xFFfcd34d,
+    cursorText: 0xFF0b0f1a,
+    selectionForeground: 0xFF0b0f1a,
+    selectionBackground: 0xFFf5f7fb,
+  );
+
   /// ## Novel
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/novel.png" width="400" />
@@ -11111,6 +16447,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF241d1a,
     selectionForeground: 0xFF241d1a,
     selectionBackground: 0xFFc7b8ac,
+  );
+
+  /// ## Numbers Station
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/numbers-station.png" width="400" />
+  static const ITerm2ColorScheme numbersStation = ITerm2ColorScheme(
+    name: 'Numbers Station',
+    black: 0xFFb8b4c1,
+    red: 0xFFf08188,
+    green: 0xFF79d0a1,
+    yellow: 0xFFe9cb69,
+    blue: 0xFF88b3e9,
+    purple: 0xFFd5a2e6,
+    cyan: 0xFF7bd3da,
+    white: 0xFFf0edf6,
+    brightBlack: 0xFFcbc7d2,
+    brightRed: 0xFFf29ca2,
+    brightGreen: 0xFF98deb7,
+    brightYellow: 0xFFefdc8a,
+    brightBlue: 0xFFa7c8f0,
+    brightPurple: 0xFFe3baed,
+    brightCyan: 0xFF9ce2e5,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0d0b12,
+    foreground: 0xFFf0edf6,
+    cursor: 0xFFc5a0ff,
+    cursorText: 0xFF0d0b12,
+    selectionForeground: 0xFF0d0b12,
+    selectionBackground: 0xFFf0edf6,
   );
 
   /// ## Nvim Dark
@@ -11200,6 +16565,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFcdcdcd,
   );
 
+  /// ## Obsurdian
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/obsurdian.png" width="400" />
+  static const ITerm2ColorScheme obsurdian = ITerm2ColorScheme(
+    name: 'Obsurdian',
+    black: 0xFFb8b8b8,
+    red: 0xFFff6b6b,
+    green: 0xFF66d98b,
+    yellow: 0xFFffe37a,
+    blue: 0xFF82aaff,
+    purple: 0xFFff8fd1,
+    cyan: 0xFF8be9f4,
+    white: 0xFFf0f0f0,
+    brightBlack: 0xFFc7c7c7,
+    brightRed: 0xFFff8585,
+    brightGreen: 0xFF82e6a0,
+    brightYellow: 0xFFffeb96,
+    brightBlue: 0xFF9abaff,
+    brightPurple: 0xFFffa8dc,
+    brightCyan: 0xFFa4f1f7,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0a0a,
+    foreground: 0xFFf5f5f5,
+    cursor: 0xFFffd54a,
+    cursorText: 0xFF0a0a0a,
+    selectionForeground: 0xFF0a0a0a,
+    selectionBackground: 0xFFf5f5f5,
+  );
+
   /// ## Ocean
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ocean.png" width="400" />
@@ -11285,6 +16679,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1b2b34,
     selectionForeground: 0xFF162c35,
     selectionBackground: 0xFFc0c5ce,
+  );
+
+  /// ## Ocotillo
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ocotillo.png" width="400" />
+  static const ITerm2ColorScheme ocotillo = ITerm2ColorScheme(
+    name: 'Ocotillo',
+    black: 0xFFd8c8bc,
+    red: 0xFFffa08a,
+    green: 0xFF91d6a4,
+    yellow: 0xFFf4cf6c,
+    blue: 0xFF95c9ed,
+    purple: 0xFFe7a8d1,
+    cyan: 0xFF88ddd6,
+    white: 0xFFfff0d8,
+    brightBlack: 0xFFe5d6cb,
+    brightRed: 0xFFffb5a0,
+    brightGreen: 0xFFaae0b7,
+    brightYellow: 0xFFffdf8b,
+    brightBlue: 0xFFb1d8f3,
+    brightPurple: 0xFFefbfdb,
+    brightCyan: 0xFFa8e8e2,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF66301e,
+    foreground: 0xFFfff0d8,
+    cursor: 0xFFf7be55,
+    cursorText: 0xFF66301e,
+    selectionForeground: 0xFF66301e,
+    selectionBackground: 0xFFfff0d8,
   );
 
   /// ## Ollie
@@ -11548,6 +16971,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFece9f7,
   );
 
+  /// ## OpenCode Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/opencode-dark.png" width="400" />
+  static const ITerm2ColorScheme opencodeDark = ITerm2ColorScheme(
+    name: 'OpenCode Dark',
+    black: 0xFF1e1e1e,
+    red: 0xFFe06c75,
+    green: 0xFF7fd88f,
+    yellow: 0xFFf5a742,
+    blue: 0xFF5c9cf5,
+    purple: 0xFF9d7cd8,
+    cyan: 0xFF56b6c2,
+    white: 0xFFeeeeee,
+    brightBlack: 0xFF808080,
+    brightRed: 0xFFfd7e87,
+    brightGreen: 0xFF96f7a7,
+    brightYellow: 0xFFfab283,
+    brightBlue: 0xFF82b4fb,
+    brightPurple: 0xFFb38ff4,
+    brightCyan: 0xFF68d0dd,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0a0a,
+    foreground: 0xFFeeeeee,
+    cursor: 0xFFfab283,
+    cursorText: 0xFF0a0a0a,
+    selectionForeground: 0xFF0a0a0a,
+    selectionBackground: 0xFFeeeeee,
+  );
+
+  /// ## OpenCode Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/opencode-light.png" width="400" />
+  static const ITerm2ColorScheme opencodeLight = ITerm2ColorScheme(
+    name: 'OpenCode Light',
+    black: 0xFF1a1a1a,
+    red: 0xFFc20f26,
+    green: 0xFF1f8c44,
+    yellow: 0xFFc7811e,
+    blue: 0xFF226bcc,
+    purple: 0xFF6b47a7,
+    cyan: 0xFF077786,
+    white: 0xFFbebebe,
+    brightBlack: 0xFF8a8a8a,
+    brightRed: 0xFFd1383d,
+    brightGreen: 0xFF3d9a57,
+    brightYellow: 0xFFd68c27,
+    brightBlue: 0xFF3b7dd8,
+    brightPurple: 0xFF7b5bb6,
+    brightCyan: 0xFF318795,
+    brightWhite: 0xFFffffff,
+    background: 0xFFffffff,
+    foreground: 0xFF1a1a1a,
+    cursor: 0xFFd68c27,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF1a1a1a,
+  );
+
   /// ## Operator Mono Dark
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/operator-mono-dark.png" width="400" />
@@ -11751,6 +17232,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFf2f4f8,
   );
 
+  /// ## Ozz's Blizzard
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ozz-s-blizzard.png" width="400" />
+  static const ITerm2ColorScheme ozzSBlizzard = ITerm2ColorScheme(
+    name: 'Ozz\'s Blizzard',
+    black: 0xFF263244,
+    red: 0xFFe76f6f,
+    green: 0xFF2a9d8f,
+    yellow: 0xFF8b8b4c,
+    blue: 0xFF4cc9f0,
+    purple: 0xFF7b51ff,
+    cyan: 0xFFff7ab6,
+    white: 0xFFf7f7fa,
+    brightBlack: 0xFF5c6b7f,
+    brightRed: 0xFFf87171,
+    brightGreen: 0xFF34d399,
+    brightYellow: 0xFFffcf24,
+    brightBlue: 0xFF38bdff,
+    brightPurple: 0xFFa78bfa,
+    brightCyan: 0xFF22d3ee,
+    brightWhite: 0xFFf7f7fa,
+    background: 0xFF0a0f1a,
+    foreground: 0xFF3f6289,
+    cursor: 0xFF8b8b4c,
+    cursorText: 0xFF4cc9f0,
+    selectionForeground: 0xFF0a0f1a,
+    selectionBackground: 0xFF3f6289,
+  );
+
+  /// ## Painted Desert
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/painted-desert.png" width="400" />
+  static const ITerm2ColorScheme paintedDesert = ITerm2ColorScheme(
+    name: 'Painted Desert',
+    black: 0xFFd7c7c8,
+    red: 0xFFffa08e,
+    green: 0xFF99d6a8,
+    yellow: 0xFFf2d071,
+    blue: 0xFF9ccbed,
+    purple: 0xFFe7acd7,
+    cyan: 0xFF92ded8,
+    white: 0xFFfff0df,
+    brightBlack: 0xFFe4d6d7,
+    brightRed: 0xFFffb5a4,
+    brightGreen: 0xFFb0e0ba,
+    brightYellow: 0xFFffe091,
+    brightBlue: 0xFFb7daf2,
+    brightPurple: 0xFFf0c2e0,
+    brightCyan: 0xFFb1e9e4,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF593148,
+    foreground: 0xFFfff0df,
+    cursor: 0xFFf4c05d,
+    cursorText: 0xFF593148,
+    selectionForeground: 0xFF593148,
+    selectionBackground: 0xFFfff0df,
+  );
+
   /// ## Pale Night Hc
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/pale-night-hc.png" width="400" />
@@ -11809,6 +17348,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFe1e1e1,
   );
 
+  /// ## Paper Crane
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/paper-crane.png" width="400" />
+  static const ITerm2ColorScheme paperCrane = ITerm2ColorScheme(
+    name: 'Paper Crane',
+    black: 0xFF424845,
+    red: 0xFFa74e45,
+    green: 0xFF53765e,
+    yellow: 0xFF8a6c2b,
+    blue: 0xFF4c688f,
+    purple: 0xFF805b83,
+    cyan: 0xFF3e7b7a,
+    white: 0xFF626c66,
+    brightBlack: 0xFF777d76,
+    brightRed: 0xFFbf6354,
+    brightGreen: 0xFF668a6d,
+    brightYellow: 0xFFa3833d,
+    brightBlue: 0xFF607eaa,
+    brightPurple: 0xFF966f9b,
+    brightCyan: 0xFF529392,
+    brightWhite: 0xFF454f49,
+    background: 0xFFf5f1e8,
+    foreground: 0xFF353b3a,
+    cursor: 0xFFb85d4b,
+    cursorText: 0xFFf5f1e8,
+    selectionForeground: 0xFFf5f1e8,
+    selectionBackground: 0xFF353b3a,
+  );
+
+  /// ## Paper Crane: Midnight Ink
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/paper-crane-midnight-ink.png" width="400" />
+  static const ITerm2ColorScheme paperCraneMidnightInk = ITerm2ColorScheme(
+    name: 'Paper Crane: Midnight Ink',
+    black: 0xFF303a3c,
+    red: 0xFFb9685c,
+    green: 0xFF7d9e85,
+    yellow: 0xFFc1a06b,
+    blue: 0xFF819cbd,
+    purple: 0xFFaa88a7,
+    cyan: 0xFF79a9a5,
+    white: 0xFFd4d3c9,
+    brightBlack: 0xFF607073,
+    brightRed: 0xFFdc8977,
+    brightGreen: 0xFFa2c2a4,
+    brightYellow: 0xFFdfc08b,
+    brightBlue: 0xFFa5bbdb,
+    brightPurple: 0xFFc7a9c4,
+    brightCyan: 0xFFa1d0c8,
+    brightWhite: 0xFFfff8e8,
+    background: 0xFF20272a,
+    foreground: 0xFFe6e2d6,
+    cursor: 0xFFd9826b,
+    cursorText: 0xFF20272a,
+    selectionForeground: 0xFF20272a,
+    selectionBackground: 0xFFe6e2d6,
+  );
+
+  /// ## Paper Tiger
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/paper-tiger.png" width="400" />
+  static const ITerm2ColorScheme paperTiger = ITerm2ColorScheme(
+    name: 'Paper Tiger',
+    black: 0xFF2b2b29,
+    red: 0xFF861f1f,
+    green: 0xFF0d5b30,
+    yellow: 0xFF674b00,
+    blue: 0xFF17468f,
+    purple: 0xFF602f88,
+    cyan: 0xFF005968,
+    white: 0xFF3c3a35,
+    brightBlack: 0xFF4b4943,
+    brightRed: 0xFF922525,
+    brightGreen: 0xFF106234,
+    brightYellow: 0xFF704f00,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF68368f,
+    brightCyan: 0xFF004a57,
+    brightWhite: 0xFF45433e,
+    background: 0xFFfffaf0,
+    foreground: 0xFF181818,
+    cursor: 0xFF725000,
+    cursorText: 0xFFfffaf0,
+    selectionForeground: 0xFFfffaf0,
+    selectionBackground: 0xFF181818,
+  );
+
   /// ## Paraiso Dark
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/paraiso-dark.png" width="400" />
@@ -11836,6 +17462,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF2f1e2e,
     selectionForeground: 0xFF2f1e2e,
     selectionBackground: 0xFFa39e9b,
+  );
+
+  /// ## Paranoid Circuit
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/paranoid-circuit.png" width="400" />
+  static const ITerm2ColorScheme paranoidCircuit = ITerm2ColorScheme(
+    name: 'Paranoid Circuit',
+    black: 0xFFaaa9a1,
+    red: 0xFFdc9771,
+    green: 0xFFa7c67c,
+    yellow: 0xFFd5bd6e,
+    blue: 0xFF9cb4b5,
+    purple: 0xFFc69cce,
+    cyan: 0xFF9ac7ae,
+    white: 0xFFeee3cd,
+    brightBlack: 0xFFc4c0b4,
+    brightRed: 0xFFe9aa82,
+    brightGreen: 0xFFbcd992,
+    brightYellow: 0xFFe8d084,
+    brightBlue: 0xFFaec8c6,
+    brightPurple: 0xFFd7b2dc,
+    brightCyan: 0xFFafd8c1,
+    brightWhite: 0xFFfff3df,
+    background: 0xFF27322b,
+    foreground: 0xFFf2e9d3,
+    cursor: 0xFFedc179,
+    cursorText: 0xFF27322b,
+    selectionForeground: 0xFF27322b,
+    selectionBackground: 0xFFf2e9d3,
+  );
+
+  /// ## Parchment
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/parchment.png" width="400" />
+  static const ITerm2ColorScheme parchment = ITerm2ColorScheme(
+    name: 'Parchment',
+    black: 0xFF292929,
+    red: 0xFF851c1c,
+    green: 0xFF0d6030,
+    yellow: 0xFF685000,
+    blue: 0xFF164a9b,
+    purple: 0xFF663194,
+    cyan: 0xFF004a58,
+    white: 0xFF3c3a36,
+    brightBlack: 0xFF55514b,
+    brightRed: 0xFF922323,
+    brightGreen: 0xFF084d2a,
+    brightYellow: 0xFF594500,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF523073,
+    brightCyan: 0xFF004957,
+    brightWhite: 0xFF47433e,
+    background: 0xFFfdf7e7,
+    foreground: 0xFF1a1a1a,
+    cursor: 0xFF7a5700,
+    cursorText: 0xFFfffaf0,
+    selectionForeground: 0xFFfdf7e7,
+    selectionBackground: 0xFF1a1a1a,
   );
 
   /// ## Patina
@@ -12157,6 +17841,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFc8c8c8,
   );
 
+  /// ## Petrified
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/petrified.png" width="400" />
+  static const ITerm2ColorScheme petrified = ITerm2ColorScheme(
+    name: 'Petrified',
+    black: 0xFFc7c0ba,
+    red: 0xFFee9676,
+    green: 0xFF82c794,
+    yellow: 0xFFe5c05c,
+    blue: 0xFF80bdd2,
+    purple: 0xFFcc9fc1,
+    cyan: 0xFF75ccc7,
+    white: 0xFFfff0dc,
+    brightBlack: 0xFFd6d0ca,
+    brightRed: 0xFFf4aa8d,
+    brightGreen: 0xFF9bd4a7,
+    brightYellow: 0xFFefd17d,
+    brightBlue: 0xFF9dcddd,
+    brightPurple: 0xFFdab6cf,
+    brightCyan: 0xFF94dad5,
+    brightWhite: 0xFFfff9ed,
+    background: 0xFF403637,
+    foreground: 0xFFfff0dc,
+    cursor: 0xFFf0b65c,
+    cursorText: 0xFF403637,
+    selectionForeground: 0xFF403637,
+    selectionBackground: 0xFFfff0dc,
+  );
+
+  /// ## Petrol Lagoon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/petrol-lagoon.png" width="400" />
+  static const ITerm2ColorScheme petrolLagoon = ITerm2ColorScheme(
+    name: 'Petrol Lagoon',
+    black: 0xFF152325,
+    red: 0xFFe0736e,
+    green: 0xFF6cc48e,
+    yellow: 0xFFd1b366,
+    blue: 0xFF5b9fc4,
+    purple: 0xFF9d8ccc,
+    cyan: 0xFF3fc4b7,
+    white: 0xFFa0b8b8,
+    brightBlack: 0xFF4d6467,
+    brightRed: 0xFFec8f88,
+    brightGreen: 0xFF8adaa8,
+    brightYellow: 0xFFe2c985,
+    brightBlue: 0xFF7db8d8,
+    brightPurple: 0xFFb5a7dd,
+    brightCyan: 0xFF66d9cd,
+    brightWhite: 0xFFdfeeee,
+    background: 0xFF0c1618,
+    foreground: 0xFFc2d8d8,
+    cursor: 0xFF35d0c0,
+    cursorText: 0xFF0c1618,
+    selectionForeground: 0xFF0c1618,
+    selectionBackground: 0xFFc2d8d8,
+  );
+
   /// ## Phala Green Dark
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/phala-green-dark.png" width="400" />
@@ -12184,6 +17926,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFff271d,
     selectionForeground: 0xFF000000,
     selectionBackground: 0xFFc1fc03,
+  );
+
+  /// ## Pharaoh's Voltage
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/pharaoh-s-voltage.png" width="400" />
+  static const ITerm2ColorScheme pharaohSVoltage = ITerm2ColorScheme(
+    name: 'Pharaoh\'s Voltage',
+    black: 0xFFa8b2b8,
+    red: 0xFFea9166,
+    green: 0xFF8bc49c,
+    yellow: 0xFFe9c366,
+    blue: 0xFF78b9e8,
+    purple: 0xFFc79cda,
+    cyan: 0xFF74d5d6,
+    white: 0xFFf8e9ca,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFed9e78,
+    brightGreen: 0xFF99cba8,
+    brightYellow: 0xFFecca78,
+    brightBlue: 0xFF88c1eb,
+    brightPurple: 0xFFcea8de,
+    brightCyan: 0xFF85dadb,
+    brightWhite: 0xFFf9edd5,
+    background: 0xFF102c3c,
+    foreground: 0xFFf8e9ca,
+    cursor: 0xFFecca78,
+    cursorText: 0xFF102c3c,
+    selectionForeground: 0xFF102c3c,
+    selectionBackground: 0xFFf8e9ca,
   );
 
   /// ## Piatto Light
@@ -12271,6 +18042,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFffffff,
     selectionForeground: 0xFFffffff,
     selectionBackground: 0xFF070707,
+  );
+
+  /// ## Pissed Off Pancakes
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/pissed-off-pancakes.png" width="400" />
+  static const ITerm2ColorScheme pissedOffPancakes = ITerm2ColorScheme(
+    name: 'Pissed Off Pancakes',
+    black: 0xFFaaa59c,
+    red: 0xFFdb533e,
+    green: 0xFF7cb85b,
+    yellow: 0xFFe4b33f,
+    blue: 0xFF4aa3ff,
+    purple: 0xFFb35cff,
+    cyan: 0xFF33d6c9,
+    white: 0xFFf8edd7,
+    brightBlack: 0xFFc6c0b5,
+    brightRed: 0xFFff6b4d,
+    brightGreen: 0xFFa4dc79,
+    brightYellow: 0xFFf7d867,
+    brightBlue: 0xFF73b9ff,
+    brightPurple: 0xFFcd8aff,
+    brightCyan: 0xFF62e5d9,
+    brightWhite: 0xFFfff4d2,
+    background: 0xFF1a1208,
+    foreground: 0xFFf8edd7,
+    cursor: 0xFFf4d35e,
+    cursorText: 0xFF1a1208,
+    selectionForeground: 0xFF1a1208,
+    selectionBackground: 0xFFf8edd7,
   );
 
   /// ## Pnevma
@@ -12418,6 +18218,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF969cbd,
   );
 
+  /// ## Poison Apple
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/poison-apple.png" width="400" />
+  static const ITerm2ColorScheme poisonApple = ITerm2ColorScheme(
+    name: 'Poison Apple',
+    black: 0xFFbca8aa,
+    red: 0xFFef8178,
+    green: 0xFF9ed25f,
+    yellow: 0xFFe5c45b,
+    blue: 0xFF86b9d8,
+    purple: 0xFFc28bb9,
+    cyan: 0xFF7cc4bc,
+    white: 0xFFf7e8d8,
+    brightBlack: 0xFFc4b2b4,
+    brightRed: 0xFFf19088,
+    brightGreen: 0xFFaad772,
+    brightYellow: 0xFFe8cb6f,
+    brightBlue: 0xFF95c1dd,
+    brightPurple: 0xFFc999c1,
+    brightCyan: 0xFF8ccbc4,
+    brightWhite: 0xFFf8ebdd,
+    background: 0xFF560b13,
+    foreground: 0xFFf7e8d8,
+    cursor: 0xFFf19088,
+    cursorText: 0xFF560b13,
+    selectionForeground: 0xFF560b13,
+    selectionBackground: 0xFFf7e8d8,
+  );
+
+  /// ## Poltergeist
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/poltergeist.png" width="400" />
+  static const ITerm2ColorScheme poltergeist = ITerm2ColorScheme(
+    name: 'Poltergeist',
+    black: 0xFFc0d1d2,
+    red: 0xFFff9c91,
+    green: 0xFF8ce0b0,
+    yellow: 0xFFe9d06c,
+    blue: 0xFF8ed4ed,
+    purple: 0xFFc5a7e8,
+    cyan: 0xFF77e1df,
+    white: 0xFFf0ffff,
+    brightBlack: 0xFFc8d7d7,
+    brightRed: 0xFFffa89e,
+    brightGreen: 0xFF9ae4b9,
+    brightYellow: 0xFFecd67e,
+    brightBlue: 0xFF9cd9ef,
+    brightPurple: 0xFFccb2eb,
+    brightCyan: 0xFF87e5e3,
+    brightWhite: 0xFFf2ffff,
+    background: 0xFF06444b,
+    foreground: 0xFFf0ffff,
+    cursor: 0xFFffa89e,
+    cursorText: 0xFF06444b,
+    selectionForeground: 0xFF06444b,
+    selectionBackground: 0xFFf0ffff,
+  );
+
   /// ## Popping And Locking
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/popping-and-locking.png" width="400" />
@@ -12476,6 +18334,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF2a2e37,
   );
 
+  /// ## Possessed Toaster
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/possessed-toaster.png" width="400" />
+  static const ITerm2ColorScheme possessedToaster = ITerm2ColorScheme(
+    name: 'Possessed Toaster',
+    black: 0xFFa9aaa3,
+    red: 0xFFe0503b,
+    green: 0xFF6aa84f,
+    yellow: 0xFFe0a62e,
+    blue: 0xFF3d9aff,
+    purple: 0xFFa855f7,
+    cyan: 0xFF2dd4bf,
+    white: 0xFFe8dcc0,
+    brightBlack: 0xFFc2c3bd,
+    brightRed: 0xFFff5a3c,
+    brightGreen: 0xFF9edb6f,
+    brightYellow: 0xFFf4ca4d,
+    brightBlue: 0xFF60b5ff,
+    brightPurple: 0xFFc084fc,
+    brightCyan: 0xFF4ee6d3,
+    brightWhite: 0xFFfff5d7,
+    background: 0xFF0e0f0d,
+    foreground: 0xFFe8dcc0,
+    cursor: 0xFFf4ca4d,
+    cursorText: 0xFF0e0f0d,
+    selectionForeground: 0xFF0e0f0d,
+    selectionBackground: 0xFFe8dcc0,
+  );
+
   /// ## Powershell
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/powershell.png" width="400" />
@@ -12503,6 +18390,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF052454,
     selectionForeground: 0xFF052454,
     selectionBackground: 0xFFf6f6f7,
+  );
+
+  /// ## Prickly Pear
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/prickly-pear.png" width="400" />
+  static const ITerm2ColorScheme pricklyPear = ITerm2ColorScheme(
+    name: 'Prickly Pear',
+    black: 0xFFcbb8c2,
+    red: 0xFFff8d99,
+    green: 0xFF78d58e,
+    yellow: 0xFFf5c54e,
+    blue: 0xFF9ac4ef,
+    purple: 0xFFe49bd2,
+    cyan: 0xFF7cdbd5,
+    white: 0xFFfff0df,
+    brightBlack: 0xFFdbcbd2,
+    brightRed: 0xFFffa8b0,
+    brightGreen: 0xFF98dfa6,
+    brightYellow: 0xFFf9d778,
+    brightBlue: 0xFFb4d5f4,
+    brightPurple: 0xFFedb8df,
+    brightCyan: 0xFF9ce7e2,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF561038,
+    foreground: 0xFFfff0df,
+    cursor: 0xFFf4c24f,
+    cursorText: 0xFF561038,
+    selectionForeground: 0xFF561038,
+    selectionBackground: 0xFFfff0df,
   );
 
   /// ## Primary
@@ -12534,6 +18450,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF000000,
   );
 
+  /// ## Prince Of Barkness
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/prince-of-barkness.png" width="400" />
+  static const ITerm2ColorScheme princeOfBarkness = ITerm2ColorScheme(
+    name: 'Prince Of Barkness',
+    black: 0xFF7d7b86,
+    red: 0xFFf16b77,
+    green: 0xFF6fe0a2,
+    yellow: 0xFFf6c85a,
+    blue: 0xFF8eaeff,
+    purple: 0xFFd5a0f5,
+    cyan: 0xFF6adbe2,
+    white: 0xFFf1dfbf,
+    brightBlack: 0xFF81798f,
+    brightRed: 0xFFff8e99,
+    brightGreen: 0xFF92f2b8,
+    brightYellow: 0xFFffe08b,
+    brightBlue: 0xFFb7c8ff,
+    brightPurple: 0xFFe7b8ff,
+    brightCyan: 0xFF94eef0,
+    brightWhite: 0xFFfff4de,
+    background: 0xFF100e17,
+    foreground: 0xFFf1dfbf,
+    cursor: 0xFFf6c85a,
+    cursorText: 0xFF100e17,
+    selectionForeground: 0xFF100e17,
+    selectionBackground: 0xFFf1dfbf,
+  );
+
+  /// ## Prince Of Darkness
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/prince-of-darkness.png" width="400" />
+  static const ITerm2ColorScheme princeOfDarkness = ITerm2ColorScheme(
+    name: 'Prince Of Darkness',
+    black: 0xFF2d1b4e,
+    red: 0xFF6a2bbd,
+    green: 0xFFc43dff,
+    yellow: 0xFF3ec7ff,
+    blue: 0xFF7a63ff,
+    purple: 0xFFff4edb,
+    cyan: 0xFF5cc8ff,
+    white: 0xFFc5a7ff,
+    brightBlack: 0xFF676175,
+    brightRed: 0xFFa139e6,
+    brightGreen: 0xFFff6bd6,
+    brightYellow: 0xFF7ae6ff,
+    brightBlue: 0xFF9bb4ff,
+    brightPurple: 0xFFe384ff,
+    brightCyan: 0xFF7ae6ff,
+    brightWhite: 0xFFf2e6ff,
+    background: 0xFF0a0714,
+    foreground: 0xFFdcd3ff,
+    cursor: 0xFFb47dff,
+    cursorText: 0xFF0a0714,
+    selectionForeground: 0xFF0a0714,
+    selectionBackground: 0xFFdcd3ff,
+  );
+
   /// ## Prism
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/prism.png" width="400" />
@@ -12561,6 +18535,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF0b1326,
     selectionForeground: 0xFF0b1326,
     selectionBackground: 0xFFd7e3f4,
+  );
+
+  /// ## Prismatica
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/prismatica.png" width="400" />
+  static const ITerm2ColorScheme prismatica = ITerm2ColorScheme(
+    name: 'Prismatica',
+    black: 0xFFa8b2b8,
+    red: 0xFFef767d,
+    green: 0xFF87c79c,
+    yellow: 0xFFebc86b,
+    blue: 0xFF84b5ed,
+    purple: 0xFFd69edc,
+    cyan: 0xFF79d2d2,
+    white: 0xFFedf0f4,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFf1868d,
+    brightGreen: 0xFF95cea8,
+    brightYellow: 0xFFedcf7d,
+    brightBlue: 0xFF93beef,
+    brightPurple: 0xFFdbaae0,
+    brightCyan: 0xFF89d7d7,
+    brightWhite: 0xFFf1f3f6,
+    background: 0xFF10151e,
+    foreground: 0xFFedf0f4,
+    cursor: 0xFFedcf7d,
+    cursorText: 0xFF10151e,
+    selectionForeground: 0xFF10151e,
+    selectionBackground: 0xFFedf0f4,
   );
 
   /// ## Pro
@@ -12619,6 +18622,122 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFf2f2f2,
     selectionForeground: 0xFFffffff,
     selectionBackground: 0xFF191919,
+  );
+
+  /// ## Pueblo Night
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/pueblo-night.png" width="400" />
+  static const ITerm2ColorScheme puebloNight = ITerm2ColorScheme(
+    name: 'Pueblo Night',
+    black: 0xFFd5cabd,
+    red: 0xFFfba183,
+    green: 0xFF94d7a5,
+    yellow: 0xFFf3cf6d,
+    blue: 0xFF94c9ec,
+    purple: 0xFFe4aad2,
+    cyan: 0xFF87dcd6,
+    white: 0xFFfff0d5,
+    brightBlack: 0xFFe3d9cd,
+    brightRed: 0xFFffb69c,
+    brightGreen: 0xFFabe0b8,
+    brightYellow: 0xFFffdf8d,
+    brightBlue: 0xFFb0d7f2,
+    brightPurple: 0xFFedc0dd,
+    brightCyan: 0xFFa6e7e1,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF52361f,
+    foreground: 0xFFfff0d5,
+    cursor: 0xFFf6bc55,
+    cursorText: 0xFF52361f,
+    selectionForeground: 0xFF52361f,
+    selectionBackground: 0xFFfff0d5,
+  );
+
+  /// ## Pumpkin Patch
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/pumpkin-patch.png" width="400" />
+  static const ITerm2ColorScheme pumpkinPatch = ITerm2ColorScheme(
+    name: 'Pumpkin Patch',
+    black: 0xFFc3c8af,
+    red: 0xFFf09870,
+    green: 0xFF95ce77,
+    yellow: 0xFFe8c95a,
+    blue: 0xFF87bfcf,
+    purple: 0xFFc79ab7,
+    cyan: 0xFF79c9bb,
+    white: 0xFFf5efd1,
+    brightBlack: 0xFFcacfb9,
+    brightRed: 0xFFf2a481,
+    brightGreen: 0xFFa2d487,
+    brightYellow: 0xFFebcf6e,
+    brightBlue: 0xFF95c7d5,
+    brightPurple: 0xFFcea6c0,
+    brightCyan: 0xFF89cfc3,
+    brightWhite: 0xFFf6f1d7,
+    background: 0xFF243416,
+    foreground: 0xFFf5efd1,
+    cursor: 0xFFf2a481,
+    cursorText: 0xFF243416,
+    selectionForeground: 0xFF243416,
+    selectionBackground: 0xFFf5efd1,
+  );
+
+  /// ## Pumpkin Spice
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/pumpkin-spice.png" width="400" />
+  static const ITerm2ColorScheme pumpkinSpice = ITerm2ColorScheme(
+    name: 'Pumpkin Spice',
+    black: 0xFFd6d3d1,
+    red: 0xFFdbd1ce,
+    green: 0xFFd1d7cf,
+    yellow: 0xFFd9d4c8,
+    blue: 0xFFced5d9,
+    purple: 0xFFdad3db,
+    cyan: 0xFFcbd5d7,
+    white: 0xFFfff0d8,
+    brightBlack: 0xFFd7d3d1,
+    brightRed: 0xFFf5e2dc,
+    brightGreen: 0xFFd1d7d0,
+    brightYellow: 0xFFf6e5c8,
+    brightBlue: 0xFFced6d9,
+    brightPurple: 0xFFd9d1d9,
+    brightCyan: 0xFFcbd6d7,
+    brightWhite: 0xFFfff2dd,
+    background: 0xFF9a3d08,
+    foreground: 0xFFfff0d8,
+    cursor: 0xFFdbd1ce,
+    cursorText: 0xFF9a3d08,
+    selectionForeground: 0xFF9a3d08,
+    selectionBackground: 0xFFfff0d8,
+  );
+
+  /// ## Puppet's Master
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/puppet-s-master.png" width="400" />
+  static const ITerm2ColorScheme puppetSMaster = ITerm2ColorScheme(
+    name: 'Puppet\'s Master',
+    black: 0xFFb5a69a,
+    red: 0xFFe9785e,
+    green: 0xFFa4bc75,
+    yellow: 0xFFe5b65c,
+    blue: 0xFF8daee0,
+    purple: 0xFFc49cce,
+    cyan: 0xFF7ec9c4,
+    white: 0xFFf5e6d5,
+    brightBlack: 0xFFd1c2b6,
+    brightRed: 0xFFf59573,
+    brightGreen: 0xFFbed08e,
+    brightYellow: 0xFFf3cb77,
+    brightBlue: 0xFFa9c4e9,
+    brightPurple: 0xFFd7b3dd,
+    brightCyan: 0xFF9bdbd4,
+    brightWhite: 0xFFfff4e8,
+    background: 0xFF25150e,
+    foreground: 0xFFf5e6d5,
+    cursor: 0xFFf17938,
+    cursorText: 0xFF25150e,
+    selectionForeground: 0xFF25150e,
+    selectionBackground: 0xFFf5e6d5,
   );
 
   /// ## Purple Portal
@@ -12765,6 +18884,327 @@ class ITerm2ColorSchemes {
     selectionForeground: 0xFFfaf6f5,
     selectionBackground: 0xFF242120,
   );
+
+  /// ## RadicalReborn
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/radicalreborn.png" width="400" />
+  static const ITerm2ColorScheme radicalreborn = ITerm2ColorScheme(
+    name: 'RadicalReborn',
+    black: 0xFF30317d,
+    red: 0xFFff5395,
+    green: 0xFFd8ff4e,
+    yellow: 0xFFfffc7e,
+    blue: 0xFF7dd9e4,
+    purple: 0xFFfa61b8,
+    cyan: 0xFFa8ffef,
+    white: 0xFFcff0e8,
+    brightBlack: 0xFF4627c2,
+    brightRed: 0xFFff427b,
+    brightGreen: 0xFFc8ff00,
+    brightYellow: 0xFFf8d846,
+    brightBlue: 0xFF84f9fe,
+    brightPurple: 0xFFd5358f,
+    brightCyan: 0xFF83fee8,
+    brightWhite: 0xFFcbfff2,
+    background: 0xFF141322,
+    foreground: 0xFFdefff7,
+    cursor: 0xFFff428e,
+    cursorText: 0xFFdefff7,
+    selectionForeground: 0xFF141322,
+    selectionBackground: 0xFFdefff7,
+  );
+
+  /// ## Rainbows And Unicorns
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicorns = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns',
+    black: 0xFF23232d,
+    red: 0xFFe0453f,
+    green: 0xFF62bb47,
+    yellow: 0xFFfcb827,
+    blue: 0xFF1d9be3,
+    purple: 0xFFbb62c0,
+    cyan: 0xFF35c9be,
+    white: 0xFFc9c6bc,
+    brightBlack: 0xFF6f6e7d,
+    brightRed: 0xFFf5821f,
+    brightGreen: 0xFF8ad46b,
+    brightYellow: 0xFFffd35c,
+    brightBlue: 0xFF5db9f0,
+    brightPurple: 0xFFd68adb,
+    brightCyan: 0xFF6fddd3,
+    brightWhite: 0xFFfffdf5,
+    background: 0xFF0e0e13,
+    foreground: 0xFFe6e3d8,
+    cursor: 0xFFfcb827,
+    cursorText: 0xFF0e0e13,
+    selectionForeground: 0xFF0e0e13,
+    selectionBackground: 0xFFe6e3d8,
+  );
+
+  /// ## Rainbows And Unicorns Arcade
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-arcade.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsArcade = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns Arcade',
+    black: 0xFF1a1a1a,
+    red: 0xFFff2a4d,
+    green: 0xFF39ff14,
+    yellow: 0xFFfff01f,
+    blue: 0xFF1f8bff,
+    purple: 0xFFff2cf0,
+    cyan: 0xFF00f0ff,
+    white: 0xFFc8c8c8,
+    brightBlack: 0xFF6e6e6e,
+    brightRed: 0xFFff8a1f,
+    brightGreen: 0xFF8cff75,
+    brightYellow: 0xFFfff777,
+    brightBlue: 0xFF6fb4ff,
+    brightPurple: 0xFFff7df5,
+    brightCyan: 0xFF7af7ff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFededed,
+    cursor: 0xFF39ff14,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFededed,
+  );
+
+  /// ## Rainbows And Unicorns Den
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-den.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsDen = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns Den',
+    black: 0xFF2e2115,
+    red: 0xFFd9583b,
+    green: 0xFF9db85c,
+    yellow: 0xFFe0a030,
+    blue: 0xFF6f9fb8,
+    purple: 0xFFb87a9a,
+    cyan: 0xFF7fb0a0,
+    white: 0xFFcdbb98,
+    brightBlack: 0xFF7d6a50,
+    brightRed: 0xFFd98036,
+    brightGreen: 0xFFbbd47e,
+    brightYellow: 0xFFf0be5c,
+    brightBlue: 0xFF95bdd2,
+    brightPurple: 0xFFd29cb8,
+    brightCyan: 0xFFa2cdbf,
+    brightWhite: 0xFFfff3da,
+    background: 0xFF1e150d,
+    foreground: 0xFFebd9b8,
+    cursor: 0xFFe0a030,
+    cursorText: 0xFF1e150d,
+    selectionForeground: 0xFF1e150d,
+    selectionBackground: 0xFFebd9b8,
+  );
+
+  /// ## Rainbows And Unicorns EGA 85
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-ega-85.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsEga85 = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns EGA 85',
+    black: 0xFF1a1a1f,
+    red: 0xFFcc3b3b,
+    green: 0xFF2fb84a,
+    yellow: 0xFFc2782e,
+    blue: 0xFF4a6cf0,
+    purple: 0xFFc24bc2,
+    cyan: 0xFF2bb8b8,
+    white: 0xFFaaaaaa,
+    brightBlack: 0xFF6a6a72,
+    brightRed: 0xFFff5555,
+    brightGreen: 0xFF55ff55,
+    brightYellow: 0xFFffff55,
+    brightBlue: 0xFF7b7bff,
+    brightPurple: 0xFFff55ff,
+    brightCyan: 0xFF55ffff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF050507,
+    foreground: 0xFFaaaaaa,
+    cursor: 0xFFaaaaaa,
+    cursorText: 0xFF050507,
+    selectionForeground: 0xFF050507,
+    selectionBackground: 0xFFaaaaaa,
+  );
+
+  /// ## Rainbows And Unicorns Mane
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-mane.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsMane = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns Mane',
+    black: 0xFF24222e,
+    red: 0xFFeb413a,
+    green: 0xFF68c44a,
+    yellow: 0xFFfede3c,
+    blue: 0xFF3092e2,
+    purple: 0xFFb866d6,
+    cyan: 0xFF45c8c0,
+    white: 0xFFc8cae4,
+    brightBlack: 0xFF6e6a82,
+    brightRed: 0xFFfa821e,
+    brightGreen: 0xFF8fdb74,
+    brightYellow: 0xFFffe978,
+    brightBlue: 0xFF62b0f0,
+    brightPurple: 0xFFf0a0be,
+    brightCyan: 0xFF7fe0d8,
+    brightWhite: 0xFFffffff,
+    background: 0xFF14131a,
+    foreground: 0xFFe9e7f2,
+    cursor: 0xFFffd65a,
+    cursorText: 0xFF14131a,
+    selectionForeground: 0xFF14131a,
+    selectionBackground: 0xFFe9e7f2,
+  );
+
+  /// ## Rainbows And Unicorns Miami
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-miami.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsMiami = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns Miami',
+    black: 0xFF2a2148,
+    red: 0xFFff5c8a,
+    green: 0xFF7cf0a8,
+    yellow: 0xFFffe27a,
+    blue: 0xFF6fb7ff,
+    purple: 0xFFff6fd8,
+    cyan: 0xFF3fe0d0,
+    white: 0xFFd9cbe8,
+    brightBlack: 0xFF7a6c9c,
+    brightRed: 0xFFff9e64,
+    brightGreen: 0xFFa8f7c6,
+    brightYellow: 0xFFffefae,
+    brightBlue: 0xFFa3d2ff,
+    brightPurple: 0xFFffa3e8,
+    brightCyan: 0xFF8af0e4,
+    brightWhite: 0xFFffffff,
+    background: 0xFF1b1433,
+    foreground: 0xFFf9ecf5,
+    cursor: 0xFFff6fd8,
+    cursorText: 0xFF1b1433,
+    selectionForeground: 0xFF1b1433,
+    selectionBackground: 0xFFf9ecf5,
+  );
+
+  /// ## Rainbows And Unicorns Paper White
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-paper-white.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsPaperWhite =
+      ITerm2ColorScheme(
+        name: 'Rainbows And Unicorns Paper White',
+        black: 0xFF1b1b1f,
+        red: 0xFFc2272d,
+        green: 0xFF2f7d1f,
+        yellow: 0xFF8a6100,
+        blue: 0xFF0b6fa6,
+        purple: 0xFF8a2f8c,
+        cyan: 0xFF0b7f78,
+        white: 0xFF5e5d58,
+        brightBlack: 0xFF8b8a84,
+        brightRed: 0xFFb04e00,
+        brightGreen: 0xFF33851f,
+        brightYellow: 0xFF946a00,
+        brightBlue: 0xFF1279b5,
+        brightPurple: 0xFFa8429f,
+        brightCyan: 0xFF0b807a,
+        brightWhite: 0xFFffffff,
+        background: 0xFFefede6,
+        foreground: 0xFF1b1b1f,
+        cursor: 0xFF1b1b1f,
+        cursorText: 0xFFefede6,
+        selectionForeground: 0xFFefede6,
+        selectionBackground: 0xFF1b1b1f,
+      );
+
+  /// ## Rainbows And Unicorns Sorbet
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-sorbet.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsSorbet = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns Sorbet',
+    black: 0xFF3a2d48,
+    red: 0xFFff9eb5,
+    green: 0xFFa8e6c3,
+    yellow: 0xFFffe8a3,
+    blue: 0xFFa7c7ff,
+    purple: 0xFFd7b3ff,
+    cyan: 0xFF9fe8e6,
+    white: 0xFFe4d6ec,
+    brightBlack: 0xFF8a789e,
+    brightRed: 0xFFffbe98,
+    brightGreen: 0xFFc6f3d9,
+    brightYellow: 0xFFfff2c7,
+    brightBlue: 0xFFc7dbff,
+    brightPurple: 0xFFe8d1ff,
+    brightCyan: 0xFFc5f4f2,
+    brightWhite: 0xFFffffff,
+    background: 0xFF241b2f,
+    foreground: 0xFFf3e8f5,
+    cursor: 0xFFff9eb5,
+    cursorText: 0xFF241b2f,
+    selectionForeground: 0xFF241b2f,
+    selectionBackground: 0xFFf3e8f5,
+  );
+
+  /// ## Rainbows And Unicorns VHS
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-vhs.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsVhs = ITerm2ColorScheme(
+    name: 'Rainbows And Unicorns VHS',
+    black: 0xFF0a1230,
+    red: 0xFFff6b6b,
+    green: 0xFF8fe3a0,
+    yellow: 0xFFf7d774,
+    blue: 0xFF7fb2ff,
+    purple: 0xFFd59cff,
+    cyan: 0xFF7fe3e0,
+    white: 0xFFd6d0c2,
+    brightBlack: 0xFF6f7ba8,
+    brightRed: 0xFFffa862,
+    brightGreen: 0xFFb5f0c1,
+    brightYellow: 0xFFfbe6a3,
+    brightBlue: 0xFFabcdff,
+    brightPurple: 0xFFe5c2ff,
+    brightCyan: 0xFFaef0ee,
+    brightWhite: 0xFFffffff,
+    background: 0xFF101b45,
+    foreground: 0xFFf2ebdd,
+    cursor: 0xFFf2ebdd,
+    cursorText: 0xFF101b45,
+    selectionForeground: 0xFF101b45,
+    selectionBackground: 0xFFf2ebdd,
+  );
+
+  /// ## Rainbows And Unicorns Workbench
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rainbows-and-unicorns-workbench.png" width="400" />
+  static const ITerm2ColorScheme rainbowsAndUnicornsWorkbench =
+      ITerm2ColorScheme(
+        name: 'Rainbows And Unicorns Workbench',
+        black: 0xFF000022,
+        red: 0xFFffa79b,
+        green: 0xFFa6ee8e,
+        yellow: 0xFFffd978,
+        blue: 0xFF9ad2ff,
+        purple: 0xFFf0b0f2,
+        cyan: 0xFF8cece2,
+        white: 0xFFdce6f2,
+        brightBlack: 0xFF7fa3cf,
+        brightRed: 0xFFffb066,
+        brightGreen: 0xFFc8f7b6,
+        brightYellow: 0xFFffe9a6,
+        brightBlue: 0xFFc2e4ff,
+        brightPurple: 0xFFf7cff8,
+        brightCyan: 0xFFbcf5ee,
+        brightWhite: 0xFFffffff,
+        background: 0xFF00408f,
+        foreground: 0xFFffffff,
+        cursor: 0xFFff8800,
+        cursorText: 0xFF00204a,
+        selectionForeground: 0xFF00408f,
+        selectionBackground: 0xFFffffff,
+      );
 
   /// ## Rapture
   ///
@@ -12940,6 +19380,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFc2b790,
   );
 
+  /// ## Red Rock
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/red-rock.png" width="400" />
+  static const ITerm2ColorScheme redRock = ITerm2ColorScheme(
+    name: 'Red Rock',
+    black: 0xFFd9c7bb,
+    red: 0xFFffa18b,
+    green: 0xFF91d7a7,
+    yellow: 0xFFf5d06f,
+    blue: 0xFF94c9ee,
+    purple: 0xFFe7a9d3,
+    cyan: 0xFF87ddd7,
+    white: 0xFFfff0dc,
+    brightBlack: 0xFFe6d5ca,
+    brightRed: 0xFFffb5a1,
+    brightGreen: 0xFFaae1ba,
+    brightYellow: 0xFFffe08e,
+    brightBlue: 0xFFb0d8f3,
+    brightPurple: 0xFFefc0de,
+    brightCyan: 0xFFa7e8e2,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF672a20,
+    foreground: 0xFFfff0dc,
+    cursor: 0xFFf7bd55,
+    cursorText: 0xFF672a20,
+    selectionForeground: 0xFF672a20,
+    selectionBackground: 0xFFfff0dc,
+  );
+
   /// ## Red Sands
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/red-sands.png" width="400" />
@@ -12967,6 +19436,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF7a251e,
     selectionBackground: 0xFFd7c9a7,
+  );
+
+  /// ## Redacted
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/redacted.png" width="400" />
+  static const ITerm2ColorScheme redacted = ITerm2ColorScheme(
+    name: 'Redacted',
+    black: 0xFF292929,
+    red: 0xFF821e1e,
+    green: 0xFF125b31,
+    yellow: 0xFF654b00,
+    blue: 0xFF17458d,
+    purple: 0xFF5e2e86,
+    cyan: 0xFF005766,
+    white: 0xFF393939,
+    brightBlack: 0xFF464646,
+    brightRed: 0xFF8d2424,
+    brightGreen: 0xFF176238,
+    brightYellow: 0xFF6c5000,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF66368e,
+    brightCyan: 0xFF004a57,
+    brightWhite: 0xFF414141,
+    background: 0xFFfffdf8,
+    foreground: 0xFF171717,
+    cursor: 0xFF202020,
+    cursorText: 0xFFfffdf8,
+    selectionForeground: 0xFFfffdf8,
+    selectionBackground: 0xFF171717,
   );
 
   /// ## Relaxed
@@ -13054,6 +19552,209 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF0d0d0d,
     selectionForeground: 0xFF0d0d0d,
     selectionBackground: 0xFF45eb45,
+  );
+
+  /// ## Rhoads Concord
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rhoads-concord.png" width="400" />
+  static const ITerm2ColorScheme rhoadsConcord = ITerm2ColorScheme(
+    name: 'Rhoads Concord',
+    black: 0xFF2b2b2b,
+    red: 0xFFc81e1e,
+    green: 0xFF2e7d32,
+    yellow: 0xFFd4af37,
+    blue: 0xFF2563eb,
+    purple: 0xFFa855f7,
+    cyan: 0xFF06b6d4,
+    white: 0xFFbfc1c5,
+    brightBlack: 0xFF6b6b6b,
+    brightRed: 0xFFef6b6b,
+    brightGreen: 0xFF82cf75,
+    brightYellow: 0xFFcfb964,
+    brightBlue: 0xFF7daaf2,
+    brightPurple: 0xFFc59af2,
+    brightCyan: 0xFF76ced8,
+    brightWhite: 0xFFffffff,
+    background: 0xFFfdfcf4,
+    foreground: 0xFF1a1a1a,
+    cursor: 0xFF000000,
+    cursorText: 0xFF4b4b4b,
+    selectionForeground: 0xFFfdfcf4,
+    selectionBackground: 0xFF1a1a1a,
+  );
+
+  /// ## Rhoads Insipired
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rhoads-insipired.png" width="400" />
+  static const ITerm2ColorScheme rhoadsInsipired = ITerm2ColorScheme(
+    name: 'Rhoads Insipired',
+    black: 0xFF161616,
+    red: 0xFFe85d5d,
+    green: 0xFFb7d96c,
+    yellow: 0xFFf5a623,
+    blue: 0xFF5aa9e6,
+    purple: 0xFFb66de8,
+    cyan: 0xFF50c8c6,
+    white: 0xFFe8e8e3,
+    brightBlack: 0xFF555555,
+    brightRed: 0xFFff7474,
+    brightGreen: 0xFFd4ef91,
+    brightYellow: 0xFFffd166,
+    brightBlue: 0xFF85c7f2,
+    brightPurple: 0xFFd69bf4,
+    brightCyan: 0xFF7be0dc,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0a0a,
+    foreground: 0xFFf5f5f0,
+    cursor: 0xFFa855f7,
+    cursorText: 0xFFf5f5f0,
+    selectionForeground: 0xFF0a0a0a,
+    selectionBackground: 0xFFf5f5f0,
+  );
+
+  /// ## Rhoads LP
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rhoads-lp.png" width="400" />
+  static const ITerm2ColorScheme rhoadsLp = ITerm2ColorScheme(
+    name: 'Rhoads LP',
+    black: 0xFF3b3525,
+    red: 0xFFc5423a,
+    green: 0xFF5f8f4f,
+    yellow: 0xFFd6b852,
+    blue: 0xFF5b7fd6,
+    purple: 0xFFa678d6,
+    cyan: 0xFF46c5c3,
+    white: 0xFFc2bcb0,
+    brightBlack: 0xFF8a8474,
+    brightRed: 0xFFe66f67,
+    brightGreen: 0xFF91bd79,
+    brightYellow: 0xFFceb352,
+    brightBlue: 0xFF86a5e8,
+    brightPurple: 0xFFc39be8,
+    brightCyan: 0xFF68bfbb,
+    brightWhite: 0xFFfffef9,
+    background: 0xFFfdf7e8,
+    foreground: 0xFF2b2618,
+    cursor: 0xFFd4b34f,
+    cursorText: 0xFFfffaf0,
+    selectionForeground: 0xFFfdf7e8,
+    selectionBackground: 0xFF2b2618,
+  );
+
+  /// ## Rhoads Legacy
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rhoads-legacy.png" width="400" />
+  static const ITerm2ColorScheme rhoadsLegacy = ITerm2ColorScheme(
+    name: 'Rhoads Legacy',
+    black: 0xFF18111f,
+    red: 0xFF7c3aed,
+    green: 0xFFd946ef,
+    yellow: 0xFFf4d03f,
+    blue: 0xFF6366f1,
+    purple: 0xFFa78bfa,
+    cyan: 0xFFc4b5fd,
+    white: 0xFFf8f6ed,
+    brightBlack: 0xFF4b3f72,
+    brightRed: 0xFFd946ef,
+    brightGreen: 0xFFf472b6,
+    brightYellow: 0xFFfde68a,
+    brightBlue: 0xFF7c9cff,
+    brightPurple: 0xFFe9d5ff,
+    brightCyan: 0xFFcbd5e1,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0614,
+    foreground: 0xFFc4b5fd,
+    cursor: 0xFFf4d03f,
+    cursorText: 0xFF0a0614,
+    selectionForeground: 0xFF0a0614,
+    selectionBackground: 0xFFc4b5fd,
+  );
+
+  /// ## Rhoads RR Black
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rhoads-rr-black.png" width="400" />
+  static const ITerm2ColorScheme rhoadsRrBlack = ITerm2ColorScheme(
+    name: 'Rhoads RR Black',
+    black: 0xFF1c1a16,
+    red: 0xFFc81e1e,
+    green: 0xFF2e7d32,
+    yellow: 0xFFd4af37,
+    blue: 0xFF3b82f6,
+    purple: 0xFFa855f7,
+    cyan: 0xFF06b6d4,
+    white: 0xFFe5e1cc,
+    brightBlack: 0xFF5a5750,
+    brightRed: 0xFFef6b6b,
+    brightGreen: 0xFF8fdc82,
+    brightYellow: 0xFFf5df8a,
+    brightBlue: 0xFF73a7f2,
+    brightPurple: 0xFFc49af2,
+    brightCyan: 0xFF77d9e5,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF0a0907,
+    foreground: 0xFFf4ecd7,
+    cursor: 0xFFd4af37,
+    cursorText: 0xFF1f1b12,
+    selectionForeground: 0xFF0a0907,
+    selectionBackground: 0xFFf4ecd7,
+  );
+
+  /// ## Rhoads Tribute
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/rhoads-tribute.png" width="400" />
+  static const ITerm2ColorScheme rhoadsTribute = ITerm2ColorScheme(
+    name: 'Rhoads Tribute',
+    black: 0xFFb9adb9,
+    red: 0xFFed8b8e,
+    green: 0xFFa9cb92,
+    yellow: 0xFFeac06a,
+    blue: 0xFFa4b9e4,
+    purple: 0xFFc3a0e5,
+    cyan: 0xFF8bcdd1,
+    white: 0xFFfff0d2,
+    brightBlack: 0xFFd3c8d0,
+    brightRed: 0xFFf6a3a2,
+    brightGreen: 0xFFc1dda7,
+    brightYellow: 0xFFf5d48a,
+    brightBlue: 0xFFb8cbef,
+    brightPurple: 0xFFd8b9ef,
+    brightCyan: 0xFFa6dfe1,
+    brightWhite: 0xFFfff9ec,
+    background: 0xFF29212f,
+    foreground: 0xFFfff0d2,
+    cursor: 0xFFf2c36a,
+    cursorText: 0xFF29212f,
+    selectionForeground: 0xFF29212f,
+    selectionBackground: 0xFFfff0d2,
+  );
+
+  /// ## Ride The Current
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ride-the-current.png" width="400" />
+  static const ITerm2ColorScheme rideTheCurrent = ITerm2ColorScheme(
+    name: 'Ride The Current',
+    black: 0xFF9aafbd,
+    red: 0xFFe7787b,
+    green: 0xFF7dc5a6,
+    yellow: 0xFFe4c476,
+    blue: 0xFF79b4ff,
+    purple: 0xFFba98f4,
+    cyan: 0xFF6ccee0,
+    white: 0xFFe0f2fc,
+    brightBlack: 0xFFb6c8d2,
+    brightRed: 0xFFf3949b,
+    brightGreen: 0xFF9ed8ba,
+    brightYellow: 0xFFf2d590,
+    brightBlue: 0xFFa0ccff,
+    brightPurple: 0xFFd0b3fa,
+    brightCyan: 0xFF90e1eb,
+    brightWhite: 0xFFf5fcff,
+    background: 0xFF041b30,
+    foreground: 0xFFe0f2fc,
+    cursor: 0xFF58aaff,
+    cursorText: 0xFF041b30,
+    selectionForeground: 0xFF041b30,
+    selectionBackground: 0xFFe0f2fc,
   );
 
   /// ## Rippedcasts
@@ -13230,6 +19931,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF514968,
   );
 
+  /// ## Royal Rhapsody
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/royal-rhapsody.png" width="400" />
+  static const ITerm2ColorScheme royalRhapsody = ITerm2ColorScheme(
+    name: 'Royal Rhapsody',
+    black: 0xFF685c59,
+    red: 0xFF843344,
+    green: 0xFF386f55,
+    yellow: 0xFF735417,
+    blue: 0xFF2b537b,
+    purple: 0xFF6d446f,
+    cyan: 0xFF29686c,
+    white: 0xFF2d2b3b,
+    brightBlack: 0xFF534a47,
+    brightRed: 0xFF742d3c,
+    brightGreen: 0xFF31624b,
+    brightYellow: 0xFF654a14,
+    brightBlue: 0xFF26496c,
+    brightPurple: 0xFF603c62,
+    brightCyan: 0xFF245c5f,
+    brightWhite: 0xFF24222f,
+    background: 0xFFf0e6d8,
+    foreground: 0xFF2d2b3b,
+    cursor: 0xFF654a14,
+    cursorText: 0xFFf0e6d8,
+    selectionForeground: 0xFFf0e6d8,
+    selectionBackground: 0xFF2d2b3b,
+  );
+
   /// ## Ryuuko
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/ryuuko.png" width="400" />
@@ -13259,6 +19989,122 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFececec,
   );
 
+  /// ## SLOMP
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/slomp.png" width="400" />
+  static const ITerm2ColorScheme slomp = ITerm2ColorScheme(
+    name: 'SLOMP',
+    black: 0xFF1e1e1e,
+    red: 0xFFd65a77,
+    green: 0xFFbd9a6e,
+    yellow: 0xFFca9bbc,
+    blue: 0xFF6774af,
+    purple: 0xFFc86ead,
+    cyan: 0xFF6cafbd,
+    white: 0xFFd4d4d4,
+    brightBlack: 0xFF808080,
+    brightRed: 0xFFd65a77,
+    brightGreen: 0xFFbd9a6e,
+    brightYellow: 0xFFbd9a6e,
+    brightBlue: 0xFFa41e6a,
+    brightPurple: 0xFFc86ead,
+    brightCyan: 0xFF6cafbd,
+    brightWhite: 0xFFffffff,
+    background: 0xFF1e1e1e,
+    foreground: 0xFFd4d4d4,
+    cursor: 0xFFc86ead,
+    cursorText: 0xFF1e1e1e,
+    selectionForeground: 0xFF1e1e1e,
+    selectionBackground: 0xFFd4d4d4,
+  );
+
+  /// ## Safety Glass
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/safety-glass.png" width="400" />
+  static const ITerm2ColorScheme safetyGlass = ITerm2ColorScheme(
+    name: 'Safety Glass',
+    black: 0xFF293837,
+    red: 0xFF842424,
+    green: 0xFF125a37,
+    yellow: 0xFF634c00,
+    blue: 0xFF17458b,
+    purple: 0xFF5e3186,
+    cyan: 0xFF005866,
+    white: 0xFF394847,
+    brightBlack: 0xFF465554,
+    brightRed: 0xFF902a2a,
+    brightGreen: 0xFF17603d,
+    brightYellow: 0xFF6b5200,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF65388e,
+    brightCyan: 0xFF004b57,
+    brightWhite: 0xFF414f4e,
+    background: 0xFFf2fbfa,
+    foreground: 0xFF142322,
+    cursor: 0xFF176d67,
+    cursorText: 0xFFf2fbfa,
+    selectionForeground: 0xFFf2fbfa,
+    selectionBackground: 0xFF142322,
+  );
+
+  /// ## Saffron Nightfall
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/saffron-nightfall.png" width="400" />
+  static const ITerm2ColorScheme saffronNightfall = ITerm2ColorScheme(
+    name: 'Saffron Nightfall',
+    black: 0xFF1e1e30,
+    red: 0xFFe0705f,
+    green: 0xFF9cb56b,
+    yellow: 0xFFffc247,
+    blue: 0xFF7d8fd0,
+    purple: 0xFFbb87c0,
+    cyan: 0xFF76b7ad,
+    white: 0xFFb7b2a5,
+    brightBlack: 0xFF625f72,
+    brightRed: 0xFFee8b7a,
+    brightGreen: 0xFFb6cc87,
+    brightYellow: 0xFFffd36e,
+    brightBlue: 0xFF98a9e0,
+    brightPurple: 0xFFd0a3d3,
+    brightCyan: 0xFF93cfc5,
+    brightWhite: 0xFFf1ecdf,
+    background: 0xFF131320,
+    foreground: 0xFFd9d4c8,
+    cursor: 0xFFffc247,
+    cursorText: 0xFF131320,
+    selectionForeground: 0xFF131320,
+    selectionBackground: 0xFFd9d4c8,
+  );
+
+  /// ## Saguaro
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/saguaro.png" width="400" />
+  static const ITerm2ColorScheme saguaro = ITerm2ColorScheme(
+    name: 'Saguaro',
+    black: 0xFFaebdb5,
+    red: 0xFFf08a68,
+    green: 0xFF82d49d,
+    yellow: 0xFFf2c85f,
+    blue: 0xFF72d2ce,
+    purple: 0xFFe887b0,
+    cyan: 0xFF7bd9d5,
+    white: 0xFFfff0d5,
+    brightBlack: 0xFFc5d0ca,
+    brightRed: 0xFFffa078,
+    brightGreen: 0xFFa2dfb5,
+    brightYellow: 0xFFf8d982,
+    brightBlue: 0xFF9be1dc,
+    brightPurple: 0xFFf0a6c5,
+    brightCyan: 0xFFa3e7e2,
+    brightWhite: 0xFFfff9ea,
+    background: 0xFF001c13,
+    foreground: 0xFFfff0d5,
+    cursor: 0xFFffb52e,
+    cursorText: 0xFF001c13,
+    selectionForeground: 0xFF001c13,
+    selectionBackground: 0xFFfff0d5,
+  );
+
   /// ## Sakura
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sakura.png" width="400" />
@@ -13286,6 +20132,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF24242e,
     selectionForeground: 0xFF18131e,
     selectionBackground: 0xFFdd7bdc,
+  );
+
+  /// ## Salem
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/salem.png" width="400" />
+  static const ITerm2ColorScheme salem = ITerm2ColorScheme(
+    name: 'Salem',
+    black: 0xFF9daeb3,
+    red: 0xFFe36b61,
+    green: 0xFF94c17f,
+    yellow: 0xFFe6bc62,
+    blue: 0xFF78a9f0,
+    purple: 0xFFb477cf,
+    cyan: 0xFF69c9c7,
+    white: 0xFFe6dcc1,
+    brightBlack: 0xFFb6c5c9,
+    brightRed: 0xFFf06d5f,
+    brightGreen: 0xFFa9d18c,
+    brightYellow: 0xFFf4d58b,
+    brightBlue: 0xFF94b9f4,
+    brightPurple: 0xFFc98de0,
+    brightCyan: 0xFF8bd9d7,
+    brightWhite: 0xFFfff4da,
+    background: 0xFF0f2a33,
+    foreground: 0xFFe6dcc1,
+    cursor: 0xFFf4e2a6,
+    cursorText: 0xFF0f2a33,
+    selectionForeground: 0xFF0f2a33,
+    selectionBackground: 0xFFe6dcc1,
   );
 
   /// ## Sandstone Classic
@@ -13404,6 +20279,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF1345f6,
   );
 
+  /// ## Scabos Sand
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/scabos-sand.png" width="400" />
+  static const ITerm2ColorScheme scabosSand = ITerm2ColorScheme(
+    name: 'Scabos Sand',
+    black: 0xFFfff0d1,
+    red: 0xFFffdbc1,
+    green: 0xFFe1f0b7,
+    yellow: 0xFFffe29b,
+    blue: 0xFFc6e4fc,
+    purple: 0xFFeed2f2,
+    cyan: 0xFFbce9e6,
+    white: 0xFFfff4dc,
+    brightBlack: 0xFFfff5e5,
+    brightRed: 0xFFffe6cf,
+    brightGreen: 0xFFeff6d1,
+    brightYellow: 0xFFffeaba,
+    brightBlue: 0xFFd8ecff,
+    brightPurple: 0xFFf7e0f7,
+    brightCyan: 0xFFd3f5ef,
+    brightWhite: 0xFFfffbed,
+    background: 0xFF79563b,
+    foreground: 0xFFfff4dc,
+    cursor: 0xFFffeaba,
+    cursorText: 0xFF79563b,
+    selectionForeground: 0xFF79563b,
+    selectionBackground: 0xFFfff4dc,
+  );
+
   /// ## Scarlet Protocol
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/scarlet-protocol.png" width="400" />
@@ -13489,6 +20393,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF323232,
     selectionForeground: 0xFF243435,
     selectionBackground: 0xFFd4e7d4,
+  );
+
+  /// ## Seance
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/seance.png" width="400" />
+  static const ITerm2ColorScheme seance = ITerm2ColorScheme(
+    name: 'Seance',
+    black: 0xFFbdb1b8,
+    red: 0xFFe99b8e,
+    green: 0xFFa8cf8f,
+    yellow: 0xFFe5c779,
+    blue: 0xFF9fc2dc,
+    purple: 0xFFd5a6c8,
+    cyan: 0xFF8fcfc8,
+    white: 0xFFf9eddf,
+    brightBlack: 0xFFd0c5ca,
+    brightRed: 0xFFefb0a5,
+    brightGreen: 0xFFbbdba5,
+    brightYellow: 0xFFedd796,
+    brightBlue: 0xFFb8d1e5,
+    brightPurple: 0xFFe0bfd5,
+    brightCyan: 0xFFaddbd5,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF3b2035,
+    foreground: 0xFFf9eddf,
+    cursor: 0xFFf1c76d,
+    cursorText: 0xFF3b2035,
+    selectionForeground: 0xFF3b2035,
+    selectionBackground: 0xFFf9eddf,
+  );
+
+  /// ## Sedona
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sedona.png" width="400" />
+  static const ITerm2ColorScheme sedona = ITerm2ColorScheme(
+    name: 'Sedona',
+    black: 0xFFc8b9bd,
+    red: 0xFFf58d79,
+    green: 0xFF83cd94,
+    yellow: 0xFFefc257,
+    blue: 0xFF8fc1e5,
+    purple: 0xFFdc98c7,
+    cyan: 0xFF79d1cb,
+    white: 0xFFfff0dc,
+    brightBlack: 0xFFd9c9cd,
+    brightRed: 0xFFfba594,
+    brightGreen: 0xFF9ad9a7,
+    brightYellow: 0xFFf8d47b,
+    brightBlue: 0xFFacd2ed,
+    brightPurple: 0xFFe7b2d5,
+    brightCyan: 0xFF99dfda,
+    brightWhite: 0xFFfff9ed,
+    background: 0xFF55172f,
+    foreground: 0xFFfff0dc,
+    cursor: 0xFFf3bd50,
+    cursorText: 0xFF55172f,
+    selectionForeground: 0xFF55172f,
+    selectionBackground: 0xFFfff0dc,
   );
 
   /// ## SeedFlip Abyss
@@ -14448,6 +21410,238 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF303841,
   );
 
+  /// ## Sierra Gold
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sierra-gold.png" width="400" />
+  static const ITerm2ColorScheme sierraGold = ITerm2ColorScheme(
+    name: 'Sierra Gold',
+    black: 0xFFcbb49b,
+    red: 0xFFf4a17c,
+    green: 0xFFa8c98b,
+    yellow: 0xFFf3c873,
+    blue: 0xFF9dc5ed,
+    purple: 0xFFd6a5d8,
+    cyan: 0xFF92d4d4,
+    white: 0xFFf9e6c7,
+    brightBlack: 0xFFe0cdb5,
+    brightRed: 0xFFffc29d,
+    brightGreen: 0xFFc3dca3,
+    brightYellow: 0xFFffdb91,
+    brightBlue: 0xFFb9d9fa,
+    brightPurple: 0xFFe7bde9,
+    brightCyan: 0xFFafe6e2,
+    brightWhite: 0xFFfff5df,
+    background: 0xFF392414,
+    foreground: 0xFFf9e6c7,
+    cursor: 0xFFffdb91,
+    cursorText: 0xFF392414,
+    selectionForeground: 0xFF392414,
+    selectionBackground: 0xFFf9e6c7,
+  );
+
+  /// ## Signal Ghost
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/signal-ghost.png" width="400" />
+  static const ITerm2ColorScheme signalGhost = ITerm2ColorScheme(
+    name: 'Signal Ghost',
+    black: 0xFF9da9a9,
+    red: 0xFFe56f75,
+    green: 0xFF62c99b,
+    yellow: 0xFFe6c45c,
+    blue: 0xFF72a9e8,
+    purple: 0xFFbd8ee0,
+    cyan: 0xFF65ced0,
+    white: 0xFFe7efe7,
+    brightBlack: 0xFFb5bebe,
+    brightRed: 0xFFef8b90,
+    brightGreen: 0xFF82d9b2,
+    brightYellow: 0xFFf0d77b,
+    brightBlue: 0xFF92bff0,
+    brightPurple: 0xFFd1a9e8,
+    brightCyan: 0xFF87dcdd,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0e1414,
+    foreground: 0xFFe7efe7,
+    cursor: 0xFF6dd0e6,
+    cursorText: 0xFF0e1414,
+    selectionForeground: 0xFF0e1414,
+    selectionBackground: 0xFFe7efe7,
+  );
+
+  /// ## Silent Empire
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/silent-empire.png" width="400" />
+  static const ITerm2ColorScheme silentEmpire = ITerm2ColorScheme(
+    name: 'Silent Empire',
+    black: 0xFFa6a7a6,
+    red: 0xFFdf8179,
+    green: 0xFF86c5a4,
+    yellow: 0xFFe6c579,
+    blue: 0xFF7ab8ec,
+    purple: 0xFFb399e9,
+    cyan: 0xFF71d6de,
+    white: 0xFFe3f3f5,
+    brightBlack: 0xFFc4c7c8,
+    brightRed: 0xFFe4958e,
+    brightGreen: 0xFF99ceb3,
+    brightYellow: 0xFFeace8e,
+    brightBlue: 0xFF8fc3ef,
+    brightPurple: 0xFFbfa9ed,
+    brightCyan: 0xFF88dde3,
+    brightWhite: 0xFFfff9ee,
+    background: 0xFF071e29,
+    foreground: 0xFFe3f3f5,
+    cursor: 0xFFe6c579,
+    cursorText: 0xFF071e29,
+    selectionForeground: 0xFF071e29,
+    selectionBackground: 0xFFe3f3f5,
+  );
+
+  /// ## SilkCircuit Dawn
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/silkcircuit-dawn.png" width="400" />
+  static const ITerm2ColorScheme silkcircuitDawn = ITerm2ColorScheme(
+    name: 'SilkCircuit Dawn',
+    black: 0xFF2b2540,
+    red: 0xFFc1272d,
+    green: 0xFF1d6e46,
+    yellow: 0xFF796100,
+    blue: 0xFF1454dc,
+    purple: 0xFFb40077,
+    cyan: 0xFF006e72,
+    white: 0xFFbab8bf,
+    brightBlack: 0xFF5a4d6e,
+    brightRed: 0xFFdc2626,
+    brightGreen: 0xFF288855,
+    brightYellow: 0xFF7f5f00,
+    brightBlue: 0xFF2572ef,
+    brightPurple: 0xFFd92a99,
+    brightCyan: 0xFF048397,
+    brightWhite: 0xFFffffff,
+    background: 0xFFfaf8ff,
+    foreground: 0xFF2b2540,
+    cursor: 0xFF006e72,
+    cursorText: 0xFFfaf8ff,
+    selectionForeground: 0xFFfaf8ff,
+    selectionBackground: 0xFF2b2540,
+  );
+
+  /// ## SilkCircuit Glow
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/silkcircuit-glow.png" width="400" />
+  static const ITerm2ColorScheme silkcircuitGlow = ITerm2ColorScheme(
+    name: 'SilkCircuit Glow',
+    black: 0xFF000000,
+    red: 0xFFff2244,
+    green: 0xFF00ff00,
+    yellow: 0xFFffff00,
+    blue: 0xFF0099ff,
+    purple: 0xFFff00ff,
+    cyan: 0xFF00ffff,
+    white: 0xFFffffff,
+    brightBlack: 0xFF818181,
+    brightRed: 0xFFff6666,
+    brightGreen: 0xFF66ff66,
+    brightYellow: 0xFFffff66,
+    brightBlue: 0xFF66ccff,
+    brightPurple: 0xFFff66ff,
+    brightCyan: 0xFF66ffff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0816,
+    foreground: 0xFFffffff,
+    cursor: 0xFF00ffff,
+    cursorText: 0xFF0a0816,
+    selectionForeground: 0xFF0a0816,
+    selectionBackground: 0xFFffffff,
+  );
+
+  /// ## SilkCircuit Neon
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/silkcircuit-neon.png" width="400" />
+  static const ITerm2ColorScheme silkcircuitNeon = ITerm2ColorScheme(
+    name: 'SilkCircuit Neon',
+    black: 0xFF12101a,
+    red: 0xFFff6363,
+    green: 0xFF50fa7b,
+    yellow: 0xFFf1fa8c,
+    blue: 0xFF82aaff,
+    purple: 0xFFff00ff,
+    cyan: 0xFF80ffea,
+    white: 0xFFf8f8f2,
+    brightBlack: 0xFF768d8d,
+    brightRed: 0xFFff8787,
+    brightGreen: 0xFF86fba8,
+    brightYellow: 0xFFffffa5,
+    brightBlue: 0xFF82b1ff,
+    brightPurple: 0xFFff69ff,
+    brightCyan: 0xFF5fffff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF12101a,
+    foreground: 0xFFf8f8f2,
+    cursor: 0xFF80ffea,
+    cursorText: 0xFF12101a,
+    selectionForeground: 0xFF12101a,
+    selectionBackground: 0xFFf8f8f2,
+  );
+
+  /// ## SilkCircuit Soft
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/silkcircuit-soft.png" width="400" />
+  static const ITerm2ColorScheme silkcircuitSoft = ITerm2ColorScheme(
+    name: 'SilkCircuit Soft',
+    black: 0xFF141220,
+    red: 0xFFff6677,
+    green: 0xFF66ff99,
+    yellow: 0xFFffe699,
+    blue: 0xFF92aaff,
+    purple: 0xFFff99ff,
+    cyan: 0xFF99ffee,
+    white: 0xFFf8f8f2,
+    brightBlack: 0xFF6272a4,
+    brightRed: 0xFFff7788,
+    brightGreen: 0xFF80ffb3,
+    brightYellow: 0xFFffffa5,
+    brightBlue: 0xFFa2bbff,
+    brightPurple: 0xFFffb3ff,
+    brightCyan: 0xFFb3ffea,
+    brightWhite: 0xFFffffff,
+    background: 0xFF1a1626,
+    foreground: 0xFFf8f8f2,
+    cursor: 0xFF99ffee,
+    cursorText: 0xFF1a1626,
+    selectionForeground: 0xFF1a1626,
+    selectionBackground: 0xFFf8f8f2,
+  );
+
+  /// ## SilkCircuit Vibrant
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/silkcircuit-vibrant.png" width="400" />
+  static const ITerm2ColorScheme silkcircuitVibrant = ITerm2ColorScheme(
+    name: 'SilkCircuit Vibrant',
+    black: 0xFF0f0c1a,
+    red: 0xFFff3366,
+    green: 0xFF00ff66,
+    yellow: 0xFFffcc00,
+    blue: 0xFF6699ff,
+    purple: 0xFFff00cc,
+    cyan: 0xFF00ffcc,
+    white: 0xFFf8f8f2,
+    brightBlack: 0xFF728989,
+    brightRed: 0xFFff6677,
+    brightGreen: 0xFF66ff99,
+    brightYellow: 0xFFffff66,
+    brightBlue: 0xFF88aaff,
+    brightPurple: 0xFFff66ff,
+    brightCyan: 0xFF00ffff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0f0c1a,
+    foreground: 0xFFf8f8f2,
+    cursor: 0xFF00ffcc,
+    cursorText: 0xFF0f0c1a,
+    selectionForeground: 0xFF0f0c1a,
+    selectionBackground: 0xFFf8f8f2,
+  );
+
   /// ## Slate
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/slate.png" width="400" />
@@ -14504,6 +21698,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF391a02,
     selectionForeground: 0xFF121214,
     selectionBackground: 0xFFaf9a91,
+  );
+
+  /// ## Smoke On The Terminal
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/smoke-on-the-terminal.png" width="400" />
+  static const ITerm2ColorScheme smokeOnTheTerminal = ITerm2ColorScheme(
+    name: 'Smoke On The Terminal',
+    black: 0xFFa8b2b8,
+    red: 0xFFdf8d80,
+    green: 0xFFa7c996,
+    yellow: 0xFFe4be83,
+    blue: 0xFFa4b5e2,
+    purple: 0xFFcf9be2,
+    cyan: 0xFF8fcbd2,
+    white: 0xFFf5e8f4,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFe39b8f,
+    brightGreen: 0xFFb2cfa3,
+    brightYellow: 0xFFe7c692,
+    brightBlue: 0xFFafbee5,
+    brightPurple: 0xFFd5a7e5,
+    brightCyan: 0xFF9cd1d7,
+    brightWhite: 0xFFf7edf6,
+    background: 0xFF30243a,
+    foreground: 0xFFf5e8f4,
+    cursor: 0xFFe7c692,
+    cursorText: 0xFF30243a,
+    selectionForeground: 0xFF30243a,
+    selectionBackground: 0xFFf5e8f4,
   );
 
   /// ## Smyck
@@ -14620,6 +21843,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF242626,
     selectionBackground: 0xFF99a3a2,
+  );
+
+  /// ## Solar Flare
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/solar-flare.png" width="400" />
+  static const ITerm2ColorScheme solarFlare = ITerm2ColorScheme(
+    name: 'Solar Flare',
+    black: 0xFF292929,
+    red: 0xFF8d1818,
+    green: 0xFF0f5c2b,
+    yellow: 0xFF685000,
+    blue: 0xFF15479a,
+    purple: 0xFF673096,
+    cyan: 0xFF004b5a,
+    white: 0xFF3a3a37,
+    brightBlack: 0xFF55534d,
+    brightRed: 0xFF982020,
+    brightGreen: 0xFF0b5028,
+    brightYellow: 0xFF594500,
+    brightBlue: 0xFF1a50a5,
+    brightPurple: 0xFF713a9e,
+    brightCyan: 0xFF004957,
+    brightWhite: 0xFF46443e,
+    background: 0xFFfff9e6,
+    foreground: 0xFF1a1a1a,
+    cursor: 0xFF7d3e00,
+    cursorText: 0xFFfff9e6,
+    selectionForeground: 0xFFfff9e6,
+    selectionBackground: 0xFF1a1a1a,
   );
 
   /// ## Solarized Darcula
@@ -14766,6 +22018,93 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF2c2e34,
     selectionForeground: 0xFF2c2e34,
     selectionBackground: 0xFFe2e2e3,
+  );
+
+  /// ## Sonoran Afterglow
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sonoran-afterglow.png" width="400" />
+  static const ITerm2ColorScheme sonoranAfterglow = ITerm2ColorScheme(
+    name: 'Sonoran Afterglow',
+    black: 0xFF30283a,
+    red: 0xFFd66d73,
+    green: 0xFF83ad89,
+    yellow: 0xFFd9ae69,
+    blue: 0xFF819cd3,
+    purple: 0xFFb78ec5,
+    cyan: 0xFF67b8b0,
+    white: 0xFFd8ccc7,
+    brightBlack: 0xFF67586d,
+    brightRed: 0xFFf47c65,
+    brightGreen: 0xFFa5d0a3,
+    brightYellow: 0xFFf2cb82,
+    brightBlue: 0xFFa5baf1,
+    brightPurple: 0xFFd7ace0,
+    brightCyan: 0xFF86e0d3,
+    brightWhite: 0xFFfff1e3,
+    background: 0xFF201a2b,
+    foreground: 0xFFede1d9,
+    cursor: 0xFFe9b872,
+    cursorText: 0xFF201a2b,
+    selectionForeground: 0xFF201a2b,
+    selectionBackground: 0xFFede1d9,
+  );
+
+  /// ## Sonoran Blue Hour
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sonoran-blue-hour.png" width="400" />
+  static const ITerm2ColorScheme sonoranBlueHour = ITerm2ColorScheme(
+    name: 'Sonoran Blue Hour',
+    black: 0xFF252b48,
+    red: 0xFFcb777d,
+    green: 0xFF83adab,
+    yellow: 0xFFd4ae85,
+    blue: 0xFF799bd6,
+    purple: 0xFFa894cb,
+    cyan: 0xFF72bfc6,
+    white: 0xFFd5cfd6,
+    brightBlack: 0xFF555c82,
+    brightRed: 0xFFef9b91,
+    brightGreen: 0xFFa6d2c7,
+    brightYellow: 0xFFf2cc9e,
+    brightBlue: 0xFFa9bcf3,
+    brightPurple: 0xFFd2b7ed,
+    brightCyan: 0xFF9be4e5,
+    brightWhite: 0xFFfff1e8,
+    background: 0xFF171d35,
+    foreground: 0xFFe9dcd8,
+    cursor: 0xFFf0af94,
+    cursorText: 0xFF171d35,
+    selectionForeground: 0xFF171d35,
+    selectionBackground: 0xFFe9dcd8,
+  );
+
+  /// ## Sonoran Dusk
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sonoran-dusk.png" width="400" />
+  static const ITerm2ColorScheme sonoranDusk = ITerm2ColorScheme(
+    name: 'Sonoran Dusk',
+    black: 0xFF2d2433,
+    red: 0xFFe76f51,
+    green: 0xFF8abf7f,
+    yellow: 0xFFe9c46a,
+    blue: 0xFF5dade2,
+    purple: 0xFFc678dd,
+    cyan: 0xFF2dd4bf,
+    white: 0xFFe8e2d1,
+    brightBlack: 0xFF6b7280,
+    brightRed: 0xFFff8a65,
+    brightGreen: 0xFFa6e3a1,
+    brightYellow: 0xFFffd166,
+    brightBlue: 0xFF7ec8f8,
+    brightPurple: 0xFFd48cff,
+    brightCyan: 0xFF52e6d6,
+    brightWhite: 0xFFfff1d6,
+    background: 0xFF1a0f24,
+    foreground: 0xFFe8e1d9,
+    cursor: 0xFFf4a261,
+    cursorText: 0xFF1a0f24,
+    selectionForeground: 0xFF1a0f24,
+    selectionBackground: 0xFFe8e1d9,
   );
 
   /// ## Spacedust
@@ -14971,6 +22310,65 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF4d4d4c,
   );
 
+  /// ## Springfield Resident
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/springfield-resident.png" width="400" />
+  static const ITerm2ColorScheme springfieldResident = ITerm2ColorScheme(
+    name: 'Springfield Resident',
+    black: 0xFF252b32,
+    red: 0xFFb83245,
+    green: 0xFF237a3b,
+    yellow: 0xFF8a5a00,
+    blue: 0xFF075aa8,
+    purple: 0xFFa92d87,
+    cyan: 0xFF00748a,
+    white: 0xFF5b5960,
+    brightBlack: 0xFF555a61,
+    brightRed: 0xFFc63d4d,
+    brightGreen: 0xFF2b8243,
+    brightYellow: 0xFF765000,
+    brightBlue: 0xFF1267b8,
+    brightPurple: 0xFFb33792,
+    brightCyan: 0xFF007c91,
+    brightWhite: 0xFF4a4d52,
+    background: 0xFFffdd32,
+    foreground: 0xFF084f8f,
+    cursor: 0xFF1687e0,
+    cursorText: 0xFFffef73,
+    selectionForeground: 0xFFffdd32,
+    selectionBackground: 0xFF084f8f,
+  );
+
+  /// ## Springfield Resident Hight Contrast
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/springfield-resident-hight-contrast.png" width="400" />
+  static const ITerm2ColorScheme springfieldResidentHightContrast =
+      ITerm2ColorScheme(
+        name: 'Springfield Resident Hight Contrast',
+        black: 0xFF171b24,
+        red: 0xFF7a1026,
+        green: 0xFF134e24,
+        yellow: 0xFF5d3e00,
+        blue: 0xFF063d82,
+        purple: 0xFF67145d,
+        cyan: 0xFF004a5d,
+        white: 0xFF29303b,
+        brightBlack: 0xFF343b46,
+        brightRed: 0xFF85162c,
+        brightGreen: 0xFF164e27,
+        brightYellow: 0xFF5c3e00,
+        brightBlue: 0xFF084287,
+        brightPurple: 0xFF701966,
+        brightCyan: 0xFF004a5c,
+        brightWhite: 0xFF303742,
+        background: 0xFFffdd32,
+        foreground: 0xFF062f63,
+        cursor: 0xFF0b4b94,
+        cursorText: 0xFFfff3a3,
+        selectionForeground: 0xFFffdd32,
+        selectionBackground: 0xFF062f63,
+      );
+
   /// ## Square
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/square.png" width="400" />
@@ -15087,6 +22485,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFfce8c3,
   );
 
+  /// ## Stairway Skies
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/stairway-skies.png" width="400" />
+  static const ITerm2ColorScheme stairwaySkies = ITerm2ColorScheme(
+    name: 'Stairway Skies',
+    black: 0xFFa6a7a6,
+    red: 0xFFd59a6b,
+    green: 0xFFa6be82,
+    yellow: 0xFFe7c66e,
+    blue: 0xFF8aaed0,
+    purple: 0xFFc1a3d1,
+    cyan: 0xFF8bc9c2,
+    white: 0xFFf7e9ca,
+    brightBlack: 0xFFc4c7c8,
+    brightRed: 0xFFdcaa83,
+    brightGreen: 0xFFb4c896,
+    brightYellow: 0xFFebcf85,
+    brightBlue: 0xFF9dbbd8,
+    brightPurple: 0xFFcbb2d8,
+    brightCyan: 0xFF9ed2cc,
+    brightWhite: 0xFFfff9ee,
+    background: 0xFF201a10,
+    foreground: 0xFFf7e9ca,
+    cursor: 0xFFe7c66e,
+    cursorText: 0xFF201a10,
+    selectionForeground: 0xFF201a10,
+    selectionBackground: 0xFFf7e9ca,
+  );
+
+  /// ## Stardust Voltage
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/stardust-voltage.png" width="400" />
+  static const ITerm2ColorScheme stardustVoltage = ITerm2ColorScheme(
+    name: 'Stardust Voltage',
+    black: 0xFF685c59,
+    red: 0xFF892c3e,
+    green: 0xFF346c51,
+    yellow: 0xFF745418,
+    blue: 0xFF274988,
+    purple: 0xFF684376,
+    cyan: 0xFF2b666f,
+    white: 0xFF27354e,
+    brightBlack: 0xFF534a47,
+    brightRed: 0xFF792737,
+    brightGreen: 0xFF2e5f47,
+    brightYellow: 0xFF664a15,
+    brightBlue: 0xFF224078,
+    brightPurple: 0xFF5c3b68,
+    brightCyan: 0xFF265a62,
+    brightWhite: 0xFF1f2a3e,
+    background: 0xFFf0e5d9,
+    foreground: 0xFF27354e,
+    cursor: 0xFF664a15,
+    cursorText: 0xFFf0e5d9,
+    selectionForeground: 0xFFf0e5d9,
+    selectionBackground: 0xFF27354e,
+  );
+
   /// ## Starlight
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/starlight.png" width="400" />
@@ -15114,6 +22570,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF242424,
     selectionForeground: 0xFF242424,
     selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Static Memory
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/static-memory.png" width="400" />
+  static const ITerm2ColorScheme staticMemory = ITerm2ColorScheme(
+    name: 'Static Memory',
+    black: 0xFF2c3231,
+    red: 0xFF852323,
+    green: 0xFF145b38,
+    yellow: 0xFF654d00,
+    blue: 0xFF17468d,
+    purple: 0xFF603087,
+    cyan: 0xFF005866,
+    white: 0xFF3d4342,
+    brightBlack: 0xFF484e4d,
+    brightRed: 0xFF912929,
+    brightGreen: 0xFF18603e,
+    brightYellow: 0xFF6d5300,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF67388f,
+    brightCyan: 0xFF004b57,
+    brightWhite: 0xFF464c4b,
+    background: 0xFFf7f8f6,
+    foreground: 0xFF1b2020,
+    cursor: 0xFF386b68,
+    cursorText: 0xFFf7f8f6,
+    selectionForeground: 0xFFf7f8f6,
+    selectionBackground: 0xFF1b2020,
+  );
+
+  /// ## Static Noir
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/static-noir.png" width="400" />
+  static const ITerm2ColorScheme staticNoir = ITerm2ColorScheme(
+    name: 'Static Noir',
+    black: 0xFF1a1a1a,
+    red: 0xFFff4d42,
+    green: 0xFF9fd08a,
+    yellow: 0xFFe6c15c,
+    blue: 0xFF7fb2e8,
+    purple: 0xFFd093d0,
+    cyan: 0xFF74cfd1,
+    white: 0xFFc9c9c9,
+    brightBlack: 0xFF666666,
+    brightRed: 0xFFff6e64,
+    brightGreen: 0xFFb7e2a3,
+    brightYellow: 0xFFf2d47c,
+    brightBlue: 0xFF9dc7f2,
+    brightPurple: 0xFFe0aede,
+    brightCyan: 0xFF93e1e2,
+    brightWhite: 0xFFffffff,
+    background: 0xFF0a0a0a,
+    foreground: 0xFFededed,
+    cursor: 0xFFff3b30,
+    cursorText: 0xFF0a0a0a,
+    selectionForeground: 0xFF0a0a0a,
+    selectionBackground: 0xFFededed,
   );
 
   /// ## Sublette
@@ -15203,6 +22717,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFdb7ddd,
   );
 
+  /// ## Sumi Ink
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sumi-ink.png" width="400" />
+  static const ITerm2ColorScheme sumiInk = ITerm2ColorScheme(
+    name: 'Sumi Ink',
+    black: 0xFF3a342e,
+    red: 0xFFc0503f,
+    green: 0xFF7f9a6a,
+    yellow: 0xFFc9a45c,
+    blue: 0xFF6f86a8,
+    purple: 0xFFa66b86,
+    cyan: 0xFF6fa39a,
+    white: 0xFFd8ccb4,
+    brightBlack: 0xFF7a7166,
+    brightRed: 0xFFd8705e,
+    brightGreen: 0xFF9cb585,
+    brightYellow: 0xFFdcbd7a,
+    brightBlue: 0xFF8ea2c0,
+    brightPurple: 0xFFc08aa2,
+    brightCyan: 0xFF8fbdb3,
+    brightWhite: 0xFFefe5d1,
+    background: 0xFF1e1b18,
+    foreground: 0xFFe6dcc6,
+    cursor: 0xFFa3362a,
+    cursorText: 0xFFefe5d1,
+    selectionForeground: 0xFF1e1b18,
+    selectionBackground: 0xFFe6dcc6,
+  );
+
   /// ## Sumi Linen
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sumi-linen.png" width="400" />
@@ -15261,6 +22804,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFbab4a8,
   );
 
+  /// ## Sun Bleached
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sun-bleached.png" width="400" />
+  static const ITerm2ColorScheme sunBleached = ITerm2ColorScheme(
+    name: 'Sun Bleached',
+    black: 0xFF4a4038,
+    red: 0xFF9e4935,
+    green: 0xFF4b694d,
+    yellow: 0xFF725a1c,
+    blue: 0xFF3a6378,
+    purple: 0xFF76546e,
+    cyan: 0xFF33656a,
+    white: 0xFF594b40,
+    brightBlack: 0xFF65574d,
+    brightRed: 0xFF904b37,
+    brightGreen: 0xFF506950,
+    brightYellow: 0xFF725c23,
+    brightBlue: 0xFF426678,
+    brightPurple: 0xFF775a70,
+    brightCyan: 0xFF3a666a,
+    brightWhite: 0xFF302925,
+    background: 0xFFf0dfc3,
+    foreground: 0xFF4a382f,
+    cursor: 0xFFb75b3f,
+    cursorText: 0xFFf0dfc3,
+    selectionForeground: 0xFFf0dfc3,
+    selectionBackground: 0xFF4a382f,
+  );
+
   /// ## Sundried
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sundried.png" width="400" />
@@ -15288,6 +22860,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF191717,
     selectionForeground: 0xFF1a1818,
     selectionBackground: 0xFFc9c9c9,
+  );
+
+  /// ## Sunset Copper Relay
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sunset-copper-relay.png" width="400" />
+  static const ITerm2ColorScheme sunsetCopperRelay = ITerm2ColorScheme(
+    name: 'Sunset Copper Relay',
+    black: 0xFF211c1b,
+    red: 0xFFe78c80,
+    green: 0xFFa5c994,
+    yellow: 0xFFe8c07c,
+    blue: 0xFF91bbd9,
+    purple: 0xFFc8a7dc,
+    cyan: 0xFF86cbc0,
+    white: 0xFFe9ddcf,
+    brightBlack: 0xFF76625d,
+    brightRed: 0xFFffae9d,
+    brightGreen: 0xFFc4dda8,
+    brightYellow: 0xFFf6d69b,
+    brightBlue: 0xFFb2d5ed,
+    brightPurple: 0xFFe1c3ed,
+    brightCyan: 0xFFa7e6da,
+    brightWhite: 0xFFfff3e5,
+    background: 0xFF211c1b,
+    foreground: 0xFFe9ddcf,
+    cursor: 0xFFf6d69b,
+    cursorText: 0xFF211c1b,
+    selectionForeground: 0xFF211c1b,
+    selectionBackground: 0xFFe9ddcf,
   );
 
   /// ## Sunset Drive
@@ -15319,6 +22920,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFededfe,
   );
 
+  /// ## Sunset Strip
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sunset-strip.png" width="400" />
+  static const ITerm2ColorScheme sunsetStrip = ITerm2ColorScheme(
+    name: 'Sunset Strip',
+    black: 0xFFa8b2b8,
+    red: 0xFFf07880,
+    green: 0xFF8ec9a0,
+    yellow: 0xFFf5c46c,
+    blue: 0xFF83b7e7,
+    purple: 0xFFe58ecb,
+    cyan: 0xFF7bd2d7,
+    white: 0xFFfce9dd,
+    brightBlack: 0xFFb9c1c6,
+    brightRed: 0xFFf2888f,
+    brightGreen: 0xFF9ccfab,
+    brightYellow: 0xFFf6cb7e,
+    brightBlue: 0xFF92c0ea,
+    brightPurple: 0xFFe89cd1,
+    brightCyan: 0xFF8bd7dc,
+    brightWhite: 0xFFfdede4,
+    background: 0xFF1c1832,
+    foreground: 0xFFfce9dd,
+    cursor: 0xFFf6cb7e,
+    cursorText: 0xFF1c1832,
+    selectionForeground: 0xFF1c1832,
+    selectionBackground: 0xFFfce9dd,
+  );
+
+  /// ## Sweet Emotion
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/sweet-emotion.png" width="400" />
+  static const ITerm2ColorScheme sweetEmotion = ITerm2ColorScheme(
+    name: 'Sweet Emotion',
+    black: 0xFFa6a7a6,
+    red: 0xFFee75a8,
+    green: 0xFF78c6a6,
+    yellow: 0xFFe6b86b,
+    blue: 0xFF89a8ee,
+    purple: 0xFFc38bec,
+    cyan: 0xFF75cbd6,
+    white: 0xFFf9e5f4,
+    brightBlack: 0xFFc4c7c8,
+    brightRed: 0xFFf18bb6,
+    brightGreen: 0xFF8ecfb4,
+    brightYellow: 0xFFeac383,
+    brightBlue: 0xFF9cb6f1,
+    brightPurple: 0xFFcd9eef,
+    brightCyan: 0xFF8bd3dd,
+    brightWhite: 0xFFfff9ee,
+    background: 0xFF211027,
+    foreground: 0xFFf9e5f4,
+    cursor: 0xFFe6b86b,
+    cursorText: 0xFF211027,
+    selectionForeground: 0xFF211027,
+    selectionBackground: 0xFFf9e5f4,
+  );
+
   /// ## Symfonic
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/symfonic.png" width="400" />
@@ -15346,6 +23005,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFFffffff,
     selectionForeground: 0xFF000000,
     selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Syncopation
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/syncopation.png" width="400" />
+  static const ITerm2ColorScheme syncopation = ITerm2ColorScheme(
+    name: 'Syncopation',
+    black: 0xFF222b34,
+    red: 0xFFe8705e,
+    green: 0xFF94c27e,
+    yellow: 0xFFe9ad4e,
+    blue: 0xFF6fa3d8,
+    purple: 0xFFd08aa3,
+    cyan: 0xFF4dbaae,
+    white: 0xFFb4bbb6,
+    brightBlack: 0xFF76828d,
+    brightRed: 0xFFff7b5e,
+    brightGreen: 0xFFb3dd9d,
+    brightYellow: 0xFFffc03d,
+    brightBlue: 0xFF98c4f2,
+    brightPurple: 0xFFf2afc2,
+    brightCyan: 0xFF86ddd2,
+    brightWhite: 0xFFf0f2ec,
+    background: 0xFF0e1317,
+    foreground: 0xFFd6dad4,
+    cursor: 0xFFffb23d,
+    cursorText: 0xFF0e1317,
+    selectionForeground: 0xFF0e1317,
+    selectionBackground: 0xFFd6dad4,
   );
 
   /// ## Synthwave
@@ -15433,6 +23121,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1a1a1a,
     selectionForeground: 0xFF2a2139,
     selectionBackground: 0xFFf0eff1,
+  );
+
+  /// ## Tailwind Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/tailwind-dark.png" width="400" />
+  static const ITerm2ColorScheme tailwindDark = ITerm2ColorScheme(
+    name: 'Tailwind Dark',
+    black: 0xFF404040,
+    red: 0xFFf87171,
+    green: 0xFF4ade80,
+    yellow: 0xFFfacc15,
+    blue: 0xFF38bdf8,
+    purple: 0xFFe879f9,
+    cyan: 0xFF2dd4bf,
+    white: 0xFFe5e5e5,
+    brightBlack: 0xFFa3a3a3,
+    brightRed: 0xFFfca5a5,
+    brightGreen: 0xFF86efac,
+    brightYellow: 0xFFfde047,
+    brightBlue: 0xFF7dd3fc,
+    brightPurple: 0xFFf0abfc,
+    brightCyan: 0xFF5eead4,
+    brightWhite: 0xFFf5f5f5,
+    background: 0xFF262626,
+    foreground: 0xFFe5e5e5,
+    cursor: 0xFFe5e5e5,
+    cursorText: 0xFF262626,
+    selectionForeground: 0xFF262626,
+    selectionBackground: 0xFFe5e5e5,
+  );
+
+  /// ## Tailwind Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/tailwind-light.png" width="400" />
+  static const ITerm2ColorScheme tailwindLight = ITerm2ColorScheme(
+    name: 'Tailwind Light',
+    black: 0xFF262626,
+    red: 0xFFb91c1c,
+    green: 0xFF15803d,
+    yellow: 0xFFa16207,
+    blue: 0xFF0369a1,
+    purple: 0xFFa21caf,
+    cyan: 0xFF0f766e,
+    white: 0xFFbababa,
+    brightBlack: 0xFF737373,
+    brightRed: 0xFFdc2626,
+    brightGreen: 0xFF16a34a,
+    brightYellow: 0xFFca8a04,
+    brightBlue: 0xFF0284c7,
+    brightPurple: 0xFFc026d3,
+    brightCyan: 0xFF0d9488,
+    brightWhite: 0xFFe5e5e5,
+    background: 0xFFfafafa,
+    foreground: 0xFF0a0a0a,
+    cursor: 0xFF0a0a0a,
+    cursorText: 0xFFfafafa,
+    selectionForeground: 0xFFfafafa,
+    selectionBackground: 0xFF0a0a0a,
   );
 
   /// ## Tango Adapted
@@ -15667,6 +23413,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFd8ffe6,
   );
 
+  /// ## Termius Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/termius-dark.png" width="400" />
+  static const ITerm2ColorScheme termiusDark = ITerm2ColorScheme(
+    name: 'Termius Dark',
+    black: 0xFF343851,
+    red: 0xFFf24e50,
+    green: 0xFF008463,
+    yellow: 0xFFeca855,
+    blue: 0xFF08639f,
+    purple: 0xFFc13282,
+    cyan: 0xFF2091f6,
+    white: 0xFFe2e3e8,
+    brightBlack: 0xFF8d91a5,
+    brightRed: 0xFFff7375,
+    brightGreen: 0xFF3ed7be,
+    brightYellow: 0xFFfdc47d,
+    brightBlue: 0xFF6ba0c3,
+    brightPurple: 0xFFff7dc5,
+    brightCyan: 0xFF44a7ff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF141729,
+    foreground: 0xFF21b568,
+    cursor: 0xFF21b568,
+    cursorText: 0xFF141729,
+    selectionForeground: 0xFF141729,
+    selectionBackground: 0xFF21b568,
+  );
+
+  /// ## Termius Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/termius-light.png" width="400" />
+  static const ITerm2ColorScheme termiusLight = ITerm2ColorScheme(
+    name: 'Termius Light',
+    black: 0xFF141729,
+    red: 0xFFf24e50,
+    green: 0xFF198c51,
+    yellow: 0xFFab6918,
+    blue: 0xFF004878,
+    purple: 0xFF8f3c91,
+    cyan: 0xFF2091f6,
+    white: 0xFFeeeeee,
+    brightBlack: 0xFF3e4257,
+    brightRed: 0xFFff7375,
+    brightGreen: 0xFF21b568,
+    brightYellow: 0xFFfdc47d,
+    brightBlue: 0xFF1d6da2,
+    brightPurple: 0xFFff7dc5,
+    brightCyan: 0xFF44a7ff,
+    brightWhite: 0xFFffffff,
+    background: 0xFFd5dde0,
+    foreground: 0xFF32364a,
+    cursor: 0xFF32364a,
+    cursorText: 0xFFd5dde0,
+    selectionForeground: 0xFFd5dde0,
+    selectionBackground: 0xFF32364a,
+  );
+
   /// ## Thayer Bright
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/thayer-bright.png" width="400" />
@@ -15696,6 +23500,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFf8f8f8,
   );
 
+  /// ## The Fog
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/the-fog.png" width="400" />
+  static const ITerm2ColorScheme theFog = ITerm2ColorScheme(
+    name: 'The Fog',
+    black: 0xFFc0ced2,
+    red: 0xFFee9d8b,
+    green: 0xFF9bc8ad,
+    yellow: 0xFFdec978,
+    blue: 0xFF93c3d6,
+    purple: 0xFFbaadca,
+    cyan: 0xFF87ced0,
+    white: 0xFFeef4f3,
+    brightBlack: 0xFFc8d4d7,
+    brightRed: 0xFFf0a999,
+    brightGreen: 0xFFa7cfb7,
+    brightYellow: 0xFFe2cf88,
+    brightBlue: 0xFFa0cadb,
+    brightPurple: 0xFFbfb2ce,
+    brightCyan: 0xFF95d4d6,
+    brightWhite: 0xFFf0f5f4,
+    background: 0xFF294552,
+    foreground: 0xFFeef4f3,
+    cursor: 0xFFf0a999,
+    cursorText: 0xFF294552,
+    selectionForeground: 0xFF294552,
+    selectionBackground: 0xFFeef4f3,
+  );
+
   /// ## The Hulk
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/the-hulk.png" width="400" />
@@ -15723,6 +23556,93 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF1b1d1e,
     selectionBackground: 0xFFb5b5b5,
+  );
+
+  /// ## Thermal Receipt
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/thermal-receipt.png" width="400" />
+  static const ITerm2ColorScheme thermalReceipt = ITerm2ColorScheme(
+    name: 'Thermal Receipt',
+    black: 0xFF292929,
+    red: 0xFF821f1f,
+    green: 0xFF125a31,
+    yellow: 0xFF654b00,
+    blue: 0xFF17458c,
+    purple: 0xFF5e2f86,
+    cyan: 0xFF005765,
+    white: 0xFF393939,
+    brightBlack: 0xFF464646,
+    brightRed: 0xFF8e2525,
+    brightGreen: 0xFF176137,
+    brightYellow: 0xFF6c5000,
+    brightBlue: 0xFF123a78,
+    brightPurple: 0xFF66368e,
+    brightCyan: 0xFF004a57,
+    brightWhite: 0xFF414141,
+    background: 0xFFfffdf7,
+    foreground: 0xFF191919,
+    cursor: 0xFF333333,
+    cursorText: 0xFFfffdf7,
+    selectionForeground: 0xFFfffdf7,
+    selectionBackground: 0xFF191919,
+  );
+
+  /// ## Thirteen
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/thirteen.png" width="400" />
+  static const ITerm2ColorScheme thirteen = ITerm2ColorScheme(
+    name: 'Thirteen',
+    black: 0xFFa99b96,
+    red: 0xFFd97d75,
+    green: 0xFF91b994,
+    yellow: 0xFFc5ad70,
+    blue: 0xFF849fb4,
+    purple: 0xFFaa8da9,
+    cyan: 0xFF75b3a8,
+    white: 0xFFf4ead8,
+    brightBlack: 0xFFbeb0aa,
+    brightRed: 0xFFe29289,
+    brightGreen: 0xFFa6c8a8,
+    brightYellow: 0xFFd2bd86,
+    brightBlue: 0xFF9db5c6,
+    brightPurple: 0xFFbba4b9,
+    brightCyan: 0xFF91c4ba,
+    brightWhite: 0xFFfff8eb,
+    background: 0xFF260607,
+    foreground: 0xFFf4ead8,
+    cursor: 0xFFd93035,
+    cursorText: 0xFF260607,
+    selectionForeground: 0xFF260607,
+    selectionBackground: 0xFFf4ead8,
+  );
+
+  /// ## This One Goes To 11
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/this-one-goes-to-11.png" width="400" />
+  static const ITerm2ColorScheme thisOneGoesTo11 = ITerm2ColorScheme(
+    name: 'This One Goes To 11',
+    black: 0xFF292722,
+    red: 0xFFd96a58,
+    green: 0xFF89b67c,
+    yellow: 0xFFd6aa4a,
+    blue: 0xFF82a8c8,
+    purple: 0xFFb49ac7,
+    cyan: 0xFF78b8b0,
+    white: 0xFFd9cfb9,
+    brightBlack: 0xFF827b6d,
+    brightRed: 0xFFff9580,
+    brightGreen: 0xFFb8e3a5,
+    brightYellow: 0xFFffd36b,
+    brightBlue: 0xFFb4d7f2,
+    brightPurple: 0xFFdfc0ef,
+    brightCyan: 0xFFa6e7de,
+    brightWhite: 0xFFfff5df,
+    background: 0xFF10100f,
+    foreground: 0xFFf0e6ce,
+    cursor: 0xFFe6b74e,
+    cursorText: 0xFF10100f,
+    selectionForeground: 0xFF10100f,
+    selectionBackground: 0xFFf0e6ce,
   );
 
   /// ## Tinacious Design Dark
@@ -16276,6 +24196,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF786b53,
   );
 
+  /// ## Trick Or Treat
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/trick-or-treat.png" width="400" />
+  static const ITerm2ColorScheme trickOrTreat = ITerm2ColorScheme(
+    name: 'Trick Or Treat',
+    black: 0xFFbbaec8,
+    red: 0xFFff8b82,
+    green: 0xFFa8dc72,
+    yellow: 0xFFf8c94e,
+    blue: 0xFF8fc9f2,
+    purple: 0xFFe78bd8,
+    cyan: 0xFF78dce1,
+    white: 0xFFfff0e3,
+    brightBlack: 0xFFcec1da,
+    brightRed: 0xFFffa5a0,
+    brightGreen: 0xFFbde88d,
+    brightYellow: 0xFFfbdc72,
+    brightBlue: 0xFFacd9f7,
+    brightPurple: 0xFFefaae3,
+    brightCyan: 0xFF99e7ea,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF40145f,
+    foreground: 0xFFfff0e3,
+    cursor: 0xFFff65bd,
+    cursorText: 0xFF40145f,
+    selectionForeground: 0xFF40145f,
+    selectionBackground: 0xFFfff0e3,
+  );
+
+  /// ## Tumbling Stones
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/tumbling-stones.png" width="400" />
+  static const ITerm2ColorScheme tumblingStones = ITerm2ColorScheme(
+    name: 'Tumbling Stones',
+    black: 0xFFa5a4a2,
+    red: 0xFFeb655f,
+    green: 0xFF9fb5a5,
+    yellow: 0xFFd6b5a1,
+    blue: 0xFF89aebc,
+    purple: 0xFFb6a3b2,
+    cyan: 0xFF8fbac0,
+    white: 0xFFf1e9e2,
+    brightBlack: 0xFFc2bfbb,
+    brightRed: 0xFFfa8177,
+    brightGreen: 0xFFb6c9b8,
+    brightYellow: 0xFFebcabb,
+    brightBlue: 0xFFa2c4cf,
+    brightPurple: 0xFFd0b8c5,
+    brightCyan: 0xFFa9d0d2,
+    brightWhite: 0xFFfff8f0,
+    background: 0xFF141212,
+    foreground: 0xFFf1e9e2,
+    cursor: 0xFFf05b54,
+    cursorText: 0xFF141212,
+    selectionForeground: 0xFF141212,
+    selectionBackground: 0xFFf1e9e2,
+  );
+
+  /// ## Turquoise Trail
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/turquoise-trail.png" width="400" />
+  static const ITerm2ColorScheme turquoiseTrail = ITerm2ColorScheme(
+    name: 'Turquoise Trail',
+    black: 0xFFd0d9d2,
+    red: 0xFFffad8e,
+    green: 0xFFa7dfae,
+    yellow: 0xFFf7d879,
+    blue: 0xFFb1d6f4,
+    purple: 0xFFefb0d2,
+    cyan: 0xFFa9e5df,
+    white: 0xFFfff0d5,
+    brightBlack: 0xFFe0e5df,
+    brightRed: 0xFFffc0a5,
+    brightGreen: 0xFFbce8c2,
+    brightYellow: 0xFFffe493,
+    brightBlue: 0xFFc8e3f7,
+    brightPurple: 0xFFf4c6df,
+    brightCyan: 0xFFc5eee9,
+    brightWhite: 0xFFfffaf0,
+    background: 0xFF075153,
+    foreground: 0xFFfff0d5,
+    cursor: 0xFFffb34f,
+    cursorText: 0xFF063d3f,
+    selectionForeground: 0xFF075153,
+    selectionBackground: 0xFFfff0d5,
+  );
+
   /// ## Twilight
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/twilight.png" width="400" />
@@ -16392,6 +24399,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFc1c1c1,
   );
 
+  /// ## Unalive 'Em All
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/unalive-em-all.png" width="400" />
+  static const ITerm2ColorScheme unaliveEmAll = ITerm2ColorScheme(
+    name: 'Unalive \'Em All',
+    black: 0xFFaaa29e,
+    red: 0xFFec514a,
+    green: 0xFF81bb7a,
+    yellow: 0xFFe7b75d,
+    blue: 0xFF78aef0,
+    purple: 0xFFc68bd8,
+    cyan: 0xFF68c7c7,
+    white: 0xFFeee3dd,
+    brightBlack: 0xFFc6beba,
+    brightRed: 0xFFff7971,
+    brightGreen: 0xFFa1d391,
+    brightYellow: 0xFFf5ce77,
+    brightBlue: 0xFF96c3fa,
+    brightPurple: 0xFFdba8e9,
+    brightCyan: 0xFF87dbd9,
+    brightWhite: 0xFFfff5ed,
+    background: 0xFF110c0b,
+    foreground: 0xFFeee3dd,
+    cursor: 0xFFff4541,
+    cursorText: 0xFF110c0b,
+    selectionForeground: 0xFF110c0b,
+    selectionBackground: 0xFFeee3dd,
+  );
+
+  /// ## Undead
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/undead.png" width="400" />
+  static const ITerm2ColorScheme undead = ITerm2ColorScheme(
+    name: 'Undead',
+    black: 0xFFc0bd9f,
+    red: 0xFFe69a72,
+    green: 0xFFa8c97c,
+    yellow: 0xFFd9c164,
+    blue: 0xFF91bdb5,
+    purple: 0xFFbd9eb0,
+    cyan: 0xFF83c5b5,
+    white: 0xFFf3edcf,
+    brightBlack: 0xFFd1ceb2,
+    brightRed: 0xFFecae8b,
+    brightGreen: 0xFFbad598,
+    brightYellow: 0xFFe4d181,
+    brightBlue: 0xFFa8ccc4,
+    brightPurple: 0xFFcdb6c1,
+    brightCyan: 0xFF9dd4c7,
+    brightWhite: 0xFFfff8e5,
+    background: 0xFF3d3c1c,
+    foreground: 0xFFf3edcf,
+    cursor: 0xFFded157,
+    cursorText: 0xFF3d3c1c,
+    selectionForeground: 0xFF3d3c1c,
+    selectionBackground: 0xFFf3edcf,
+  );
+
   /// ## Under The Sea
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/under-the-sea.png" width="400" />
@@ -16506,6 +24571,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1b1b22,
     selectionForeground: 0xFF1b1b23,
     selectionBackground: 0xFF877a9b,
+  );
+
+  /// ## Vacuum Tube
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/vacuum-tube.png" width="400" />
+  static const ITerm2ColorScheme vacuumTube = ITerm2ColorScheme(
+    name: 'Vacuum Tube',
+    black: 0xFFbdb5aa,
+    red: 0xFFff826d,
+    green: 0xFF79d09b,
+    yellow: 0xFFf5cb67,
+    blue: 0xFF8fb4ee,
+    purple: 0xFFd9a1e8,
+    cyan: 0xFF83d3dc,
+    white: 0xFFf7efe3,
+    brightBlack: 0xFFcec7bd,
+    brightRed: 0xFFff9e8e,
+    brightGreen: 0xFF99ddb4,
+    brightYellow: 0xFFf9dc89,
+    brightBlue: 0xFFadc8f4,
+    brightPurple: 0xFFe7bbed,
+    brightCyan: 0xFFa4e2e7,
+    brightWhite: 0xFFfffaf2,
+    background: 0xFF0c0907,
+    foreground: 0xFFf7efe3,
+    cursor: 0xFFffc078,
+    cursorText: 0xFF0c0907,
+    selectionForeground: 0xFF0c0907,
+    selectionBackground: 0xFFf7efe3,
   );
 
   /// ## Vague
@@ -16629,28 +24723,57 @@ class ITerm2ColorSchemes {
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/vercel.png" width="400" />
   static const ITerm2ColorScheme vercel = ITerm2ColorScheme(
     name: 'Vercel',
-    black: 0xFF000000,
-    red: 0xFFfc0036,
-    green: 0xFF29a948,
-    yellow: 0xFFffae00,
-    blue: 0xFF006aff,
-    purple: 0xFFf32882,
-    cyan: 0xFF00ac96,
-    white: 0xFFfeffff,
-    brightBlack: 0xFFa8a8a8,
-    brightRed: 0xFFff8080,
-    brightGreen: 0xFF4be15d,
-    brightYellow: 0xFFffae00,
-    brightBlue: 0xFF49aeff,
-    brightPurple: 0xFFf97ea8,
-    brightCyan: 0xFF00e4c4,
-    brightWhite: 0xFFfefefe,
-    background: 0xFF101010,
-    foreground: 0xFFfafafa,
-    cursor: 0xFFf32882,
-    cursorText: 0xFFfafafa,
-    selectionForeground: 0xFF101010,
-    selectionBackground: 0xFFfafafa,
+    black: 0xFF1a1a1a,
+    red: 0xFFe5484d,
+    green: 0xFF63c174,
+    yellow: 0xFFf1a10d,
+    blue: 0xFF52a9ff,
+    purple: 0xFFbf7af0,
+    cyan: 0xFF0ac5b3,
+    white: 0xFFa0a0a0,
+    brightBlack: 0xFF8f8f8f,
+    brightRed: 0xFFfe7573,
+    brightGreen: 0xFF83e293,
+    brightYellow: 0xFFffc983,
+    brightBlue: 0xFF97c9fe,
+    brightPurple: 0xFFd7a4ff,
+    brightCyan: 0xFF4be6d3,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFededed,
+    cursor: 0xFFededed,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFededed,
+  );
+
+  /// ## Vercel Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/vercel-light.png" width="400" />
+  static const ITerm2ColorScheme vercelLight = ITerm2ColorScheme(
+    name: 'Vercel Light',
+    black: 0xFF24292f,
+    red: 0xFFcf2f36,
+    green: 0xFF18703a,
+    yellow: 0xFF8a5300,
+    blue: 0xFF1a5fb4,
+    purple: 0xFF7e3ab8,
+    cyan: 0xFF0b7268,
+    white: 0xFF4f5359,
+    brightBlack: 0xFF656a70,
+    brightRed: 0xFFa8242b,
+    brightGreen: 0xFF0f5a2c,
+    brightYellow: 0xFF6b3f00,
+    brightBlue: 0xFF124a8c,
+    brightPurple: 0xFF622a92,
+    brightCyan: 0xFF085a52,
+    brightWhite: 0xFF171717,
+    background: 0xFFfbfbfa,
+    foreground: 0xFF24292f,
+    cursor: 0xFF24292f,
+    cursorText: 0xFFfbfbfa,
+    selectionForeground: 0xFFfbfbfa,
+    selectionBackground: 0xFF24292f,
   );
 
   /// ## Verdigris
@@ -16856,6 +24979,64 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFeef4f6,
   );
 
+  /// ## Warm Burnout Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/warm-burnout-dark.png" width="400" />
+  static const ITerm2ColorScheme warmBurnoutDark = ITerm2ColorScheme(
+    name: 'Warm Burnout Dark',
+    black: 0xFF23211b,
+    red: 0xFFf06b73,
+    green: 0xFF70bf56,
+    yellow: 0xFFfdb04c,
+    blue: 0xFF4fbfff,
+    purple: 0xFFd0a1ff,
+    cyan: 0xFF93e2c8,
+    white: 0xFFc7c7c7,
+    brightBlack: 0xFF686868,
+    brightRed: 0xFFf07178,
+    brightGreen: 0xFFaad94c,
+    brightYellow: 0xFFffb454,
+    brightBlue: 0xFF59c2ff,
+    brightPurple: 0xFFd2a6ff,
+    brightCyan: 0xFF95e6cb,
+    brightWhite: 0xFFffffff,
+    background: 0xFF1a1510,
+    foreground: 0xFFbfbdb6,
+    cursor: 0xFFf5c56e,
+    cursorText: 0xFF1a1510,
+    selectionForeground: 0xFF1a1510,
+    selectionBackground: 0xFFbfbdb6,
+  );
+
+  /// ## Warm Burnout Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/warm-burnout-light.png" width="400" />
+  static const ITerm2ColorScheme warmBurnoutLight = ITerm2ColorScheme(
+    name: 'Warm Burnout Light',
+    black: 0xFF3a3630,
+    red: 0xFFb82820,
+    green: 0xFF2d6a14,
+    yellow: 0xFF8a6000,
+    blue: 0xFF2060a0,
+    purple: 0xFF8a3090,
+    cyan: 0xFF146858,
+    white: 0xFFb3ab9d,
+    brightBlack: 0xFF686868,
+    brightRed: 0xFFc83028,
+    brightGreen: 0xFF3a7a20,
+    brightYellow: 0xFF9a7008,
+    brightBlue: 0xFF2870b0,
+    brightPurple: 0xFF9a38a0,
+    brightCyan: 0xFF208870,
+    brightWhite: 0xFFfaf6f0,
+    background: 0xFFf5ede0,
+    foreground: 0xFF3a3630,
+    cursor: 0xFF8a6600,
+    cursorText: 0xFFf5ede0,
+    selectionForeground: 0xFFf5ede0,
+    selectionBackground: 0xFF3a3630,
+  );
+
   /// ## Warm Neon
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/warm-neon.png" width="400" />
@@ -16883,6 +25064,35 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF0bbc04,
     selectionForeground: 0xFF404040,
     selectionBackground: 0xFFafdab6,
+  );
+
+  /// ## Wasteland Terminal
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/wasteland-terminal.png" width="400" />
+  static const ITerm2ColorScheme wastelandTerminal = ITerm2ColorScheme(
+    name: 'Wasteland Terminal',
+    black: 0xFF050b05,
+    red: 0xFF26b34f,
+    green: 0xFF18ff62,
+    yellow: 0xFFa1d64b,
+    blue: 0xFF3e9b67,
+    purple: 0xFF64b879,
+    cyan: 0xFF60e899,
+    white: 0xFFb5ffc5,
+    brightBlack: 0xFF2c6b3f,
+    brightRed: 0xFF3fd068,
+    brightGreen: 0xFF5cff8f,
+    brightYellow: 0xFFc4ee70,
+    brightBlue: 0xFF56bd84,
+    brightPurple: 0xFF84d69a,
+    brightCyan: 0xFF8cf5b8,
+    brightWhite: 0xFFe0ffe6,
+    background: 0xFF050b05,
+    foreground: 0xFF18ff62,
+    cursor: 0xFF39ff72,
+    cursorText: 0xFF050b05,
+    selectionForeground: 0xFF050b05,
+    selectionBackground: 0xFF18ff62,
   );
 
   /// ## Wez
@@ -16943,6 +25153,93 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFb3b0d6,
   );
 
+  /// ## White Sands
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/white-sands.png" width="400" />
+  static const ITerm2ColorScheme whiteSands = ITerm2ColorScheme(
+    name: 'White Sands',
+    black: 0xFF34445a,
+    red: 0xFF9b493f,
+    green: 0xFF46734f,
+    yellow: 0xFF7a641f,
+    blue: 0xFF315d86,
+    purple: 0xFF73568f,
+    cyan: 0xFF33747b,
+    white: 0xFF46515c,
+    brightBlack: 0xFF596678,
+    brightRed: 0xFFa35448,
+    brightGreen: 0xFF4b7553,
+    brightYellow: 0xFF7a6625,
+    brightBlue: 0xFF426e9e,
+    brightPurple: 0xFF7b6095,
+    brightCyan: 0xFF376f75,
+    brightWhite: 0xFF1f2c3c,
+    background: 0xFFf4efe4,
+    foreground: 0xFF283b54,
+    cursor: 0xFFd87859,
+    cursorText: 0xFFf4efe4,
+    selectionForeground: 0xFFf4efe4,
+    selectionBackground: 0xFF283b54,
+  );
+
+  /// ## Wild Charm Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/wild-charm-dark.png" width="400" />
+  static const ITerm2ColorScheme wildCharmDark = ITerm2ColorScheme(
+    name: 'Wild Charm Dark',
+    black: 0xFF000000,
+    red: 0xFFd7005f,
+    green: 0xFF00af5f,
+    yellow: 0xFFd78700,
+    blue: 0xFF0087d7,
+    purple: 0xFFd787d7,
+    cyan: 0xFF00afaf,
+    white: 0xFFd0d0d0,
+    brightBlack: 0xFF767676,
+    brightRed: 0xFFff5f87,
+    brightGreen: 0xFF00d75f,
+    brightYellow: 0xFFffaf00,
+    brightBlue: 0xFF00afff,
+    brightPurple: 0xFFff87ff,
+    brightCyan: 0xFF00d7d7,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFffffff,
+    cursor: 0xFF767676,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Wild Charm Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/wild-charm-light.png" width="400" />
+  static const ITerm2ColorScheme wildCharmLight = ITerm2ColorScheme(
+    name: 'Wild Charm Light',
+    black: 0xFF000000,
+    red: 0xFFaf0000,
+    green: 0xFF008700,
+    yellow: 0xFFaf5f00,
+    blue: 0xFF005faf,
+    purple: 0xFF870087,
+    cyan: 0xFF008f9f,
+    white: 0xFF8a8a8a,
+    brightBlack: 0xFF808080,
+    brightRed: 0xFFd70000,
+    brightGreen: 0xFF5faf5f,
+    brightYellow: 0xFFd78700,
+    brightBlue: 0xFF0087d7,
+    brightPurple: 0xFFaf00af,
+    brightCyan: 0xFF00afaf,
+    brightWhite: 0xFFffffff,
+    background: 0xFFffffff,
+    foreground: 0xFF000000,
+    cursor: 0xFF767676,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF000000,
+  );
+
   /// ## Wild Cherry
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/wild-cherry.png" width="400" />
@@ -16972,6 +25269,35 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFFdafaff,
   );
 
+  /// ## Willow Grove
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/willow-grove.png" width="400" />
+  static const ITerm2ColorScheme willowGrove = ITerm2ColorScheme(
+    name: 'Willow Grove',
+    black: 0xFF292d27,
+    red: 0xFF841d1d,
+    green: 0xFF0b5729,
+    yellow: 0xFF624800,
+    blue: 0xFF17478f,
+    purple: 0xFF5d2d87,
+    cyan: 0xFF005664,
+    white: 0xFF3b4038,
+    brightBlack: 0xFF535950,
+    brightRed: 0xFF902323,
+    brightGreen: 0xFF0b5c2e,
+    brightYellow: 0xFF684e00,
+    brightBlue: 0xFF194d99,
+    brightPurple: 0xFF65358e,
+    brightCyan: 0xFF005e6e,
+    brightWhite: 0xFF454a42,
+    background: 0xFFfdfcf5,
+    foreground: 0xFF1b1f16,
+    cursor: 0xFF0b7285,
+    cursorText: 0xFFfdfcf5,
+    selectionForeground: 0xFFfdfcf5,
+    selectionBackground: 0xFF1b1f16,
+  );
+
   /// ## Wilmersdorf
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/wilmersdorf.png" width="400" />
@@ -16999,6 +25325,64 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1f2024,
     selectionForeground: 0xFF282b33,
     selectionBackground: 0xFFc6c6c6,
+  );
+
+  /// ## Witches' Brew
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/witches-brew.png" width="400" />
+  static const ITerm2ColorScheme witchesBrew = ITerm2ColorScheme(
+    name: 'Witches\' Brew',
+    black: 0xFFaec2b4,
+    red: 0xFFf19a72,
+    green: 0xFF9be86b,
+    yellow: 0xFFf0cc58,
+    blue: 0xFF86c8e3,
+    purple: 0xFFd99ed4,
+    cyan: 0xFF7ad9ce,
+    white: 0xFFefffdc,
+    brightBlack: 0xFFc3d2c8,
+    brightRed: 0xFFf6ae8c,
+    brightGreen: 0xFFb3ef88,
+    brightYellow: 0xFFf6dc7b,
+    brightBlue: 0xFFa4d7eb,
+    brightPurple: 0xFFe5b7df,
+    brightCyan: 0xFF9ae5dc,
+    brightWhite: 0xFFfbfff3,
+    background: 0xFF073b25,
+    foreground: 0xFFefffdc,
+    cursor: 0xFF9cf04d,
+    cursorText: 0xFF073b25,
+    selectionForeground: 0xFF073b25,
+    selectionBackground: 0xFFefffdc,
+  );
+
+  /// ## Witching Hour
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/witching-hour.png" width="400" />
+  static const ITerm2ColorScheme witchingHour = ITerm2ColorScheme(
+    name: 'Witching Hour',
+    black: 0xFFb9aec8,
+    red: 0xFFf18a9d,
+    green: 0xFFa4d66e,
+    yellow: 0xFFe9c86b,
+    blue: 0xFF91c4ed,
+    purple: 0xFFc995f0,
+    cyan: 0xFF80d4d2,
+    white: 0xFFf5edff,
+    brightBlack: 0xFFcec3dc,
+    brightRed: 0xFFf5a6b4,
+    brightGreen: 0xFFbae187,
+    brightYellow: 0xFFf1d98a,
+    brightBlue: 0xFFadd5f3,
+    brightPurple: 0xFFd9b1f5,
+    brightCyan: 0xFFa0e1df,
+    brightWhite: 0xFFfffaff,
+    background: 0xFF261044,
+    foreground: 0xFFf5edff,
+    cursor: 0xFFb56cff,
+    cursorText: 0xFF261044,
+    selectionForeground: 0xFF261044,
+    selectionBackground: 0xFFf5edff,
   );
 
   /// ## Wombat
@@ -17057,6 +25441,354 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF000000,
     selectionForeground: 0xFF101010,
     selectionBackground: 0xFF999993,
+  );
+
+  /// ## X
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x.png" width="400" />
+  static const ITerm2ColorScheme x = ITerm2ColorScheme(
+    name: 'X',
+    black: 0xFF0a0a0a,
+    red: 0xFFfc618d,
+    green: 0xFF7bd88f,
+    yellow: 0xFFfce566,
+    blue: 0xFFfd9353,
+    purple: 0xFF948ae3,
+    cyan: 0xFF5ad4e6,
+    white: 0xFFf7f1ff,
+    brightBlack: 0xFF424242,
+    brightRed: 0xFFfc618d,
+    brightGreen: 0xFF7bd88f,
+    brightYellow: 0xFFfce566,
+    brightBlue: 0xFFfd9353,
+    brightPurple: 0xFF948ae3,
+    brightCyan: 0xFF5ad4e6,
+    brightWhite: 0xFFf7f1ff,
+    background: 0xFF050505,
+    foreground: 0xFFf7f1ff,
+    cursor: 0xFFf7f1ff,
+    cursorText: 0xFF050505,
+    selectionForeground: 0xFF050505,
+    selectionBackground: 0xFFf7f1ff,
+  );
+
+  /// ## X Berlin
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-berlin.png" width="400" />
+  static const ITerm2ColorScheme xBerlin = ITerm2ColorScheme(
+    name: 'X Berlin',
+    black: 0xFF000000,
+    red: 0xFF999999,
+    green: 0xFFbbbbbb,
+    yellow: 0xFFdddddd,
+    blue: 0xFF888888,
+    purple: 0xFFaaaaaa,
+    cyan: 0xFFcccccc,
+    white: 0xFFffffff,
+    brightBlack: 0xFF404040,
+    brightRed: 0xFFbbbbbb,
+    brightGreen: 0xFFdddddd,
+    brightYellow: 0xFFffffff,
+    brightBlue: 0xFFaaaaaa,
+    brightPurple: 0xFFcccccc,
+    brightCyan: 0xFFeeeeee,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFcccccc,
+    cursor: 0xFFcccccc,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFcccccc,
+  );
+
+  /// ## X Bogota
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-bogota.png" width="400" />
+  static const ITerm2ColorScheme xBogota = ITerm2ColorScheme(
+    name: 'X Bogota',
+    black: 0xFF200b0a,
+    red: 0xFFfc618d,
+    green: 0xFF7bd88f,
+    yellow: 0xFFffed89,
+    blue: 0xFF47e6ff,
+    purple: 0xFFff9999,
+    cyan: 0xFF47e6ff,
+    white: 0xFFf7f1ff,
+    brightBlack: 0xFF525053,
+    brightRed: 0xFFfc618d,
+    brightGreen: 0xFF7bd88f,
+    brightYellow: 0xFFffed89,
+    brightBlue: 0xFF47e6ff,
+    brightPurple: 0xFFff9999,
+    brightCyan: 0xFF47e6ff,
+    brightWhite: 0xFFf7f1ff,
+    background: 0xFF200b0a,
+    foreground: 0xFFf7f1ff,
+    cursor: 0xFFf7f1ff,
+    cursorText: 0xFF200b0a,
+    selectionForeground: 0xFF200b0a,
+    selectionBackground: 0xFFf7f1ff,
+  );
+
+  /// ## X Helsinki
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-helsinki.png" width="400" />
+  static const ITerm2ColorScheme xHelsinki = ITerm2ColorScheme(
+    name: 'X Helsinki',
+    black: 0xFFf8fafe,
+    red: 0xFF1faa9e,
+    green: 0xFF733d9a,
+    yellow: 0xFF2e70ad,
+    blue: 0xFFb55a0f,
+    purple: 0xFF3e9d21,
+    cyan: 0xFFbd4c3d,
+    white: 0xFF544d40,
+    brightBlack: 0xFFb0a999,
+    brightRed: 0xFF009e91,
+    brightGreen: 0xFF5a1f8a,
+    brightYellow: 0xFF0f5ba2,
+    brightBlue: 0xFFb23b00,
+    brightPurple: 0xFF218c00,
+    brightCyan: 0xFFb32e1f,
+    brightWhite: 0xFF000000,
+    background: 0xFFf8fafe,
+    foreground: 0xFF544d40,
+    cursor: 0xFF544d40,
+    cursorText: 0xFFf8fafe,
+    selectionForeground: 0xFFf8fafe,
+    selectionBackground: 0xFF544d40,
+  );
+
+  /// ## X Lahabana
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-lahabana.png" width="400" />
+  static const ITerm2ColorScheme xLahabana = ITerm2ColorScheme(
+    name: 'X Lahabana',
+    black: 0xFF19191a,
+    red: 0xFFfc618d,
+    green: 0xFF7bd88f,
+    yellow: 0xFFe5ff9d,
+    blue: 0xFFfd9353,
+    purple: 0xFF948ae3,
+    cyan: 0xFF5ad4e6,
+    white: 0xFFf7f1ff,
+    brightBlack: 0xFF4c4c4d,
+    brightRed: 0xFFfc618d,
+    brightGreen: 0xFF7bd88f,
+    brightYellow: 0xFFe5ff9d,
+    brightBlue: 0xFFfd9353,
+    brightPurple: 0xFF948ae3,
+    brightCyan: 0xFF5ad4e6,
+    brightWhite: 0xFFf7f1ff,
+    background: 0xFF19191a,
+    foreground: 0xFFf7f1ff,
+    cursor: 0xFFf7f1ff,
+    cursorText: 0xFF19191a,
+    selectionForeground: 0xFF19191a,
+    selectionBackground: 0xFFf7f1ff,
+  );
+
+  /// ## X London
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-london.png" width="400" />
+  static const ITerm2ColorScheme xLondon = ITerm2ColorScheme(
+    name: 'X London',
+    black: 0xFFffffff,
+    red: 0xFF333333,
+    green: 0xFF444444,
+    yellow: 0xFF555555,
+    blue: 0xFF666666,
+    purple: 0xFF777777,
+    cyan: 0xFF888888,
+    white: 0xFF333333,
+    brightBlack: 0xFF333333,
+    brightRed: 0xFF444444,
+    brightGreen: 0xFF555555,
+    brightYellow: 0xFF666666,
+    brightBlue: 0xFF777777,
+    brightPurple: 0xFF888888,
+    brightCyan: 0xFF999999,
+    brightWhite: 0xFFaaaaaa,
+    background: 0xFFffffff,
+    foreground: 0xFF333333,
+    cursor: 0xFF333333,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF333333,
+  );
+
+  /// ## X Madrid
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-madrid.png" width="400" />
+  static const ITerm2ColorScheme xMadrid = ITerm2ColorScheme(
+    name: 'X Madrid',
+    black: 0xFFfafafa,
+    red: 0xFF990026,
+    green: 0xFF007a28,
+    yellow: 0xFF8a6408,
+    blue: 0xFF007a9e,
+    purple: 0xFF4d2699,
+    cyan: 0xFF007a9e,
+    white: 0xFF1a1a1a,
+    brightBlack: 0xFF4d4d4d,
+    brightRed: 0xFF990026,
+    brightGreen: 0xFF007a28,
+    brightYellow: 0xFF8a6408,
+    brightBlue: 0xFF007a9e,
+    brightPurple: 0xFF4d2699,
+    brightCyan: 0xFF007a9e,
+    brightWhite: 0xFF1a1a1a,
+    background: 0xFFfafafa,
+    foreground: 0xFF1a1a1a,
+    cursor: 0xFF1a1a1a,
+    cursorText: 0xFFfafafa,
+    selectionForeground: 0xFFfafafa,
+    selectionBackground: 0xFF1a1a1a,
+  );
+
+  /// ## X Miami
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-miami.png" width="400" />
+  static const ITerm2ColorScheme xMiami = ITerm2ColorScheme(
+    name: 'X Miami',
+    black: 0xFF000000,
+    red: 0xFFff4c8b,
+    green: 0xFF7fffd4,
+    yellow: 0xFFffd84c,
+    blue: 0xFF00ffa8,
+    purple: 0xFFd36cff,
+    cyan: 0xFF47cfff,
+    white: 0xFFf7f1ff,
+    brightBlack: 0xFF69676c,
+    brightRed: 0xFFff4c8b,
+    brightGreen: 0xFF7fffd4,
+    brightYellow: 0xFFffd84c,
+    brightBlue: 0xFF00ffa8,
+    brightPurple: 0xFFd36cff,
+    brightCyan: 0xFF47cfff,
+    brightWhite: 0xFFf7f1ff,
+    background: 0xFF000000,
+    foreground: 0xFFf7f1ff,
+    cursor: 0xFFf7f1ff,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFf7f1ff,
+  );
+
+  /// ## X Oslo
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-oslo.png" width="400" />
+  static const ITerm2ColorScheme xOslo = ITerm2ColorScheme(
+    name: 'X Oslo',
+    black: 0xFF3f4451,
+    red: 0xFFe05561,
+    green: 0xFF8cc265,
+    yellow: 0xFFd18f52,
+    blue: 0xFF4aa5f0,
+    purple: 0xFFc162de,
+    cyan: 0xFF42b3c2,
+    white: 0xFFe6e6e6,
+    brightBlack: 0xFF687080,
+    brightRed: 0xFFff616e,
+    brightGreen: 0xFFa5e075,
+    brightYellow: 0xFFf0a45d,
+    brightBlue: 0xFF4dc4ff,
+    brightPurple: 0xFFde73ff,
+    brightCyan: 0xFF4cd1e0,
+    brightWhite: 0xFFffffff,
+    background: 0xFF3f4451,
+    foreground: 0xFFabb2bf,
+    cursor: 0xFFabb2bf,
+    cursorText: 0xFF3f4451,
+    selectionForeground: 0xFF3f4451,
+    selectionBackground: 0xFFabb2bf,
+  );
+
+  /// ## X Paris
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-paris.png" width="400" />
+  static const ITerm2ColorScheme xParis = ITerm2ColorScheme(
+    name: 'X Paris',
+    black: 0xFF1a0a30,
+    red: 0xFFfc618d,
+    green: 0xFF7bd88f,
+    yellow: 0xFFfce566,
+    blue: 0xFFa3f3ff,
+    purple: 0xFFc4bdff,
+    cyan: 0xFFa3f3ff,
+    white: 0xFF4d3d63,
+    brightBlack: 0xFFc4bdff,
+    brightRed: 0xFFfc618d,
+    brightGreen: 0xFF7bd88f,
+    brightYellow: 0xFFfce566,
+    brightBlue: 0xFFa3f3ff,
+    brightPurple: 0xFFc4bdff,
+    brightCyan: 0xFFa3f3ff,
+    brightWhite: 0xFFf7f1ff,
+    background: 0xFF1a0a30,
+    foreground: 0xFFf7f1ff,
+    cursor: 0xFFf7f1ff,
+    cursorText: 0xFF1a0a30,
+    selectionForeground: 0xFF1a0a30,
+    selectionBackground: 0xFFf7f1ff,
+  );
+
+  /// ## X Praha
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-praha.png" width="400" />
+  static const ITerm2ColorScheme xPraha = ITerm2ColorScheme(
+    name: 'X Praha',
+    black: 0xFF1a1a1a,
+    red: 0xFFff5555,
+    green: 0xFFb8e6a0,
+    yellow: 0xFFffe4a3,
+    blue: 0xFFbd93f9,
+    purple: 0xFFff9aa2,
+    cyan: 0xFF8be9fd,
+    white: 0xFFffffff,
+    brightBlack: 0xFF6272a4,
+    brightRed: 0xFFff6e6e,
+    brightGreen: 0xFFb8e6a0,
+    brightYellow: 0xFFffe4a3,
+    brightBlue: 0xFFd6acff,
+    brightPurple: 0xFFff9aa2,
+    brightCyan: 0xFFa4ffff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF1a1a1a,
+    foreground: 0xFFffffff,
+    cursor: 0xFFffffff,
+    cursorText: 0xFF1a1a1a,
+    selectionForeground: 0xFF1a1a1a,
+    selectionBackground: 0xFFffffff,
+  );
+
+  /// ## X Tokio
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/x-tokio.png" width="400" />
+  static const ITerm2ColorScheme xTokio = ITerm2ColorScheme(
+    name: 'X Tokio',
+    black: 0xFF1c1c1d,
+    red: 0xFFfc618d,
+    green: 0xFF7bd88f,
+    yellow: 0xFFfce566,
+    blue: 0xFFfd9353,
+    purple: 0xFF948ae3,
+    cyan: 0xFF5ad4e6,
+    white: 0xFFf7f1ff,
+    brightBlack: 0xFF4f4f50,
+    brightRed: 0xFFfc618d,
+    brightGreen: 0xFF7bd88f,
+    brightYellow: 0xFFfce566,
+    brightBlue: 0xFFfd9353,
+    brightPurple: 0xFF948ae3,
+    brightCyan: 0xFF5ad4e6,
+    brightWhite: 0xFFf7f1ff,
+    background: 0xFF1c1c1d,
+    foreground: 0xFFf7f1ff,
+    cursor: 0xFFf7f1ff,
+    cursorText: 0xFF1c1c1d,
+    selectionForeground: 0xFF1c1c1d,
+    selectionBackground: 0xFFf7f1ff,
   );
 
   /// ## Xcode Dark
@@ -17233,6 +25965,325 @@ class ITerm2ColorSchemes {
     selectionBackground: 0xFF0f172a,
   );
 
+  /// ## Yngwie's Strat
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/yngwie-s-strat.png" width="400" />
+  static const ITerm2ColorScheme yngwieSStrat = ITerm2ColorScheme(
+    name: 'Yngwie\'s Strat',
+    black: 0xFF342d27,
+    red: 0xFF9c2922,
+    green: 0xFF37663e,
+    yellow: 0xFF785015,
+    blue: 0xFF244f85,
+    purple: 0xFF67416c,
+    cyan: 0xFF17616b,
+    white: 0xFF3e3730,
+    brightBlack: 0xFF51463b,
+    brightRed: 0xFFb0392b,
+    brightGreen: 0xFF3b6d45,
+    brightYellow: 0xFF845b16,
+    brightBlue: 0xFF315e9c,
+    brightPurple: 0xFF795080,
+    brightCyan: 0xFF206f79,
+    brightWhite: 0xFF272522,
+    background: 0xFFfbe68b,
+    foreground: 0xFF25231f,
+    cursor: 0xFF9c2922,
+    cursorText: 0xFFfff2bd,
+    selectionForeground: 0xFFfbe68b,
+    selectionBackground: 0xFF25231f,
+  );
+
+  /// ## Zacess Cream
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-cream.png" width="400" />
+  static const ITerm2ColorScheme zacessCream = ITerm2ColorScheme(
+    name: 'Zacess Cream',
+    black: 0xFF000000,
+    red: 0xFFc1000a,
+    green: 0xFF016f1b,
+    yellow: 0xFF815601,
+    blue: 0xFF015ac2,
+    purple: 0xFFa901a6,
+    cyan: 0xFF016969,
+    white: 0xFF434343,
+    brightBlack: 0xFF484848,
+    brightRed: 0xFFdf0010,
+    brightGreen: 0xFF008120,
+    brightYellow: 0xFF966501,
+    brightBlue: 0xFF0069e3,
+    brightPurple: 0xFFc500bf,
+    brightCyan: 0xFF027b7b,
+    brightWhite: 0xFF000000,
+    background: 0xFFfdf6e3,
+    foreground: 0xFF000000,
+    cursor: 0xFF000000,
+    cursorText: 0xFFfdf6e3,
+    selectionForeground: 0xFFfdf6e3,
+    selectionBackground: 0xFF000000,
+  );
+
+  /// ## Zacess Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-dark.png" width="400" />
+  static const ITerm2ColorScheme zacessDark = ITerm2ColorScheme(
+    name: 'Zacess Dark',
+    black: 0xFFa3a3a3,
+    red: 0xFFffa79b,
+    green: 0xFF1bdb41,
+    yellow: 0xFFf0b40b,
+    blue: 0xFF90c1ff,
+    purple: 0xFFf7a0f1,
+    cyan: 0xFF37d2cf,
+    white: 0xFFe6e6e6,
+    brightBlack: 0xFFc8c8c8,
+    brightRed: 0xFFffd5ce,
+    brightGreen: 0xFF34ff57,
+    brightYellow: 0xFFffda8a,
+    brightBlue: 0xFFc9e0ff,
+    brightPurple: 0xFFffd0fa,
+    brightCyan: 0xFF23f6f8,
+    brightWhite: 0xFFffffff,
+    background: 0xFF121212,
+    foreground: 0xFFf5f5f5,
+    cursor: 0xFFffd400,
+    cursorText: 0xFF121212,
+    selectionForeground: 0xFF121212,
+    selectionBackground: 0xFFf5f5f5,
+  );
+
+  /// ## Zacess Deep Contrast Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-deep-contrast-dark.png" width="400" />
+  static const ITerm2ColorScheme zacessDeepContrastDark = ITerm2ColorScheme(
+    name: 'Zacess Deep Contrast Dark',
+    black: 0xFF000000,
+    red: 0xFFff5f5f,
+    green: 0xFF00cd00,
+    yellow: 0xFFcdcd00,
+    blue: 0xFF8888ff,
+    purple: 0xFFff2aff,
+    cyan: 0xFF00cdcd,
+    white: 0xFFe5e5e5,
+    brightBlack: 0xFFb8b8b8,
+    brightRed: 0xFFff9e9e,
+    brightGreen: 0xFF00ff00,
+    brightYellow: 0xFFffff00,
+    brightBlue: 0xFFb0b0ff,
+    brightPurple: 0xFFff8fff,
+    brightCyan: 0xFF00ffff,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFffffff,
+    cursor: 0xFFffff00,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Zacess Deep Contrast Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-deep-contrast-light.png" width="400" />
+  static const ITerm2ColorScheme zacessDeepContrastLight = ITerm2ColorScheme(
+    name: 'Zacess Deep Contrast Light',
+    black: 0xFF000000,
+    red: 0xFFca0000,
+    green: 0xFF00892e,
+    yellow: 0xFFad6500,
+    blue: 0xFF0040ff,
+    purple: 0xFFcd01cd,
+    cyan: 0xFF016e78,
+    white: 0xFF595959,
+    brightBlack: 0xFF404040,
+    brightRed: 0xFFd14100,
+    brightGreen: 0xFF00884f,
+    brightYellow: 0xFF907300,
+    brightBlue: 0xFF0d00ff,
+    brightPurple: 0xFFdb009a,
+    brightCyan: 0xFF0178c1,
+    brightWhite: 0xFF000000,
+    background: 0xFFffffff,
+    foreground: 0xFF000000,
+    cursor: 0xFF000000,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF000000,
+  );
+
+  /// ## Zacess High Contrast Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-high-contrast-dark.png" width="400" />
+  static const ITerm2ColorScheme zacessHighContrastDark = ITerm2ColorScheme(
+    name: 'Zacess High Contrast Dark',
+    black: 0xFFb3b3b3,
+    red: 0xFFff9e94,
+    green: 0xFF26f444,
+    yellow: 0xFFf5c400,
+    blue: 0xFF8fd0ff,
+    purple: 0xFFf2a6ff,
+    cyan: 0xFF00f4e0,
+    white: 0xFFe0e0e0,
+    brightBlack: 0xFFcccccc,
+    brightRed: 0xFFffc4bd,
+    brightGreen: 0xFF95ff98,
+    brightYellow: 0xFFffe08a,
+    brightBlue: 0xFFc8e6ff,
+    brightPurple: 0xFFffcdf7,
+    brightCyan: 0xFF56fff3,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFffffff,
+    cursor: 0xFFf5c400,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFffffff,
+  );
+
+  /// ## Zacess High Contrast Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-high-contrast-light.png" width="400" />
+  static const ITerm2ColorScheme zacessHighContrastLight = ITerm2ColorScheme(
+    name: 'Zacess High Contrast Light',
+    black: 0xFF000000,
+    red: 0xFFca0000,
+    green: 0xFF017424,
+    yellow: 0xFF875b00,
+    blue: 0xFF005bdc,
+    purple: 0xFFb400ac,
+    cyan: 0xFF006f6e,
+    white: 0xFF3d3d3d,
+    brightBlack: 0xFF333333,
+    brightRed: 0xFFe90100,
+    brightGreen: 0xFF018726,
+    brightYellow: 0xFF9c6a01,
+    brightBlue: 0xFF016eee,
+    brightPurple: 0xFFcf00c6,
+    brightCyan: 0xFF028181,
+    brightWhite: 0xFF000000,
+    background: 0xFFffffff,
+    foreground: 0xFF000000,
+    cursor: 0xFF000000,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF000000,
+  );
+
+  /// ## Zacess Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-light.png" width="400" />
+  static const ITerm2ColorScheme zacessLight = ITerm2ColorScheme(
+    name: 'Zacess Light',
+    black: 0xFF111111,
+    red: 0xFFca010e,
+    green: 0xFF01751c,
+    yellow: 0xFF885a00,
+    blue: 0xFF005fcc,
+    purple: 0xFFb301ae,
+    cyan: 0xFF026f6f,
+    white: 0xFF484848,
+    brightBlack: 0xFF4d4d4d,
+    brightRed: 0xFFe90112,
+    brightGreen: 0xFF008722,
+    brightYellow: 0xFF9d6902,
+    brightBlue: 0xFF006eed,
+    brightPurple: 0xFFcf01c7,
+    brightCyan: 0xFF028181,
+    brightWhite: 0xFF111111,
+    background: 0xFFffffff,
+    foreground: 0xFF111111,
+    cursor: 0xFF111111,
+    cursorText: 0xFFffffff,
+    selectionForeground: 0xFFffffff,
+    selectionBackground: 0xFF111111,
+  );
+
+  /// ## Zacess Warm Dark
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-warm-dark.png" width="400" />
+  static const ITerm2ColorScheme zacessWarmDark = ITerm2ColorScheme(
+    name: 'Zacess Warm Dark',
+    black: 0xFFada398,
+    red: 0xFFfc9a8d,
+    green: 0xFFa2be6f,
+    yellow: 0xFFe4b35b,
+    blue: 0xFF88b9e3,
+    purple: 0xFFdfa1ca,
+    cyan: 0xFF73c2b8,
+    white: 0xFFcbc1b1,
+    brightBlack: 0xFFb9b1a9,
+    brightRed: 0xFFfee4e0,
+    brightGreen: 0xFFd9f2b0,
+    brightYellow: 0xFFffe9b6,
+    brightBlue: 0xFFd7ecff,
+    brightPurple: 0xFFffe1f4,
+    brightCyan: 0xFFb1f7ed,
+    brightWhite: 0xFFfbf1dc,
+    background: 0xFF211b17,
+    foreground: 0xFFe5d5b6,
+    cursor: 0xFFfec9a7,
+    cursorText: 0xFF211b17,
+    selectionForeground: 0xFF211b17,
+    selectionBackground: 0xFFe5d5b6,
+  );
+
+  /// ## Zacess Warm Light
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-warm-light.png" width="400" />
+  static const ITerm2ColorScheme zacessWarmLight = ITerm2ColorScheme(
+    name: 'Zacess Warm Light',
+    black: 0xFF342410,
+    red: 0xFF8c1a16,
+    green: 0xFF275200,
+    yellow: 0xFF6a4603,
+    blue: 0xFF014b79,
+    purple: 0xFF742c60,
+    cyan: 0xFF05514d,
+    white: 0xFF574e44,
+    brightBlack: 0xFF60574c,
+    brightRed: 0xFFa4332b,
+    brightGreen: 0xFF386616,
+    brightYellow: 0xFF845701,
+    brightBlue: 0xFF115f93,
+    brightPurple: 0xFF8a4074,
+    brightCyan: 0xFF066662,
+    brightWhite: 0xFF342410,
+    background: 0xFFf4ead5,
+    foreground: 0xFF342410,
+    cursor: 0xFF5b1301,
+    cursorText: 0xFFf4ead5,
+    selectionForeground: 0xFFf4ead5,
+    selectionBackground: 0xFF342410,
+  );
+
+  /// ## Zacess Yellow On Black
+  ///
+  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zacess-yellow-on-black.png" width="400" />
+  static const ITerm2ColorScheme zacessYellowOnBlack = ITerm2ColorScheme(
+    name: 'Zacess Yellow On Black',
+    black: 0xFFa3a3a3,
+    red: 0xFFffa79b,
+    green: 0xFF01dc3f,
+    yellow: 0xFFedb618,
+    blue: 0xFF90c1ff,
+    purple: 0xFFfd9cf8,
+    cyan: 0xFF1fd3d3,
+    white: 0xFFd9d9d9,
+    brightBlack: 0xFFc8c8c8,
+    brightRed: 0xFFffd5ce,
+    brightGreen: 0xFF3cff5d,
+    brightYellow: 0xFFffda8a,
+    brightBlue: 0xFFc9e0ff,
+    brightPurple: 0xFFffd0fa,
+    brightCyan: 0xFF00f7f5,
+    brightWhite: 0xFFffffff,
+    background: 0xFF000000,
+    foreground: 0xFFffeb3b,
+    cursor: 0xFFffeb3b,
+    cursorText: 0xFF000000,
+    selectionForeground: 0xFF000000,
+    selectionBackground: 0xFFffeb3b,
+  );
+
   /// ## Zenbones
   ///
   /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zenbones.png" width="400" />
@@ -17289,35 +26340,6 @@ class ITerm2ColorSchemes {
     cursorText: 0xFF1c1917,
     selectionForeground: 0xFF1c1917,
     selectionBackground: 0xFFb4bdc3,
-  );
-
-  /// ## Zenbones Light
-  ///
-  /// <img src="https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/screenshots/zenbones-light.png" width="400" />
-  static const ITerm2ColorScheme zenbonesLight = ITerm2ColorScheme(
-    name: 'Zenbones Light',
-    black: 0xFFf0edec,
-    red: 0xFFa8334c,
-    green: 0xFF4f6c31,
-    yellow: 0xFF944927,
-    blue: 0xFF286486,
-    purple: 0xFF88507d,
-    cyan: 0xFF3b8992,
-    white: 0xFF2c363c,
-    brightBlack: 0xFFb5a7a0,
-    brightRed: 0xFF94253e,
-    brightGreen: 0xFF3f5a22,
-    brightYellow: 0xFF803d1c,
-    brightBlue: 0xFF1d5573,
-    brightPurple: 0xFF7b3b70,
-    brightCyan: 0xFF2b747c,
-    brightWhite: 0xFF4f5e68,
-    background: 0xFFf0edec,
-    foreground: 0xFF2c363c,
-    cursor: 0xFF2c363c,
-    cursorText: 0xFFf0edec,
-    selectionForeground: 0xFFf0edec,
-    selectionBackground: 0xFF2c363c,
   );
 
   /// ## Zenburn

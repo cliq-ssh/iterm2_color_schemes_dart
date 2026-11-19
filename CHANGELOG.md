@@ -1,3 +1,6 @@
+## 2.1.0
+- Updated to commit [1c3e1ef1](https://github.com/mbadolato/iTerm2-Color-Schemes/commit/1c3e1ef1145b1ba4b867549c8c6852da9a1c8f0b)
+
 ## 2.0.1
 - Fix export of `iterm2ColorSchemeValues`
 
